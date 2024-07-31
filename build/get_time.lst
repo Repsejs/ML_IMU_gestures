@@ -1,0 +1,324 @@
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s 			page 1
+
+
+   1              		.file	"get_time.c"
+   2              		.option nopic
+   3              		.attribute arch, "rv32i2p0_m2p0_a2p0_c2p0"
+   4              		.attribute unaligned_access, 0
+   5              		.attribute stack_align, 16
+   6              		.text
+   7              	.Ltext0:
+   8              		.cfi_sections	.debug_frame
+   9              		.section	.text.get_cycle_value_asm,"ax",@progbits
+  10              		.align	1
+  11              		.globl	get_cycle_value_asm
+  13              	get_cycle_value_asm:
+  14              	.LFB5:
+  15              		.file 1 "lib/tinymaix/src/get_time.c"
+   1:lib/tinymaix/src/get_time.c **** #include"gd32vf103.h"
+   2:lib/tinymaix/src/get_time.c **** #include "stdio.h"
+   3:lib/tinymaix/src/get_time.c **** // Function to read the cycle counter
+   4:lib/tinymaix/src/get_time.c **** uint64_t get_cycle_value_asm(void) {
+  16              		.loc 1 4 36
+  17              		.cfi_startproc
+   5:lib/tinymaix/src/get_time.c ****     uint64_t cycles;
+  18              		.loc 1 5 5
+   6:lib/tinymaix/src/get_time.c ****     asm volatile ("rdcycle %0" : "=r" (cycles));
+  19              		.loc 1 6 5
+  20              	 #APP
+  21              	# 6 "lib/tinymaix/src/get_time.c" 1
+   7              	    return cycles;
+  22              		rdcycle a0
+  23              	# 0 "" 2
+  24              	.LVL0:
+  25              		.loc 1 7 5
+   8:lib/tinymaix/src/get_time.c **** }
+  26              		.loc 1 8 1 is_stmt 0
+  27              	 #NO_APP
+  28 0004 8280     		ret
+  29              		.cfi_endproc
+  30              	.LFE5:
+  32              		.globl	__udivdi3
+  33              		.section	.text.get_time,"ax",@progbits
+  34              		.align	1
+  35              		.globl	get_time
+  37              	get_time:
+  38              	.LFB6:
+   9:lib/tinymaix/src/get_time.c **** 
+  10:lib/tinymaix/src/get_time.c **** 
+  11:lib/tinymaix/src/get_time.c **** uint32_t get_time(void) {
+  39              		.loc 1 11 25 is_stmt 1
+  40              		.cfi_startproc
+  12:lib/tinymaix/src/get_time.c ****     uint64_t cycles = get_cycle_value_asm();  
+  41              		.loc 1 12 5
+  42              	.LBB4:
+  43              	.LBB5:
+   5:lib/tinymaix/src/get_time.c ****     asm volatile ("rdcycle %0" : "=r" (cycles));
+  44              		.loc 1 5 5
+   6:lib/tinymaix/src/get_time.c ****     return cycles;
+  45              		.loc 1 6 5
+  46              	.LBE5:
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s 			page 2
+
+
+  47              	.LBE4:
+  11:lib/tinymaix/src/get_time.c ****     uint64_t cycles = get_cycle_value_asm();  
+  48              		.loc 1 11 25 is_stmt 0
+  49 0000 4111     		addi	sp,sp,-16
+  50              	.LCFI0:
+  51              		.cfi_def_cfa_offset 16
+  52 0002 06C6     		sw	ra,12(sp)
+  53              		.cfi_offset 1, -4
+  54              	.LBB7:
+  55              	.LBB6:
+   6:lib/tinymaix/src/get_time.c ****     return cycles;
+  56              		.loc 1 6 5
+  57              	 #APP
+  58              	# 6 "lib/tinymaix/src/get_time.c" 1
+  59              		rdcycle a6
+  60              	# 0 "" 2
+  61              	.LVL1:
+   7:lib/tinymaix/src/get_time.c **** }
+  62              		.loc 1 7 5 is_stmt 1
+  63              	 #NO_APP
+  64              	.LBE6:
+  65              	.LBE7:
+  13:lib/tinymaix/src/get_time.c ****     return (uint32_t)((cycles * 1000000) / SystemCoreClock);
+  66              		.loc 1 13 5
+  67              		.loc 1 13 31 is_stmt 0
+  68 0008 B7470F00 		li	a5,999424
+  69 000c 93870724 		addi	a5,a5,576
+  70 0010 B3851703 		mul	a1,a5,a7
+  71              		.loc 1 13 42
+  72 0014 B7060000 		lui	a3,%hi(SystemCoreClock)
+  73 0018 03A60600 		lw	a2,%lo(SystemCoreClock)(a3)
+  74 001c 8146     		li	a3,0
+  75              		.loc 1 13 31
+  76 001e 3337F802 		mulhu	a4,a6,a5
+  77              		.loc 1 13 42
+  78 0022 33850703 		mul	a0,a5,a6
+  79 0026 BA95     		add	a1,a1,a4
+  80 0028 97000000 		call	__udivdi3
+  80      E7800000 
+  81              	.LVL2:
+  14:lib/tinymaix/src/get_time.c **** }...
+  82              		.loc 1 14 1
+  83 0030 B240     		lw	ra,12(sp)
+  84              		.cfi_restore 1
+  85 0032 4101     		addi	sp,sp,16
+  86              	.LCFI1:
+  87              		.cfi_def_cfa_offset 0
+  88 0034 8280     		jr	ra
+  89              		.cfi_endproc
+  90              	.LFE6:
+  92              		.text
+  93              	.Letext0:
+  94              		.file 2 "c:\\users\\jesper\\documents\\ml_sommarjobb\\toolchain-gd32v-v201-win\\toolchain-gd32v-v2
+  95              		.file 3 "c:\\users\\jesper\\documents\\ml_sommarjobb\\toolchain-gd32v-v201-win\\toolchain-gd32v-v2
+  96              		.file 4 "c:\\users\\jesper\\documents\\ml_sommarjobb\\toolchain-gd32v-v201-win\\toolchain-gd32v-v2
+  97              		.file 5 "c:\\users\\jesper\\documents\\ml_sommarjobb\\toolchain-gd32v-v201-win\\toolchain-gd32v-v2
+  98              		.file 6 "c:\\users\\jesper\\documents\\ml_sommarjobb\\toolchain-gd32v-v201-win\\toolchain-gd32v-v2
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s 			page 3
+
+
+  99              		.file 7 "c:\\users\\jesper\\documents\\ml_sommarjobb\\toolchain-gd32v-v201-win\\toolchain-gd32v-v2
+ 100              		.file 8 "./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.h"
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s 			page 4
+
+
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 get_time.c
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:13     .text.get_cycle_value_asm:0000000000000000 get_cycle_value_asm
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:17     .text.get_cycle_value_asm:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:18     .text.get_cycle_value_asm:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:19     .text.get_cycle_value_asm:0000000000000000 .L0 
+lib/tinymaix/src/get_time.c:6      .text.get_cycle_value_asm:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:26     .text.get_cycle_value_asm:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:28     .text.get_cycle_value_asm:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:29     .text.get_cycle_value_asm:0000000000000006 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:37     .text.get_time:0000000000000000 get_time
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:40     .text.get_time:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:41     .text.get_time:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:44     .text.get_time:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:45     .text.get_time:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:48     .text.get_time:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:49     .text.get_time:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:51     .text.get_time:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:53     .text.get_time:0000000000000004 .L0 
+lib/tinymaix/src/get_time.c:6      .text.get_time:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:66     .text.get_time:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:67     .text.get_time:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:68     .text.get_time:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:72     .text.get_time:0000000000000014 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:76     .text.get_time:000000000000001e .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:78     .text.get_time:0000000000000022 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:83     .text.get_time:0000000000000030 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:84     .text.get_time:0000000000000032 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:87     .text.get_time:0000000000000034 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:89     .text.get_time:0000000000000036 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:33     .text.get_cycle_value_asm:0000000000000006 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:92     .text.get_time:0000000000000036 .L0 
+                     .debug_frame:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:1591   .debug_abbrev:0000000000000000 .Ldebug_abbrev0
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2413   .debug_str:0000000000000412 .LASF125
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2215   .debug_str:0000000000000052 .LASF126
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2419   .debug_str:00000000000004b6 .LASF127
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2183   .debug_ranges:0000000000000000 .Ldebug_ranges0
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2197   .debug_line:0000000000000000 .Ldebug_line0
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2407   .debug_str:00000000000003f2 .LASF0
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2237   .debug_str:00000000000000f2 .LASF1
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2347   .debug_str:00000000000002ea .LASF2
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2201   .debug_str:000000000000000c .LASF3
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2417   .debug_str:00000000000004a3 .LASF4
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2253   .debug_str:0000000000000137 .LASF5
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2277   .debug_str:00000000000001a9 .LASF8
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2299   .debug_str:0000000000000208 .LASF6
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2265   .debug_str:0000000000000167 .LASF7
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2341   .debug_str:00000000000002c3 .LASF9
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2221   .debug_str:0000000000000093 .LASF10
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2431   .debug_str:0000000000000559 .LASF11
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2209   .debug_str:0000000000000031 .LASF12
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2293   .debug_str:00000000000001e8 .LASF122
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2397   .debug_str:00000000000003cb .LASF13
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2339   .debug_str:00000000000002bc .LASF14
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2233   .debug_str:00000000000000e4 .LASF15
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2395   .debug_str:00000000000003c3 .LASF16
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s 			page 5
+
+
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2439   .debug_str:000000000000057a .LASF17
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2315   .debug_str:0000000000000259 .LASF18
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2291   .debug_str:00000000000001e1 .LASF19
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2387   .debug_str:00000000000003a3 .LASF20
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2389   .debug_str:00000000000003ab .LASF21
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2363   .debug_str:0000000000000330 .LASF22
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2423   .debug_str:0000000000000528 .LASF23
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2345   .debug_str:00000000000002d8 .LASF24
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2353   .debug_str:0000000000000307 .LASF25
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2285   .debug_str:00000000000001ce .LASF30
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2409   .debug_str:00000000000003ff .LASF26
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2381   .debug_str:000000000000038e .LASF27
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2279   .debug_str:00000000000001b4 .LASF28
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2435   .debug_str:000000000000056f .LASF29
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2289   .debug_str:00000000000001dc .LASF31
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2231   .debug_str:00000000000000db .LASF32
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2453   .debug_str:00000000000005bf .LASF33
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2243   .debug_str:000000000000010a .LASF34
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2461   .debug_str:00000000000005e0 .LASF35
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2331   .debug_str:0000000000000291 .LASF36
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2325   .debug_str:0000000000000277 .LASF37
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2393   .debug_str:00000000000003b9 .LASF38
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2355   .debug_str:0000000000000310 .LASF39
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2449   .debug_str:00000000000005a5 .LASF40
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2247   .debug_str:0000000000000119 .LASF41
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2203   .debug_str:0000000000000016 .LASF42
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2199   .debug_str:0000000000000000 .LASF43
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2415   .debug_str:000000000000049a .LASF44
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2257   .debug_str:0000000000000147 .LASF45
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2333   .debug_str:000000000000029a .LASF46
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2373   .debug_str:000000000000035e .LASF47
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2275   .debug_str:00000000000001a4 .LASF48
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2357   .debug_str:000000000000031a .LASF49
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2241   .debug_str:0000000000000104 .LASF50
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2405   .debug_str:00000000000003ec .LASF51
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2365   .debug_str:000000000000033b .LASF52
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2255   .debug_str:0000000000000140 .LASF53
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2301   .debug_str:000000000000021a .LASF54
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2223   .debug_str:00000000000000aa .LASF55
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2249   .debug_str:0000000000000127 .LASF56
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2287   .debug_str:00000000000001d6 .LASF57
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2323   .debug_str:0000000000000270 .LASF58
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2391   .debug_str:00000000000003b3 .LASF59
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2235   .debug_str:00000000000000eb .LASF60
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2239   .debug_str:00000000000000fe .LASF61
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2445   .debug_str:0000000000000597 .LASF62
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2403   .debug_str:00000000000003e3 .LASF63
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2269   .debug_str:000000000000017d .LASF64
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2303   .debug_str:0000000000000220 .LASF65
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2319   .debug_str:0000000000000264 .LASF66
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2367   .debug_str:0000000000000343 .LASF67
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2359   .debug_str:0000000000000321 .LASF68
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2383   .debug_str:0000000000000396 .LASF69
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2399   .debug_str:00000000000003d7 .LASF70
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2259   .debug_str:000000000000014f .LASF71
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2295   .debug_str:00000000000001f8 .LASF72
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2283   .debug_str:00000000000001c6 .LASF73
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s 			page 6
+
+
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2371   .debug_str:0000000000000359 .LASF74
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2207   .debug_str:0000000000000026 .LASF75
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2379   .debug_str:0000000000000375 .LASF76
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2375   .debug_str:0000000000000363 .LASF77
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2335   .debug_str:00000000000002a2 .LASF78
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2377   .debug_str:000000000000036b .LASF79
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2313   .debug_str:0000000000000251 .LASF80
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2263   .debug_str:000000000000015d .LASF81
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2459   .debug_str:00000000000005db .LASF82
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2343   .debug_str:00000000000002ce .LASF83
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2297   .debug_str:0000000000000200 .LASF84
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2267   .debug_str:0000000000000175 .LASF85
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2317   .debug_str:000000000000025f .LASF86
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2211   .debug_str:000000000000003a .LASF87
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2443   .debug_str:000000000000058d .LASF88
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2251   .debug_str:000000000000012f .LASF89
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2245   .debug_str:0000000000000114 .LASF90
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2401   .debug_str:00000000000003de .LASF91
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2261   .debug_str:0000000000000156 .LASF92
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2437   .debug_str:0000000000000574 .LASF93
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2305   .debug_str:0000000000000226 .LASF94
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2349   .debug_str:00000000000002f8 .LASF95
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2205   .debug_str:000000000000001e .LASF96
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2385   .debug_str:000000000000039d .LASF97
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2321   .debug_str:000000000000026a .LASF98
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2421   .debug_str:0000000000000523 .LASF99
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2433   .debug_str:0000000000000562 .LASF100
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2411   .debug_str:0000000000000405 .LASF101
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2311   .debug_str:0000000000000244 .LASF102
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2451   .debug_str:00000000000005b0 .LASF103
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2337   .debug_str:00000000000002ad .LASF104
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2307   .debug_str:000000000000022d .LASF105
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2455   .debug_str:00000000000005c8 .LASF106
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2369   .debug_str:000000000000034c .LASF107
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2457   .debug_str:00000000000005cd .LASF108
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2229   .debug_str:00000000000000cd .LASF109
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2441   .debug_str:0000000000000583 .LASF110
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2309   .debug_str:0000000000000238 .LASF111
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2425   .debug_str:0000000000000530 .LASF112
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2273   .debug_str:0000000000000196 .LASF113
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2227   .debug_str:00000000000000be .LASF114
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2271   .debug_str:0000000000000185 .LASF115
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2213   .debug_str:0000000000000043 .LASF116
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2217   .debug_str:000000000000006e .LASF117
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2351   .debug_str:00000000000002fe .LASF118
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2329   .debug_str:000000000000028a .LASF119
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2327   .debug_str:0000000000000281 .LASF120
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2447   .debug_str:000000000000059d .LASF121
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2225   .debug_str:00000000000000b3 .LASF128
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2281   .debug_str:00000000000001ba .LASF123
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2427   .debug_str:000000000000053d .LASF124
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2429   .debug_str:0000000000000550 .LASF129
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:38     .text.get_time:0000000000000000 .LFB6
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:90     .text.get_time:0000000000000036 .LFE6
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2138   .debug_loc:0000000000000000 .LLST0
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2361   .debug_str:0000000000000329 .LASF130
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2156   .debug_loc:000000000000002c .LLST1
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s 			page 7
+
+
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:42     .text.get_time:0000000000000000 .LBB4
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:2219   .debug_str:000000000000007f .LASF131
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:14     .text.get_cycle_value_asm:0000000000000000 .LFB5
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:30     .text.get_cycle_value_asm:0000000000000006 .LFE5
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:50     .text.get_time:0000000000000002 .LCFI0
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:86     .text.get_time:0000000000000034 .LCFI1
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:61     .text.get_time:0000000000000008 .LVL1
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:81     .text.get_time:0000000000000030 .LVL2
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:102    .debug_info:0000000000000000 .Ldebug_info0
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:47     .text.get_time:0000000000000000 .LBE4
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:54     .text.get_time:0000000000000004 .LBB7
+C:\Users\Jesper\AppData\Local\Temp\cc4Zbw4K.s:65     .text.get_time:0000000000000008 .LBE7
+
+UNDEFINED SYMBOLS
+__udivdi3
+SystemCoreClock

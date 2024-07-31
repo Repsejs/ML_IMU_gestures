@@ -1,0 +1,175 @@
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s 			page 1
+
+
+   1              		.file	"tm_layers_O1.c"
+   2              		.option nopic
+   3              		.attribute arch, "rv32i2p0_m2p0_a2p0_c2p0"
+   4              		.attribute unaligned_access, 0
+   5              		.attribute stack_align, 16
+   6              		.text
+   7              	.Ltext0:
+   8              		.cfi_sections	.debug_frame
+   9              	.Letext0:
+  10              		.file 1 "c:\\users\\jesper\\documents\\ml_sommarjobb\\toolchain-gd32v-v201-win\\toolchain-gd32v-v2
+  11              		.file 2 "c:\\users\\jesper\\documents\\ml_sommarjobb\\toolchain-gd32v-v201-win\\toolchain-gd32v-v2
+  12              		.file 3 "c:\\users\\jesper\\documents\\ml_sommarjobb\\toolchain-gd32v-v201-win\\toolchain-gd32v-v2
+  13              		.file 4 "c:\\users\\jesper\\documents\\ml_sommarjobb\\toolchain-gd32v-v201-win\\toolchain-gd32v-v2
+  14              		.file 5 "c:\\users\\jesper\\documents\\ml_sommarjobb\\toolchain-gd32v-v201-win\\toolchain-gd32v-v2
+  15              		.file 6 "c:\\users\\jesper\\documents\\ml_sommarjobb\\toolchain-gd32v-v201-win\\toolchain-gd32v-v2
+  16              		.file 7 "c:\\users\\jesper\\documents\\ml_sommarjobb\\toolchain-gd32v-v201-win\\toolchain-gd32v-v2
+  17              		.file 8 "./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.h"
+  18              		.file 9 "c:\\users\\jesper\\documents\\ml_sommarjobb\\toolchain-gd32v-v201-win\\toolchain-gd32v-v2
+  19              		.file 10 "c:\\users\\jesper\\documents\\ml_sommarjobb\\toolchain-gd32v-v201-win\\toolchain-gd32v-v
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s 			page 2
+
+
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 tm_layers_O1.c
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:1497   .debug_abbrev:0000000000000000 .Ldebug_abbrev0
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2171   .debug_str:0000000000000439 .LASF132
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2149   .debug_str:00000000000003c0 .LASF133
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2177   .debug_str:00000000000004dd .LASF134
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:1947   .debug_line:0000000000000000 .Ldebug_line0
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:1989   .debug_str:00000000000000ea .LASF0
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2103   .debug_str:00000000000002f1 .LASF1
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:1951   .debug_str:000000000000000c .LASF2
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2175   .debug_str:00000000000004ca .LASF3
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2005   .debug_str:000000000000012f .LASF4
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2029   .debug_str:00000000000001a1 .LASF9
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2051   .debug_str:0000000000000200 .LASF5
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2015   .debug_str:0000000000000158 .LASF6
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:1967   .debug_str:0000000000000064 .LASF7
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2165   .debug_str:0000000000000419 .LASF8
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2219   .debug_str:0000000000000614 .LASF10
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2155   .debug_str:00000000000003f2 .LASF11
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2093   .debug_str:00000000000002be .LASF12
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:1985   .debug_str:00000000000000dc .LASF13
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2153   .debug_str:00000000000003ea .LASF14
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2197   .debug_str:00000000000005ae .LASF15
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2067   .debug_str:0000000000000251 .LASF16
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2043   .debug_str:00000000000001d9 .LASF17
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2143   .debug_str:00000000000003aa .LASF18
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2145   .debug_str:00000000000003b2 .LASF19
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2119   .debug_str:0000000000000337 .LASF20
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2181   .debug_str:000000000000054f .LASF21
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2101   .debug_str:00000000000002df .LASF22
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2109   .debug_str:000000000000030e .LASF23
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2037   .debug_str:00000000000001c6 .LASF28
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2167   .debug_str:0000000000000426 .LASF24
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2137   .debug_str:0000000000000395 .LASF25
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2031   .debug_str:00000000000001ac .LASF26
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2193   .debug_str:00000000000005a3 .LASF27
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2041   .debug_str:00000000000001d4 .LASF29
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:1983   .debug_str:00000000000000d3 .LASF30
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2211   .debug_str:00000000000005f3 .LASF31
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:1995   .debug_str:0000000000000102 .LASF32
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2221   .debug_str:000000000000061d .LASF33
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2083   .debug_str:0000000000000289 .LASF34
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2077   .debug_str:000000000000026f .LASF35
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2151   .debug_str:00000000000003e0 .LASF36
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2111   .debug_str:0000000000000317 .LASF37
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2207   .debug_str:00000000000005d9 .LASF38
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:1999   .debug_str:0000000000000111 .LASF39
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:1953   .debug_str:0000000000000016 .LASF40
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:1949   .debug_str:0000000000000000 .LASF41
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2173   .debug_str:00000000000004c1 .LASF42
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2009   .debug_str:000000000000013f .LASF43
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2085   .debug_str:0000000000000292 .LASF44
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2129   .debug_str:0000000000000365 .LASF45
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2027   .debug_str:000000000000019c .LASF46
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2113   .debug_str:0000000000000321 .LASF47
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:1993   .debug_str:00000000000000fc .LASF48
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2163   .debug_str:0000000000000413 .LASF49
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s 			page 3
+
+
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2121   .debug_str:0000000000000342 .LASF50
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2007   .debug_str:0000000000000138 .LASF51
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2053   .debug_str:0000000000000212 .LASF52
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:1971   .debug_str:000000000000008a .LASF53
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2001   .debug_str:000000000000011f .LASF54
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2039   .debug_str:00000000000001ce .LASF55
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2075   .debug_str:0000000000000268 .LASF56
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2147   .debug_str:00000000000003ba .LASF57
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:1987   .debug_str:00000000000000e3 .LASF58
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:1991   .debug_str:00000000000000f6 .LASF59
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2203   .debug_str:00000000000005cb .LASF60
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2161   .debug_str:000000000000040a .LASF61
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2021   .debug_str:0000000000000175 .LASF62
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2055   .debug_str:0000000000000218 .LASF63
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2071   .debug_str:000000000000025c .LASF64
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2123   .debug_str:000000000000034a .LASF65
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2115   .debug_str:0000000000000328 .LASF66
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2139   .debug_str:000000000000039d .LASF67
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2157   .debug_str:00000000000003fe .LASF68
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2011   .debug_str:0000000000000147 .LASF69
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2047   .debug_str:00000000000001f0 .LASF70
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2035   .debug_str:00000000000001be .LASF71
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2127   .debug_str:0000000000000360 .LASF72
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:1957   .debug_str:0000000000000026 .LASF73
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2135   .debug_str:000000000000037c .LASF74
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2131   .debug_str:000000000000036a .LASF75
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2089   .debug_str:00000000000002a4 .LASF76
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2133   .debug_str:0000000000000372 .LASF77
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2065   .debug_str:0000000000000249 .LASF78
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2013   .debug_str:000000000000014e .LASF79
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2217   .debug_str:000000000000060f .LASF80
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2097   .debug_str:00000000000002cb .LASF81
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2049   .debug_str:00000000000001f8 .LASF82
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2019   .debug_str:000000000000016d .LASF83
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2069   .debug_str:0000000000000257 .LASF84
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:1961   .debug_str:000000000000003b .LASF85
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2201   .debug_str:00000000000005c1 .LASF86
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2003   .debug_str:0000000000000127 .LASF87
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:1997   .debug_str:000000000000010c .LASF88
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2159   .debug_str:0000000000000405 .LASF89
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2117   .debug_str:0000000000000330 .LASF90
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2195   .debug_str:00000000000005a8 .LASF91
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2057   .debug_str:000000000000021e .LASF92
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2105   .debug_str:00000000000002ff .LASF93
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:1955   .debug_str:000000000000001e .LASF94
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2141   .debug_str:00000000000003a4 .LASF95
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2073   .debug_str:0000000000000262 .LASF96
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2179   .debug_str:000000000000054a .LASF97
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2191   .debug_str:0000000000000596 .LASF98
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2169   .debug_str:000000000000042c .LASF99
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2063   .debug_str:000000000000023c .LASF100
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2209   .debug_str:00000000000005e4 .LASF101
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2091   .debug_str:00000000000002af .LASF102
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2059   .debug_str:0000000000000225 .LASF103
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2213   .debug_str:00000000000005fc .LASF104
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2125   .debug_str:0000000000000353 .LASF105
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2215   .debug_str:0000000000000601 .LASF106
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s 			page 4
+
+
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:1981   .debug_str:00000000000000c5 .LASF107
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2199   .debug_str:00000000000005b7 .LASF108
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2061   .debug_str:0000000000000230 .LASF109
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2183   .debug_str:0000000000000557 .LASF110
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2025   .debug_str:000000000000018e .LASF111
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:1977   .debug_str:00000000000000ae .LASF112
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2023   .debug_str:000000000000017d .LASF113
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:1963   .debug_str:0000000000000044 .LASF114
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:1965   .debug_str:0000000000000053 .LASF115
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2107   .debug_str:0000000000000305 .LASF116
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2081   .debug_str:0000000000000282 .LASF117
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2079   .debug_str:0000000000000279 .LASF118
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2205   .debug_str:00000000000005d1 .LASF119
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:1973   .debug_str:0000000000000093 .LASF135
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2033   .debug_str:00000000000001b2 .LASF120
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2187   .debug_str:0000000000000575 .LASF121
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2087   .debug_str:000000000000029a .LASF122
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2045   .debug_str:00000000000001e0 .LASF123
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2099   .debug_str:00000000000002d5 .LASF124
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:1959   .debug_str:0000000000000031 .LASF125
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:1979   .debug_str:00000000000000bd .LASF126
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2095   .debug_str:00000000000002c5 .LASF127
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2017   .debug_str:0000000000000166 .LASF128
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2185   .debug_str:0000000000000564 .LASF136
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:2189   .debug_str:0000000000000588 .LASF129
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:1969   .debug_str:000000000000007b .LASF130
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:1975   .debug_str:000000000000009e .LASF131
+C:\Users\Jesper\AppData\Local\Temp\ccw80BVm.s:21     .debug_info:0000000000000000 .Ldebug_info0
+
+NO UNDEFINED SYMBOLS

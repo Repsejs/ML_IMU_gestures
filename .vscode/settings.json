@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "chrono": "c",
+        "condition_variable": "c",
+        "ctime": "c",
+        "*.inc": "c"
+    }
+}
