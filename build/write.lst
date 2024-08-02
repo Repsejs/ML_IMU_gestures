@@ -1,4 +1,4 @@
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s 			page 1
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s 			page 1
 
 
    1              		.file	"write.c"
@@ -58,7 +58,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s 			page 1
   41:./../../firmware/RISCV/stubs/write.c **** }
   42:./../../firmware/RISCV/stubs/write.c ****  
   43:./../../firmware/RISCV/stubs/write.c **** #elif defined ( __GNUC__ )
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s 			page 2
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s 			page 2
 
 
   44:./../../firmware/RISCV/stubs/write.c **** /*
@@ -118,7 +118,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s 			page 1
   40              		.cfi_offset 1, -4
   70:./../../firmware/RISCV/stubs/write.c ****     while (usart_flag_get(USART0, USART_FLAG_TBE)== RESET){
   41              		.loc 1 70 12
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s 			page 3
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s 			page 3
 
 
   42 0016 13040480 		addi	s0,s0,-2048
@@ -173,217 +173,217 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s 			page 1
   83              		.file 10 "./../../firmware/GD32VF103_standard_peripheral/gd32vf103.h"
   84              		.file 11 "./../../firmware/GD32VF103_standard_peripheral/Include/gd32vf103_usart.h"
   85              		.file 12 "c:\\users\\jesper\\documents\\ml_sommarjobb\\toolchain-gd32v-v201-win\\toolchain-gd32v-v
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s 			page 4
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s 			page 4
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 write.c
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:13     .text._put_char:0000000000000000 _put_char
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:17     .text._put_char:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:19     .text._put_char:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:20     .text._put_char:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:21     .text._put_char:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:23     .text._put_char:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:25     .text._put_char:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:27     .text._put_char:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:29     .text._put_char:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:31     .text._put_char:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:32     .text._put_char:000000000000000e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:34     .text._put_char:000000000000000e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:36     .text._put_char:0000000000000010 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:39     .text._put_char:0000000000000014 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:40     .text._put_char:0000000000000016 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:42     .text._put_char:0000000000000016 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:44     .text._put_char:000000000000001a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:48     .text._put_char:0000000000000022 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:49     .text._put_char:0000000000000022 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:50     .text._put_char:0000000000000022 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:55     .text._put_char:000000000000002e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:57     .text._put_char:0000000000000030 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:58     .text._put_char:0000000000000030 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:59     .text._put_char:0000000000000032 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:61     .text._put_char:0000000000000034 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:64     .text._put_char:0000000000000038 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:68     .text._put_char:000000000000003a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:70     .text._put_char:000000000000003c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:73     .text._put_char:000000000000003c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:13     .text._put_char:0000000000000000 _put_char
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:17     .text._put_char:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:19     .text._put_char:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:20     .text._put_char:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:21     .text._put_char:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:23     .text._put_char:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:25     .text._put_char:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:27     .text._put_char:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:29     .text._put_char:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:31     .text._put_char:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:32     .text._put_char:000000000000000e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:34     .text._put_char:000000000000000e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:36     .text._put_char:0000000000000010 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:39     .text._put_char:0000000000000014 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:40     .text._put_char:0000000000000016 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:42     .text._put_char:0000000000000016 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:44     .text._put_char:000000000000001a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:48     .text._put_char:0000000000000022 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:49     .text._put_char:0000000000000022 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:50     .text._put_char:0000000000000022 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:55     .text._put_char:000000000000002e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:57     .text._put_char:0000000000000030 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:58     .text._put_char:0000000000000030 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:59     .text._put_char:0000000000000032 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:61     .text._put_char:0000000000000034 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:64     .text._put_char:0000000000000038 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:68     .text._put_char:000000000000003a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:70     .text._put_char:000000000000003c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:73     .text._put_char:000000000000003c .L0 
                      .debug_frame:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:47     .text._put_char:0000000000000022 .L2
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:1709   .debug_abbrev:0000000000000000 .Ldebug_abbrev0
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2555   .debug_str:00000000000004eb .LASF146
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2357   .debug_str:0000000000000121 .LASF147
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2561   .debug_str:000000000000058f .LASF148
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2299   .debug_ranges:0000000000000000 .Ldebug_ranges0
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2305   .debug_line:0000000000000000 .Ldebug_line0
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2345   .debug_str:00000000000000db .LASF0
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2317   .debug_str:0000000000000037 .LASF5
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2475   .debug_str:000000000000036e .LASF1
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2545   .debug_str:00000000000004bf .LASF2
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2559   .debug_str:000000000000057c .LASF3
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2363   .debug_str:0000000000000156 .LASF4
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2387   .debug_str:00000000000001ce .LASF6
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2409   .debug_str:000000000000022d .LASF7
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2373   .debug_str:000000000000017f .LASF8
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2349   .debug_str:00000000000000ed .LASF9
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2543   .debug_str:00000000000004b2 .LASF10
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2547   .debug_str:00000000000004c9 .LASF11
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2571   .debug_str:0000000000000629 .LASF12
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2531   .debug_str:000000000000047d .LASF13
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2463   .debug_str:000000000000032f .LASF14
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2341   .debug_str:00000000000000cd .LASF15
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2529   .debug_str:0000000000000475 .LASF16
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2581   .debug_str:0000000000000659 .LASF17
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s 			page 5
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:47     .text._put_char:0000000000000022 .L2
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:1709   .debug_abbrev:0000000000000000 .Ldebug_abbrev0
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2557   .debug_str:000000000000055e .LASF146
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2357   .debug_str:0000000000000121 .LASF147
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2453   .debug_str:00000000000002fd .LASF148
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2299   .debug_ranges:0000000000000000 .Ldebug_ranges0
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2305   .debug_line:0000000000000000 .Ldebug_line0
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2345   .debug_str:00000000000000db .LASF0
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2317   .debug_str:0000000000000037 .LASF5
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2477   .debug_str:00000000000003e1 .LASF1
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2547   .debug_str:0000000000000532 .LASF2
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2561   .debug_str:00000000000005ef .LASF3
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2363   .debug_str:0000000000000156 .LASF4
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2387   .debug_str:00000000000001ce .LASF6
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2409   .debug_str:000000000000022d .LASF7
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2373   .debug_str:000000000000017f .LASF8
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2349   .debug_str:00000000000000ed .LASF9
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2545   .debug_str:0000000000000525 .LASF10
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2549   .debug_str:000000000000053c .LASF11
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2571   .debug_str:000000000000062f .LASF12
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2533   .debug_str:00000000000004f0 .LASF13
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2465   .debug_str:00000000000003a2 .LASF14
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2341   .debug_str:00000000000000cd .LASF15
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2531   .debug_str:00000000000004e8 .LASF16
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2581   .debug_str:000000000000065f .LASF17
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s 			page 5
 
 
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2427   .debug_str:000000000000028d .LASF18
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2401   .debug_str:0000000000000206 .LASF19
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2521   .debug_str:0000000000000455 .LASF20
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2523   .debug_str:000000000000045d .LASF21
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2493   .debug_str:00000000000003c4 .LASF22
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2565   .debug_str:0000000000000601 .LASF23
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2467   .debug_str:0000000000000340 .LASF24
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2481   .debug_str:000000000000038b .LASF25
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2395   .debug_str:00000000000001f3 .LASF30
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2551   .debug_str:00000000000004d8 .LASF26
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2515   .debug_str:0000000000000440 .LASF27
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2389   .debug_str:00000000000001d9 .LASF28
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2577   .debug_str:000000000000064e .LASF29
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2399   .debug_str:0000000000000201 .LASF31
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2339   .debug_str:00000000000000c4 .LASF32
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2595   .debug_str:000000000000069e .LASF33
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2351   .debug_str:0000000000000104 .LASF34
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2607   .debug_str:00000000000006d6 .LASF35
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2455   .debug_str:0000000000000304 .LASF36
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2443   .debug_str:00000000000002cb .LASF37
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2527   .debug_str:000000000000046b .LASF38
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2483   .debug_str:0000000000000394 .LASF39
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2591   .debug_str:0000000000000684 .LASF40
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2355   .debug_str:0000000000000113 .LASF41
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2311   .debug_str:000000000000001c .LASF42
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2307   .debug_str:0000000000000000 .LASF43
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2557   .debug_str:0000000000000573 .LASF44
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2367   .debug_str:0000000000000166 .LASF45
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2457   .debug_str:000000000000030d .LASF46
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2507   .debug_str:0000000000000410 .LASF47
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2385   .debug_str:00000000000001c9 .LASF48
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2485   .debug_str:000000000000039e .LASF49
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2471   .debug_str:0000000000000358 .LASF50
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2541   .debug_str:00000000000004ac .LASF51
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2495   .debug_str:00000000000003cf .LASF52
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2365   .debug_str:000000000000015f .LASF53
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2411   .debug_str:000000000000023f .LASF54
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2329   .debug_str:0000000000000084 .LASF55
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2359   .debug_str:0000000000000146 .LASF56
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2397   .debug_str:00000000000001fb .LASF57
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2441   .debug_str:00000000000002c4 .LASF58
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2525   .debug_str:0000000000000465 .LASF59
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2343   .debug_str:00000000000000d4 .LASF60
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2347   .debug_str:00000000000000e7 .LASF61
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2587   .debug_str:0000000000000676 .LASF62
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2537   .debug_str:0000000000000495 .LASF63
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2379   .debug_str:00000000000001a2 .LASF64
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2413   .debug_str:0000000000000245 .LASF65
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2435   .debug_str:00000000000002af .LASF66
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2499   .debug_str:00000000000003e1 .LASF67
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2487   .debug_str:00000000000003a5 .LASF68
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2517   .debug_str:0000000000000448 .LASF69
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2533   .debug_str:0000000000000489 .LASF70
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2369   .debug_str:000000000000016e .LASF71
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2405   .debug_str:000000000000021d .LASF72
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2393   .debug_str:00000000000001eb .LASF73
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2505   .debug_str:000000000000040b .LASF74
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s 			page 6
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2427   .debug_str:000000000000028d .LASF18
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2401   .debug_str:0000000000000206 .LASF19
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2523   .debug_str:00000000000004c8 .LASF20
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2525   .debug_str:00000000000004d0 .LASF21
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2495   .debug_str:0000000000000437 .LASF22
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2565   .debug_str:0000000000000607 .LASF23
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2469   .debug_str:00000000000003b3 .LASF24
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2483   .debug_str:00000000000003fe .LASF25
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2395   .debug_str:00000000000001f3 .LASF30
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2553   .debug_str:000000000000054b .LASF26
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2517   .debug_str:00000000000004b3 .LASF27
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2389   .debug_str:00000000000001d9 .LASF28
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2577   .debug_str:0000000000000654 .LASF29
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2399   .debug_str:0000000000000201 .LASF31
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2339   .debug_str:00000000000000c4 .LASF32
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2595   .debug_str:00000000000006a4 .LASF33
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2351   .debug_str:0000000000000104 .LASF34
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2607   .debug_str:00000000000006dc .LASF35
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2457   .debug_str:0000000000000377 .LASF36
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2443   .debug_str:00000000000002cb .LASF37
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2529   .debug_str:00000000000004de .LASF38
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2485   .debug_str:0000000000000407 .LASF39
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2591   .debug_str:000000000000068a .LASF40
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2355   .debug_str:0000000000000113 .LASF41
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2311   .debug_str:000000000000001c .LASF42
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2307   .debug_str:0000000000000000 .LASF43
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2559   .debug_str:00000000000005e6 .LASF44
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2367   .debug_str:0000000000000166 .LASF45
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2459   .debug_str:0000000000000380 .LASF46
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2509   .debug_str:0000000000000483 .LASF47
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2385   .debug_str:00000000000001c9 .LASF48
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2487   .debug_str:0000000000000411 .LASF49
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2473   .debug_str:00000000000003cb .LASF50
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2543   .debug_str:000000000000051f .LASF51
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2497   .debug_str:0000000000000442 .LASF52
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2365   .debug_str:000000000000015f .LASF53
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2411   .debug_str:000000000000023f .LASF54
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2329   .debug_str:0000000000000084 .LASF55
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2359   .debug_str:0000000000000146 .LASF56
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2397   .debug_str:00000000000001fb .LASF57
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2441   .debug_str:00000000000002c4 .LASF58
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2527   .debug_str:00000000000004d8 .LASF59
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2343   .debug_str:00000000000000d4 .LASF60
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2347   .debug_str:00000000000000e7 .LASF61
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2587   .debug_str:000000000000067c .LASF62
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2539   .debug_str:0000000000000508 .LASF63
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2379   .debug_str:00000000000001a2 .LASF64
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2413   .debug_str:0000000000000245 .LASF65
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2435   .debug_str:00000000000002af .LASF66
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2501   .debug_str:0000000000000454 .LASF67
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2489   .debug_str:0000000000000418 .LASF68
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2519   .debug_str:00000000000004bb .LASF69
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2535   .debug_str:00000000000004fc .LASF70
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2369   .debug_str:000000000000016e .LASF71
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2405   .debug_str:000000000000021d .LASF72
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2393   .debug_str:00000000000001eb .LASF73
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2507   .debug_str:000000000000047e .LASF74
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s 			page 6
 
 
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2315   .debug_str:000000000000002c .LASF75
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2513   .debug_str:0000000000000427 .LASF76
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2509   .debug_str:0000000000000415 .LASF77
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2459   .debug_str:0000000000000315 .LASF78
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2511   .debug_str:000000000000041d .LASF79
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2425   .debug_str:0000000000000285 .LASF80
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2371   .debug_str:0000000000000175 .LASF81
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2603   .debug_str:00000000000006c1 .LASF82
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2465   .debug_str:0000000000000336 .LASF83
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2407   .debug_str:0000000000000225 .LASF84
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2377   .debug_str:000000000000019a .LASF85
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2431   .debug_str:000000000000029b .LASF86
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2319   .debug_str:0000000000000041 .LASF87
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2585   .debug_str:000000000000066c .LASF88
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2361   .debug_str:000000000000014e .LASF89
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2353   .debug_str:000000000000010e .LASF90
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2535   .debug_str:0000000000000490 .LASF91
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2491   .debug_str:00000000000003bd .LASF92
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2579   .debug_str:0000000000000653 .LASF93
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2415   .debug_str:000000000000024b .LASF94
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2477   .debug_str:000000000000037c .LASF95
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2313   .debug_str:0000000000000024 .LASF96
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2519   .debug_str:000000000000044f .LASF97
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2437   .debug_str:00000000000002b5 .LASF98
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2563   .debug_str:00000000000005fc .LASF99
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2573   .debug_str:0000000000000632 .LASF100
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2553   .debug_str:00000000000004de .LASF101
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2421   .debug_str:0000000000000269 .LASF102
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2593   .debug_str:000000000000068f .LASF103
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2461   .debug_str:0000000000000320 .LASF104
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2417   .debug_str:0000000000000252 .LASF105
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2597   .debug_str:00000000000006a7 .LASF106
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2503   .debug_str:00000000000003fe .LASF107
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2601   .debug_str:00000000000006b3 .LASF108
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2337   .debug_str:00000000000000b6 .LASF109
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2583   .debug_str:0000000000000662 .LASF110
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2419   .debug_str:000000000000025d .LASF111
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2567   .debug_str:0000000000000609 .LASF112
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2383   .debug_str:00000000000001bb .LASF113
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2335   .debug_str:00000000000000a7 .LASF114
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2381   .debug_str:00000000000001aa .LASF115
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2321   .debug_str:000000000000004a .LASF116
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2323   .debug_str:0000000000000059 .LASF117
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2479   .debug_str:0000000000000382 .LASF118
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2453   .debug_str:00000000000002fd .LASF119
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2445   .debug_str:00000000000002d5 .LASF120
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2589   .debug_str:000000000000067c .LASF121
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2331   .debug_str:000000000000008d .LASF149
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2391   .debug_str:00000000000001df .LASF122
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2569   .debug_str:0000000000000616 .LASF123
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2375   .debug_str:000000000000018d .LASF124
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2497   .debug_str:00000000000003d7 .LASF125
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2403   .debug_str:000000000000020d .LASF126
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2469   .debug_str:0000000000000352 .LASF127
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2333   .debug_str:0000000000000098 .LASF128
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2575   .debug_str:000000000000063f .LASF129
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2433   .debug_str:00000000000002a0 .LASF130
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s 			page 7
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2315   .debug_str:000000000000002c .LASF75
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2515   .debug_str:000000000000049a .LASF76
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2511   .debug_str:0000000000000488 .LASF77
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2461   .debug_str:0000000000000388 .LASF78
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2513   .debug_str:0000000000000490 .LASF79
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2425   .debug_str:0000000000000285 .LASF80
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2371   .debug_str:0000000000000175 .LASF81
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2603   .debug_str:00000000000006c7 .LASF82
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2467   .debug_str:00000000000003a9 .LASF83
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2407   .debug_str:0000000000000225 .LASF84
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2377   .debug_str:000000000000019a .LASF85
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2431   .debug_str:000000000000029b .LASF86
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2319   .debug_str:0000000000000041 .LASF87
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2585   .debug_str:0000000000000672 .LASF88
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2361   .debug_str:000000000000014e .LASF89
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2353   .debug_str:000000000000010e .LASF90
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2537   .debug_str:0000000000000503 .LASF91
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2493   .debug_str:0000000000000430 .LASF92
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2579   .debug_str:0000000000000659 .LASF93
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2415   .debug_str:000000000000024b .LASF94
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2479   .debug_str:00000000000003ef .LASF95
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2313   .debug_str:0000000000000024 .LASF96
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2521   .debug_str:00000000000004c2 .LASF97
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2437   .debug_str:00000000000002b5 .LASF98
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2563   .debug_str:0000000000000602 .LASF99
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2573   .debug_str:0000000000000638 .LASF100
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2555   .debug_str:0000000000000551 .LASF101
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2421   .debug_str:0000000000000269 .LASF102
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2593   .debug_str:0000000000000695 .LASF103
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2463   .debug_str:0000000000000393 .LASF104
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2417   .debug_str:0000000000000252 .LASF105
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2597   .debug_str:00000000000006ad .LASF106
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2505   .debug_str:0000000000000471 .LASF107
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2601   .debug_str:00000000000006b9 .LASF108
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2337   .debug_str:00000000000000b6 .LASF109
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2583   .debug_str:0000000000000668 .LASF110
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2419   .debug_str:000000000000025d .LASF111
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2567   .debug_str:000000000000060f .LASF112
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2383   .debug_str:00000000000001bb .LASF113
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2335   .debug_str:00000000000000a7 .LASF114
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2381   .debug_str:00000000000001aa .LASF115
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2321   .debug_str:000000000000004a .LASF116
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2323   .debug_str:0000000000000059 .LASF117
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2481   .debug_str:00000000000003f5 .LASF118
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2455   .debug_str:0000000000000370 .LASF119
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2445   .debug_str:00000000000002d5 .LASF120
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2589   .debug_str:0000000000000682 .LASF121
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2331   .debug_str:000000000000008d .LASF149
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2391   .debug_str:00000000000001df .LASF122
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2569   .debug_str:000000000000061c .LASF123
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2375   .debug_str:000000000000018d .LASF124
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2499   .debug_str:000000000000044a .LASF125
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2403   .debug_str:000000000000020d .LASF126
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2471   .debug_str:00000000000003c5 .LASF127
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2333   .debug_str:0000000000000098 .LASF128
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2575   .debug_str:0000000000000645 .LASF129
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2433   .debug_str:00000000000002a0 .LASF130
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s 			page 7
 
 
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2539   .debug_str:000000000000049e .LASF131
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2473   .debug_str:000000000000035e .LASF132
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2309   .debug_str:000000000000000c .LASF133
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2449   .debug_str:00000000000002e5 .LASF134
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2327   .debug_str:0000000000000074 .LASF135
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2605   .debug_str:00000000000006c6 .LASF136
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2489   .debug_str:00000000000003ad .LASF137
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2429   .debug_str:0000000000000293 .LASF138
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2447   .debug_str:00000000000002de .LASF139
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2451   .debug_str:00000000000002f6 .LASF140
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2549   .debug_str:00000000000004d1 .LASF141
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2599   .debug_str:00000000000006ac .LASF142
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2439   .debug_str:00000000000002bb .LASF143
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2325   .debug_str:000000000000006a .LASF150
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:14     .text._put_char:0000000000000000 .LFB4
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:71     .text._put_char:000000000000003c .LFE4
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2253   .debug_loc:0000000000000000 .LLST0
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2271   .debug_loc:000000000000002c .LLST1
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:45     .text._put_char:0000000000000022 .LVL2
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:53     .text._put_char:000000000000002e .LVL3
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2501   .debug_str:00000000000003ea .LASF144
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:2423   .debug_str:0000000000000276 .LASF145
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:22     .text._put_char:0000000000000002 .LCFI0
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:67     .text._put_char:000000000000003a .LCFI1
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:18     .text._put_char:0000000000000000 .LVL0
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:37     .text._put_char:0000000000000014 .LVL1
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:65     .text._put_char:0000000000000038 .LVL4
-C:\Users\Jesper\AppData\Local\Temp\ccq0q0nm.s:87     .debug_info:0000000000000000 .Ldebug_info0
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2541   .debug_str:0000000000000511 .LASF131
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2475   .debug_str:00000000000003d1 .LASF132
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2309   .debug_str:000000000000000c .LASF133
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2449   .debug_str:00000000000002e5 .LASF134
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2327   .debug_str:0000000000000074 .LASF135
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2605   .debug_str:00000000000006cc .LASF136
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2491   .debug_str:0000000000000420 .LASF137
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2429   .debug_str:0000000000000293 .LASF138
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2447   .debug_str:00000000000002de .LASF139
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2451   .debug_str:00000000000002f6 .LASF140
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2551   .debug_str:0000000000000544 .LASF141
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2599   .debug_str:00000000000006b2 .LASF142
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2439   .debug_str:00000000000002bb .LASF143
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2325   .debug_str:000000000000006a .LASF150
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:14     .text._put_char:0000000000000000 .LFB4
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:71     .text._put_char:000000000000003c .LFE4
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2253   .debug_loc:0000000000000000 .LLST0
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2271   .debug_loc:000000000000002c .LLST1
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:45     .text._put_char:0000000000000022 .LVL2
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:53     .text._put_char:000000000000002e .LVL3
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2503   .debug_str:000000000000045d .LASF144
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:2423   .debug_str:0000000000000276 .LASF145
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:22     .text._put_char:0000000000000002 .LCFI0
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:67     .text._put_char:000000000000003a .LCFI1
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:18     .text._put_char:0000000000000000 .LVL0
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:37     .text._put_char:0000000000000014 .LVL1
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:65     .text._put_char:0000000000000038 .LVL4
+C:\Users\Jesper\AppData\Local\Temp\ccaAXA2j.s:87     .debug_info:0000000000000000 .Ldebug_info0
 
 UNDEFINED SYMBOLS
 usart_data_transmit

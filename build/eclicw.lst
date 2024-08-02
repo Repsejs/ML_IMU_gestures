@@ -1,4 +1,4 @@
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s 			page 1
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s 			page 1
 
 
    1              		.file	"eclicw.c"
@@ -58,7 +58,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s 			page 1
   45              		.loc 1 9 7
   46 001e 19EF     		bne	a4,zero,.L2
   10:lib/eclicw/src/eclicw.c ****         max_irqn = *( volatile uint32_t * )( ECLIC_ADDR_BASE + ECLIC_INFO_OFFSET );
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s 			page 2
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s 			page 2
 
 
   47              		.loc 1 10 9 is_stmt 1
@@ -118,7 +118,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s 			page 1
   84 006e 630DF400 		beq	s0,a5,.L3
   85 0072 93078003 		li	a5,56
   86 0076 630DF400 		beq	s0,a5,.L4
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s 			page 3
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s 			page 3
 
 
   87              	.L1:
@@ -178,7 +178,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s 			page 1
  132              		.loc 1 28 33 is_stmt 1
  133              		.cfi_startproc
   29:lib/eclicw/src/eclicw.c ****   (*pmtisr)();                                  // ...Call int's ISR...
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s 			page 4
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s 			page 4
 
 
  134              		.loc 1 29 3
@@ -238,7 +238,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s 			page 1
  185 0032 C253     		lw	t2,48(sp)
  186              		.cfi_restore 7
  187 0034 3255     		lw	a0,44(sp)
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s 			page 5
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s 			page 5
 
 
  188              		.cfi_restore 10
@@ -298,7 +298,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s 			page 1
  238 000e 16DC     		sw	t0,56(sp)
  239 0010 1ADA     		sw	t1,52(sp)
  240 0012 1ED8     		sw	t2,48(sp)
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s 			page 6
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s 			page 6
 
 
  241 0014 2AD6     		sw	a0,44(sp)
@@ -358,7 +358,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s 			page 1
  294              		.cfi_restore 17
  295 0044 324E     		lw	t3,12(sp)
  296              		.cfi_restore 28
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s 			page 7
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s 			page 7
 
 
  297 0046 A24E     		lw	t4,8(sp)
@@ -395,307 +395,307 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s 			page 1
  335              		.file 4 "./../../firmware/RISCV/drivers/n200_func.h"
  336              		.file 5 "./../../firmware/GD32VF103_standard_peripheral/gd32vf103.h"
  337              		.file 6 "./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.h"
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s 			page 8
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s 			page 8
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 eclicw.c
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:13     .text.eclicw_enable:0000000000000000 eclicw_enable
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:17     .text.eclicw_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:19     .text.eclicw_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:20     .text.eclicw_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:21     .text.eclicw_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:22     .text.eclicw_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:25     .text.eclicw_enable:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:27     .text.eclicw_enable:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:29     .text.eclicw_enable:000000000000000c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:35     .text.eclicw_enable:0000000000000016 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:36     .text.eclicw_enable:0000000000000016 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:37     .text.eclicw_enable:0000000000000016 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:38     .text.eclicw_enable:0000000000000016 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:39     .text.eclicw_enable:0000000000000016 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:41     .text.eclicw_enable:0000000000000016 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:46     .text.eclicw_enable:000000000000001e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:48     .text.eclicw_enable:0000000000000020 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:49     .text.eclicw_enable:0000000000000020 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:53     .text.eclicw_enable:0000000000000026 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:54     .text.eclicw_enable:0000000000000026 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:58     .text.eclicw_enable:000000000000002c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:61     .text.eclicw_enable:0000000000000034 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:65     .text.eclicw_enable:000000000000003c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:69     .text.eclicw_enable:0000000000000046 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:73     .text.eclicw_enable:0000000000000050 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:78     .text.eclicw_enable:000000000000005e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:83     .text.eclicw_enable:000000000000006c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:89     .text.eclicw_enable:000000000000007a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:90     .text.eclicw_enable:000000000000007c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:91     .text.eclicw_enable:000000000000007c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:93     .text.eclicw_enable:000000000000007e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:96     .text.eclicw_enable:0000000000000080 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:99     .text.eclicw_enable:0000000000000082 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:102    .text.eclicw_enable:0000000000000084 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:106    .text.eclicw_enable:0000000000000086 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:111    .text.eclicw_enable:0000000000000088 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:113    .text.eclicw_enable:0000000000000088 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:114    .text.eclicw_enable:0000000000000088 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:118    .text.eclicw_enable:0000000000000090 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:119    .text.eclicw_enable:0000000000000090 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:122    .text.eclicw_enable:0000000000000098 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:123    .text.eclicw_enable:000000000000009a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:130    .text.eclic_mtip_handler:0000000000000000 eclic_mtip_handler
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:133    .text.eclic_mtip_handler:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:134    .text.eclic_mtip_handler:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:135    .text.eclic_mtip_handler:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:136    .text.eclic_mtip_handler:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:138    .text.eclic_mtip_handler:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:140    .text.eclic_mtip_handler:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:142    .text.eclic_mtip_handler:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:145    .text.eclic_mtip_handler:000000000000000c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:160    .text.eclic_mtip_handler:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:161    .text.eclic_mtip_handler:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:162    .text.eclic_mtip_handler:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:163    .text.eclic_mtip_handler:000000000000002a .L0 
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s 			page 9
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:13     .text.eclicw_enable:0000000000000000 eclicw_enable
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:17     .text.eclicw_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:19     .text.eclicw_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:20     .text.eclicw_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:21     .text.eclicw_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:22     .text.eclicw_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:25     .text.eclicw_enable:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:27     .text.eclicw_enable:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:29     .text.eclicw_enable:000000000000000c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:35     .text.eclicw_enable:0000000000000016 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:36     .text.eclicw_enable:0000000000000016 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:37     .text.eclicw_enable:0000000000000016 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:38     .text.eclicw_enable:0000000000000016 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:39     .text.eclicw_enable:0000000000000016 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:41     .text.eclicw_enable:0000000000000016 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:46     .text.eclicw_enable:000000000000001e .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:48     .text.eclicw_enable:0000000000000020 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:49     .text.eclicw_enable:0000000000000020 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:53     .text.eclicw_enable:0000000000000026 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:54     .text.eclicw_enable:0000000000000026 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:58     .text.eclicw_enable:000000000000002c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:61     .text.eclicw_enable:0000000000000034 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:65     .text.eclicw_enable:000000000000003c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:69     .text.eclicw_enable:0000000000000046 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:73     .text.eclicw_enable:0000000000000050 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:78     .text.eclicw_enable:000000000000005e .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:83     .text.eclicw_enable:000000000000006c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:89     .text.eclicw_enable:000000000000007a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:90     .text.eclicw_enable:000000000000007c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:91     .text.eclicw_enable:000000000000007c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:93     .text.eclicw_enable:000000000000007e .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:96     .text.eclicw_enable:0000000000000080 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:99     .text.eclicw_enable:0000000000000082 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:102    .text.eclicw_enable:0000000000000084 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:106    .text.eclicw_enable:0000000000000086 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:111    .text.eclicw_enable:0000000000000088 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:113    .text.eclicw_enable:0000000000000088 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:114    .text.eclicw_enable:0000000000000088 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:118    .text.eclicw_enable:0000000000000090 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:119    .text.eclicw_enable:0000000000000090 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:122    .text.eclicw_enable:0000000000000098 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:123    .text.eclicw_enable:000000000000009a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:130    .text.eclic_mtip_handler:0000000000000000 eclic_mtip_handler
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:133    .text.eclic_mtip_handler:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:134    .text.eclic_mtip_handler:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:135    .text.eclic_mtip_handler:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:136    .text.eclic_mtip_handler:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:138    .text.eclic_mtip_handler:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:140    .text.eclic_mtip_handler:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:142    .text.eclic_mtip_handler:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:145    .text.eclic_mtip_handler:000000000000000c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:160    .text.eclic_mtip_handler:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:161    .text.eclic_mtip_handler:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:162    .text.eclic_mtip_handler:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:163    .text.eclic_mtip_handler:000000000000002a .L0 
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s 			page 9
 
 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:164    .text.eclic_mtip_handler:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:165    .text.eclic_mtip_handler:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:166    .text.eclic_mtip_handler:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:167    .text.eclic_mtip_handler:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:168    .text.eclic_mtip_handler:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:169    .text.eclic_mtip_handler:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:170    .text.eclic_mtip_handler:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:171    .text.eclic_mtip_handler:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:172    .text.eclic_mtip_handler:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:173    .text.eclic_mtip_handler:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:174    .text.eclic_mtip_handler:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:176    .text.eclic_mtip_handler:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:179    .text.eclic_mtip_handler:000000000000002c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:180    .text.eclic_mtip_handler:000000000000002e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:182    .text.eclic_mtip_handler:0000000000000030 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:184    .text.eclic_mtip_handler:0000000000000032 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:186    .text.eclic_mtip_handler:0000000000000034 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:188    .text.eclic_mtip_handler:0000000000000036 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:190    .text.eclic_mtip_handler:0000000000000038 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:192    .text.eclic_mtip_handler:000000000000003a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:194    .text.eclic_mtip_handler:000000000000003c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:196    .text.eclic_mtip_handler:000000000000003e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:198    .text.eclic_mtip_handler:0000000000000040 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:200    .text.eclic_mtip_handler:0000000000000042 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:202    .text.eclic_mtip_handler:0000000000000044 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:204    .text.eclic_mtip_handler:0000000000000046 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:206    .text.eclic_mtip_handler:0000000000000048 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:208    .text.eclic_mtip_handler:000000000000004a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:210    .text.eclic_mtip_handler:000000000000004c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:213    .text.eclic_mtip_handler:000000000000004e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:215    .text.eclic_mtip_handler:0000000000000052 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:222    .text.USART0_IRQHandler:0000000000000000 USART0_IRQHandler
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:225    .text.USART0_IRQHandler:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:226    .text.USART0_IRQHandler:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:227    .text.USART0_IRQHandler:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:228    .text.USART0_IRQHandler:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:230    .text.USART0_IRQHandler:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:232    .text.USART0_IRQHandler:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:234    .text.USART0_IRQHandler:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:237    .text.USART0_IRQHandler:000000000000000c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:252    .text.USART0_IRQHandler:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:253    .text.USART0_IRQHandler:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:254    .text.USART0_IRQHandler:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:255    .text.USART0_IRQHandler:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:256    .text.USART0_IRQHandler:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:257    .text.USART0_IRQHandler:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:258    .text.USART0_IRQHandler:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:259    .text.USART0_IRQHandler:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:260    .text.USART0_IRQHandler:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:261    .text.USART0_IRQHandler:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:262    .text.USART0_IRQHandler:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:263    .text.USART0_IRQHandler:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:264    .text.USART0_IRQHandler:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:265    .text.USART0_IRQHandler:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:266    .text.USART0_IRQHandler:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:268    .text.USART0_IRQHandler:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:271    .text.USART0_IRQHandler:000000000000002c .L0 
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s 			page 10
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:164    .text.eclic_mtip_handler:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:165    .text.eclic_mtip_handler:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:166    .text.eclic_mtip_handler:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:167    .text.eclic_mtip_handler:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:168    .text.eclic_mtip_handler:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:169    .text.eclic_mtip_handler:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:170    .text.eclic_mtip_handler:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:171    .text.eclic_mtip_handler:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:172    .text.eclic_mtip_handler:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:173    .text.eclic_mtip_handler:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:174    .text.eclic_mtip_handler:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:176    .text.eclic_mtip_handler:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:179    .text.eclic_mtip_handler:000000000000002c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:180    .text.eclic_mtip_handler:000000000000002e .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:182    .text.eclic_mtip_handler:0000000000000030 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:184    .text.eclic_mtip_handler:0000000000000032 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:186    .text.eclic_mtip_handler:0000000000000034 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:188    .text.eclic_mtip_handler:0000000000000036 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:190    .text.eclic_mtip_handler:0000000000000038 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:192    .text.eclic_mtip_handler:000000000000003a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:194    .text.eclic_mtip_handler:000000000000003c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:196    .text.eclic_mtip_handler:000000000000003e .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:198    .text.eclic_mtip_handler:0000000000000040 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:200    .text.eclic_mtip_handler:0000000000000042 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:202    .text.eclic_mtip_handler:0000000000000044 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:204    .text.eclic_mtip_handler:0000000000000046 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:206    .text.eclic_mtip_handler:0000000000000048 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:208    .text.eclic_mtip_handler:000000000000004a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:210    .text.eclic_mtip_handler:000000000000004c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:213    .text.eclic_mtip_handler:000000000000004e .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:215    .text.eclic_mtip_handler:0000000000000052 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:222    .text.USART0_IRQHandler:0000000000000000 USART0_IRQHandler
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:225    .text.USART0_IRQHandler:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:226    .text.USART0_IRQHandler:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:227    .text.USART0_IRQHandler:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:228    .text.USART0_IRQHandler:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:230    .text.USART0_IRQHandler:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:232    .text.USART0_IRQHandler:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:234    .text.USART0_IRQHandler:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:237    .text.USART0_IRQHandler:000000000000000c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:252    .text.USART0_IRQHandler:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:253    .text.USART0_IRQHandler:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:254    .text.USART0_IRQHandler:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:255    .text.USART0_IRQHandler:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:256    .text.USART0_IRQHandler:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:257    .text.USART0_IRQHandler:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:258    .text.USART0_IRQHandler:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:259    .text.USART0_IRQHandler:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:260    .text.USART0_IRQHandler:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:261    .text.USART0_IRQHandler:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:262    .text.USART0_IRQHandler:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:263    .text.USART0_IRQHandler:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:264    .text.USART0_IRQHandler:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:265    .text.USART0_IRQHandler:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:266    .text.USART0_IRQHandler:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:268    .text.USART0_IRQHandler:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:271    .text.USART0_IRQHandler:000000000000002c .L0 
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s 			page 10
 
 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:272    .text.USART0_IRQHandler:000000000000002e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:274    .text.USART0_IRQHandler:0000000000000030 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:276    .text.USART0_IRQHandler:0000000000000032 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:278    .text.USART0_IRQHandler:0000000000000034 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:280    .text.USART0_IRQHandler:0000000000000036 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:282    .text.USART0_IRQHandler:0000000000000038 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:284    .text.USART0_IRQHandler:000000000000003a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:286    .text.USART0_IRQHandler:000000000000003c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:288    .text.USART0_IRQHandler:000000000000003e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:290    .text.USART0_IRQHandler:0000000000000040 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:292    .text.USART0_IRQHandler:0000000000000042 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:294    .text.USART0_IRQHandler:0000000000000044 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:296    .text.USART0_IRQHandler:0000000000000046 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:298    .text.USART0_IRQHandler:0000000000000048 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:300    .text.USART0_IRQHandler:000000000000004a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:302    .text.USART0_IRQHandler:000000000000004c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:305    .text.USART0_IRQHandler:000000000000004e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:307    .text.USART0_IRQHandler:0000000000000052 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:312    .sbss.max_irqn.3501:0000000000000000 .LANCHOR0
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:315    .sbss.max_irqn.3501:0000000000000000 max_irqn.3501
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:319    .sbss.pmtisr:0000000000000000 .LANCHOR1
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:322    .sbss.pmtisr:0000000000000000 pmtisr
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:326    .sbss.pu0tbeisr:0000000000000000 .LANCHOR2
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:329    .sbss.pu0tbeisr:0000000000000000 pu0tbeisr
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:126    .text.eclicw_enable:000000000000009a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:218    .text.eclic_mtip_handler:0000000000000052 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:310    .text.USART0_IRQHandler:0000000000000052 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:272    .text.USART0_IRQHandler:000000000000002e .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:274    .text.USART0_IRQHandler:0000000000000030 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:276    .text.USART0_IRQHandler:0000000000000032 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:278    .text.USART0_IRQHandler:0000000000000034 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:280    .text.USART0_IRQHandler:0000000000000036 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:282    .text.USART0_IRQHandler:0000000000000038 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:284    .text.USART0_IRQHandler:000000000000003a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:286    .text.USART0_IRQHandler:000000000000003c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:288    .text.USART0_IRQHandler:000000000000003e .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:290    .text.USART0_IRQHandler:0000000000000040 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:292    .text.USART0_IRQHandler:0000000000000042 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:294    .text.USART0_IRQHandler:0000000000000044 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:296    .text.USART0_IRQHandler:0000000000000046 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:298    .text.USART0_IRQHandler:0000000000000048 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:300    .text.USART0_IRQHandler:000000000000004a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:302    .text.USART0_IRQHandler:000000000000004c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:305    .text.USART0_IRQHandler:000000000000004e .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:307    .text.USART0_IRQHandler:0000000000000052 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:312    .sbss.max_irqn.3501:0000000000000000 .LANCHOR0
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:315    .sbss.max_irqn.3501:0000000000000000 max_irqn.3501
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:319    .sbss.pmtisr:0000000000000000 .LANCHOR1
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:322    .sbss.pmtisr:0000000000000000 pmtisr
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:326    .sbss.pu0tbeisr:0000000000000000 .LANCHOR2
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:329    .sbss.pu0tbeisr:0000000000000000 pu0tbeisr
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:126    .text.eclicw_enable:000000000000009a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:218    .text.eclic_mtip_handler:0000000000000052 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:310    .text.USART0_IRQHandler:0000000000000052 .L0 
                      .debug_frame:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:63     .text.eclicw_enable:000000000000003c .L2
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:109    .text.eclicw_enable:0000000000000088 .L3
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:116    .text.eclicw_enable:0000000000000090 .L4
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:87     .text.eclicw_enable:000000000000007a .L1
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:843    .debug_abbrev:0000000000000000 .Ldebug_abbrev0
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1293   .debug_str:0000000000000022 .LASF95
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1323   .debug_str:000000000000014e .LASF96
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1379   .debug_str:00000000000002db .LASF97
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1277   .debug_ranges:0000000000000000 .Ldebug_ranges0
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1287   .debug_line:0000000000000000 .Ldebug_line0
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1319   .debug_str:000000000000013f .LASF98
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1487   .debug_str:0000000000000629 .LASF0
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1431   .debug_str:00000000000004ae .LASF1
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1377   .debug_str:00000000000002ce .LASF2
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1461   .debug_str:0000000000000597 .LASF3
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1447   .debug_str:0000000000000531 .LASF4
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1423   .debug_str:000000000000047f .LASF5
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1343   .debug_str:00000000000001f8 .LASF6
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1305   .debug_str:00000000000000e7 .LASF7
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1353   .debug_str:0000000000000236 .LASF8
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1357   .debug_str:000000000000024b .LASF9
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1367   .debug_str:000000000000028c .LASF10
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1405   .debug_str:00000000000003fa .LASF11
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1301   .debug_str:00000000000000d3 .LASF12
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1399   .debug_str:00000000000003cf .LASF13
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1471   .debug_str:00000000000005d1 .LASF14
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1297   .debug_str:00000000000000bd .LASF15
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1479   .debug_str:00000000000005f6 .LASF16
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1295   .debug_str:00000000000000aa .LASF17
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s 			page 11
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:63     .text.eclicw_enable:000000000000003c .L2
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:109    .text.eclicw_enable:0000000000000088 .L3
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:116    .text.eclicw_enable:0000000000000090 .L4
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:87     .text.eclicw_enable:000000000000007a .L1
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:843    .debug_abbrev:0000000000000000 .Ldebug_abbrev0
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1293   .debug_str:0000000000000022 .LASF95
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1325   .debug_str:00000000000001c1 .LASF96
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1315   .debug_str:000000000000012b .LASF97
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1277   .debug_ranges:0000000000000000 .Ldebug_ranges0
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1287   .debug_line:0000000000000000 .Ldebug_line0
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1321   .debug_str:00000000000001b2 .LASF98
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1487   .debug_str:000000000000062f .LASF0
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1433   .debug_str:00000000000004ca .LASF1
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1379   .debug_str:0000000000000341 .LASF2
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1461   .debug_str:000000000000059d .LASF3
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1447   .debug_str:0000000000000537 .LASF4
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1425   .debug_str:000000000000049b .LASF5
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1345   .debug_str:000000000000026b .LASF6
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1305   .debug_str:00000000000000e7 .LASF7
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1355   .debug_str:00000000000002a9 .LASF8
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1359   .debug_str:00000000000002be .LASF9
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1369   .debug_str:00000000000002ff .LASF10
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1407   .debug_str:0000000000000416 .LASF11
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1301   .debug_str:00000000000000d3 .LASF12
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1401   .debug_str:00000000000003eb .LASF13
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1471   .debug_str:00000000000005d7 .LASF14
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1297   .debug_str:00000000000000bd .LASF15
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1479   .debug_str:00000000000005fc .LASF16
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1295   .debug_str:00000000000000aa .LASF17
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s 			page 11
 
 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1389   .debug_str:0000000000000384 .LASF18
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1365   .debug_str:0000000000000279 .LASF19
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1289   .debug_str:0000000000000000 .LASF20
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1387   .debug_str:0000000000000371 .LASF21
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1489   .debug_str:000000000000063b .LASF22
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1307   .debug_str:00000000000000f3 .LASF23
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1345   .debug_str:0000000000000201 .LASF24
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1409   .debug_str:0000000000000417 .LASF25
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1347   .debug_str:000000000000020e .LASF26
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1361   .debug_str:000000000000025d .LASF27
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1429   .debug_str:00000000000004a1 .LASF28
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1327   .debug_str:000000000000017d .LASF29
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1291   .debug_str:0000000000000013 .LASF30
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1435   .debug_str:00000000000004cb .LASF31
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1313   .debug_str:0000000000000117 .LASF32
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1459   .debug_str:000000000000058b .LASF33
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1341   .debug_str:00000000000001ec .LASF34
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1449   .debug_str:0000000000000540 .LASF35
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1369   .debug_str:0000000000000299 .LASF36
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1373   .debug_str:00000000000002b1 .LASF37
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1363   .debug_str:000000000000026c .LASF38
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1483   .debug_str:0000000000000612 .LASF39
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1427   .debug_str:0000000000000497 .LASF40
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1321   .debug_str:0000000000000144 .LASF41
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1351   .debug_str:000000000000022a .LASF42
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1469   .debug_str:00000000000005c5 .LASF43
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1391   .debug_str:0000000000000397 .LASF44
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1381   .debug_str:0000000000000348 .LASF45
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1421   .debug_str:0000000000000470 .LASF46
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1375   .debug_str:00000000000002be .LASF47
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1485   .debug_str:000000000000061f .LASF48
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1355   .debug_str:000000000000023f .LASF49
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1475   .debug_str:00000000000005e1 .LASF50
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1477   .debug_str:00000000000005eb .LASF51
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1371   .debug_str:00000000000002a6 .LASF52
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1337   .debug_str:00000000000001cd .LASF53
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1443   .debug_str:0000000000000512 .LASF54
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1453   .debug_str:000000000000055e .LASF55
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1339   .debug_str:00000000000001d9 .LASF56
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1445   .debug_str:000000000000051e .LASF57
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1463   .debug_str:00000000000005a5 .LASF58
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1335   .debug_str:00000000000001ba .LASF59
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1425   .debug_str:000000000000048a .LASF60
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1329   .debug_str:000000000000018d .LASF61
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1419   .debug_str:0000000000000462 .LASF62
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1455   .debug_str:0000000000000571 .LASF63
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1441   .debug_str:0000000000000507 .LASF64
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1415   .debug_str:000000000000043d .LASF65
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1401   .debug_str:00000000000003da .LASF66
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1393   .debug_str:00000000000003a3 .LASF67
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1315   .debug_str:000000000000012b .LASF72
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1385   .debug_str:0000000000000363 .LASF68
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1309   .debug_str:00000000000000ff .LASF69
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1413   .debug_str:000000000000042a .LASF70
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1359   .debug_str:0000000000000254 .LASF71
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1457   .debug_str:0000000000000580 .LASF73
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1407   .debug_str:0000000000000405 .LASF74
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s 			page 12
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1391   .debug_str:00000000000003a0 .LASF18
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1367   .debug_str:00000000000002ec .LASF19
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1289   .debug_str:0000000000000000 .LASF20
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1389   .debug_str:000000000000038d .LASF21
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1489   .debug_str:0000000000000641 .LASF22
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1307   .debug_str:00000000000000f3 .LASF23
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1347   .debug_str:0000000000000274 .LASF24
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1411   .debug_str:0000000000000433 .LASF25
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1349   .debug_str:0000000000000281 .LASF26
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1363   .debug_str:00000000000002d0 .LASF27
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1431   .debug_str:00000000000004bd .LASF28
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1329   .debug_str:00000000000001f0 .LASF29
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1291   .debug_str:0000000000000013 .LASF30
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1437   .debug_str:00000000000004e7 .LASF31
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1313   .debug_str:0000000000000117 .LASF32
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1459   .debug_str:0000000000000591 .LASF33
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1343   .debug_str:000000000000025f .LASF34
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1449   .debug_str:0000000000000546 .LASF35
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1371   .debug_str:000000000000030c .LASF36
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1375   .debug_str:0000000000000324 .LASF37
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1365   .debug_str:00000000000002df .LASF38
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1483   .debug_str:0000000000000618 .LASF39
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1429   .debug_str:00000000000004b3 .LASF40
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1323   .debug_str:00000000000001b7 .LASF41
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1353   .debug_str:000000000000029d .LASF42
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1469   .debug_str:00000000000005cb .LASF43
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1393   .debug_str:00000000000003b3 .LASF44
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1383   .debug_str:0000000000000364 .LASF45
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1423   .debug_str:000000000000048c .LASF46
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1377   .debug_str:0000000000000331 .LASF47
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1485   .debug_str:0000000000000625 .LASF48
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1357   .debug_str:00000000000002b2 .LASF49
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1475   .debug_str:00000000000005e7 .LASF50
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1477   .debug_str:00000000000005f1 .LASF51
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1373   .debug_str:0000000000000319 .LASF52
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1339   .debug_str:0000000000000240 .LASF53
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1443   .debug_str:0000000000000518 .LASF54
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1453   .debug_str:0000000000000564 .LASF55
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1341   .debug_str:000000000000024c .LASF56
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1445   .debug_str:0000000000000524 .LASF57
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1463   .debug_str:00000000000005ab .LASF58
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1337   .debug_str:000000000000022d .LASF59
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1427   .debug_str:00000000000004a6 .LASF60
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1331   .debug_str:0000000000000200 .LASF61
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1421   .debug_str:000000000000047e .LASF62
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1455   .debug_str:0000000000000577 .LASF63
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1441   .debug_str:000000000000050d .LASF64
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1417   .debug_str:0000000000000459 .LASF65
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1403   .debug_str:00000000000003f6 .LASF66
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1395   .debug_str:00000000000003bf .LASF67
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1317   .debug_str:000000000000019e .LASF72
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1387   .debug_str:000000000000037f .LASF68
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1309   .debug_str:00000000000000ff .LASF69
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1415   .debug_str:0000000000000446 .LASF70
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1361   .debug_str:00000000000002c7 .LASF71
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1457   .debug_str:0000000000000586 .LASF73
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1409   .debug_str:0000000000000421 .LASF74
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s 			page 12
 
 
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1349   .debug_str:000000000000021c .LASF75
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1395   .debug_str:00000000000003af .LASF76
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1331   .debug_str:000000000000019b .LASF77
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1397   .debug_str:00000000000003c6 .LASF78
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1433   .debug_str:00000000000004bb .LASF99
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1383   .debug_str:0000000000000357 .LASF79
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1467   .debug_str:00000000000005be .LASF80
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1317   .debug_str:0000000000000135 .LASF81
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1451   .debug_str:000000000000054c .LASF82
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:223    .text.USART0_IRQHandler:0000000000000000 .LFB4
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:308    .text.USART0_IRQHandler:0000000000000052 .LFE4
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1113   .debug_loc:0000000000000000 .LLST6
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1403   .debug_str:00000000000003e7 .LASF83
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:131    .text.eclic_mtip_handler:0000000000000000 .LFB3
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:216    .text.eclic_mtip_handler:0000000000000052 .LFE3
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1131   .debug_loc:000000000000002d .LLST5
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1311   .debug_str:0000000000000109 .LASF100
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:14     .text.eclicw_enable:0000000000000000 .LFB2
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:124    .text.eclicw_enable:000000000000009a .LFE2
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1149   .debug_loc:000000000000005a .LLST0
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1473   .debug_str:00000000000005dc .LASF84
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1172   .debug_loc:0000000000000092 .LLST1
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1465   .debug_str:00000000000005b8 .LASF85
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1194   .debug_loc:00000000000000c9 .LLST2
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1303   .debug_str:00000000000000de .LASF86
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1216   .debug_loc:0000000000000100 .LLST3
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1411   .debug_str:0000000000000425 .LASF87
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1238   .debug_loc:0000000000000137 .LLST4
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1481   .debug_str:0000000000000609 .LASF88
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:59     .text.eclicw_enable:0000000000000034 .LVL2
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:62     .text.eclicw_enable:000000000000003c .LVL3
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:67     .text.eclicw_enable:0000000000000046 .LVL4
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:71     .text.eclicw_enable:0000000000000050 .LVL5
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:76     .text.eclicw_enable:000000000000005e .LVL6
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:81     .text.eclicw_enable:000000000000006c .LVL7
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1299   .debug_str:00000000000000c8 .LASF89
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1437   .debug_str:00000000000004df .LASF90
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1417   .debug_str:0000000000000452 .LASF91
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1333   .debug_str:00000000000001a3 .LASF92
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1439   .debug_str:00000000000004f1 .LASF93
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:1325   .debug_str:0000000000000166 .LASF94
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:229    .text.USART0_IRQHandler:0000000000000002 .LCFI5
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:304    .text.USART0_IRQHandler:000000000000004e .LCFI6
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:137    .text.eclic_mtip_handler:0000000000000002 .LCFI3
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:212    .text.eclic_mtip_handler:000000000000004e .LCFI4
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:28     .text.eclicw_enable:000000000000000c .LCFI0
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:105    .text.eclicw_enable:0000000000000086 .LCFI1
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:110    .text.eclicw_enable:0000000000000088 .LCFI2
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:18     .text.eclicw_enable:0000000000000000 .LVL0
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:51     .text.eclicw_enable:0000000000000026 .LVL1
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:94     .text.eclicw_enable:000000000000007e .LVL8
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:108    .text.eclicw_enable:0000000000000088 .LVL12
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:103    .text.eclicw_enable:0000000000000084 .LVL11
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:100    .text.eclicw_enable:0000000000000082 .LVL10
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:97     .text.eclicw_enable:0000000000000080 .LVL9
-C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s:339    .debug_info:0000000000000000 .Ldebug_info0
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1351   .debug_str:000000000000028f .LASF75
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1397   .debug_str:00000000000003cb .LASF76
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1333   .debug_str:000000000000020e .LASF77
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1399   .debug_str:00000000000003e2 .LASF78
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1435   .debug_str:00000000000004d7 .LASF99
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1385   .debug_str:0000000000000373 .LASF79
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1467   .debug_str:00000000000005c4 .LASF80
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1319   .debug_str:00000000000001a8 .LASF81
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1451   .debug_str:0000000000000552 .LASF82
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:223    .text.USART0_IRQHandler:0000000000000000 .LFB4
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:308    .text.USART0_IRQHandler:0000000000000052 .LFE4
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1113   .debug_loc:0000000000000000 .LLST6
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1405   .debug_str:0000000000000403 .LASF83
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:131    .text.eclic_mtip_handler:0000000000000000 .LFB3
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:216    .text.eclic_mtip_handler:0000000000000052 .LFE3
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1131   .debug_loc:000000000000002d .LLST5
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1311   .debug_str:0000000000000109 .LASF100
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:14     .text.eclicw_enable:0000000000000000 .LFB2
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:124    .text.eclicw_enable:000000000000009a .LFE2
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1149   .debug_loc:000000000000005a .LLST0
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1473   .debug_str:00000000000005e2 .LASF84
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1172   .debug_loc:0000000000000092 .LLST1
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1465   .debug_str:00000000000005be .LASF85
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1194   .debug_loc:00000000000000c9 .LLST2
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1303   .debug_str:00000000000000de .LASF86
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1216   .debug_loc:0000000000000100 .LLST3
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1413   .debug_str:0000000000000441 .LASF87
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1238   .debug_loc:0000000000000137 .LLST4
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1481   .debug_str:000000000000060f .LASF88
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:59     .text.eclicw_enable:0000000000000034 .LVL2
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:62     .text.eclicw_enable:000000000000003c .LVL3
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:67     .text.eclicw_enable:0000000000000046 .LVL4
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:71     .text.eclicw_enable:0000000000000050 .LVL5
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:76     .text.eclicw_enable:000000000000005e .LVL6
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:81     .text.eclicw_enable:000000000000006c .LVL7
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1299   .debug_str:00000000000000c8 .LASF89
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1439   .debug_str:00000000000004fb .LASF90
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1419   .debug_str:000000000000046e .LASF91
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1335   .debug_str:0000000000000216 .LASF92
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1381   .debug_str:000000000000034e .LASF93
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:1327   .debug_str:00000000000001d9 .LASF94
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:229    .text.USART0_IRQHandler:0000000000000002 .LCFI5
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:304    .text.USART0_IRQHandler:000000000000004e .LCFI6
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:137    .text.eclic_mtip_handler:0000000000000002 .LCFI3
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:212    .text.eclic_mtip_handler:000000000000004e .LCFI4
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:28     .text.eclicw_enable:000000000000000c .LCFI0
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:105    .text.eclicw_enable:0000000000000086 .LCFI1
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:110    .text.eclicw_enable:0000000000000088 .LCFI2
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:18     .text.eclicw_enable:0000000000000000 .LVL0
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:51     .text.eclicw_enable:0000000000000026 .LVL1
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:94     .text.eclicw_enable:000000000000007e .LVL8
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:108    .text.eclicw_enable:0000000000000088 .LVL12
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:103    .text.eclicw_enable:0000000000000084 .LVL11
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:100    .text.eclicw_enable:0000000000000082 .LVL10
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:97     .text.eclicw_enable:0000000000000080 .LVL9
+C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s:339    .debug_info:0000000000000000 .Ldebug_info0
 
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccXQtHhh.s 			page 13
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc2FH7gN.s 			page 13
 
 
 UNDEFINED SYMBOLS

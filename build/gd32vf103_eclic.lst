@@ -1,4 +1,4 @@
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s 			page 1
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s 			page 1
 
 
    1              		.file	"gd32vf103_eclic.c"
@@ -58,7 +58,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s 			page 1
   41:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_eclic.c **** 
   42:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_eclic.c **** /*!
   43:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_eclic.c ****     \brief      enable the global interrupt
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s 			page 2
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s 			page 2
 
 
   44:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_eclic.c ****     \param[in]  none
@@ -118,7 +118,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s 			page 1
   64              	}
   51              		csrrc a5, mstatus, 8
   52              	# 0 "" 2
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s 			page 3
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s 			page 3
 
 
   53              	.LVL1:
@@ -178,7 +178,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s 			page 1
   91:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_eclic.c **** {
   83              		.loc 1 91 1
   84              		.cfi_startproc
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s 			page 4
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s 			page 4
 
 
   85              	.LVL4:
@@ -238,7 +238,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s 			page 1
  129              		.align	1
  130              		.globl	eclic_irq_disable
  132              	eclic_irq_disable:
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s 			page 5
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s 			page 5
 
 
  133              	.LFB6:
@@ -298,7 +298,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s 			page 1
  166              		.section	.text.eclic_send_event,"ax",@progbits
  167              		.align	1
  168              		.globl	eclic_send_event
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s 			page 6
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s 			page 6
 
 
  170              	eclic_send_event:
@@ -340,170 +340,170 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s 			page 1
  195              		.file 3 "c:\\users\\jesper\\documents\\ml_sommarjobb\\toolchain-gd32v-v201-win\\toolchain-gd32v-v2
  196              		.file 4 "./../../firmware/RISCV/drivers/n200_func.h"
  197              		.file 5 "./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.h"
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s 			page 7
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s 			page 7
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 gd32vf103_eclic.c
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:13     .text.eclic_global_interrupt_enable:0000000000000000 eclic_global_interrupt_enable
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:17     .text.eclic_global_interrupt_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:18     .text.eclic_global_interrupt_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:20     .text.eclic_global_interrupt_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:21     .text.eclic_global_interrupt_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:22     .text.eclic_global_interrupt_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:13     .text.eclic_global_interrupt_enable:0000000000000000 eclic_global_interrupt_enable
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:17     .text.eclic_global_interrupt_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:18     .text.eclic_global_interrupt_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:20     .text.eclic_global_interrupt_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:21     .text.eclic_global_interrupt_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:22     .text.eclic_global_interrupt_enable:0000000000000000 .L0 
 ./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_eclic.c:51     .text.eclic_global_interrupt_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:31     .text.eclic_global_interrupt_enable:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:32     .text.eclic_global_interrupt_enable:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:33     .text.eclic_global_interrupt_enable:0000000000000006 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:40     .text.eclic_global_interrupt_disable:0000000000000000 eclic_global_interrupt_disable
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:43     .text.eclic_global_interrupt_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:44     .text.eclic_global_interrupt_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:46     .text.eclic_global_interrupt_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:47     .text.eclic_global_interrupt_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:48     .text.eclic_global_interrupt_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:31     .text.eclic_global_interrupt_enable:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:32     .text.eclic_global_interrupt_enable:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:33     .text.eclic_global_interrupt_enable:0000000000000006 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:40     .text.eclic_global_interrupt_disable:0000000000000000 eclic_global_interrupt_disable
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:43     .text.eclic_global_interrupt_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:44     .text.eclic_global_interrupt_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:46     .text.eclic_global_interrupt_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:47     .text.eclic_global_interrupt_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:48     .text.eclic_global_interrupt_disable:0000000000000000 .L0 
 ./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_eclic.c:63     .text.eclic_global_interrupt_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:57     .text.eclic_global_interrupt_disable:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:58     .text.eclic_global_interrupt_disable:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:59     .text.eclic_global_interrupt_disable:0000000000000006 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:66     .text.eclic_priority_group_set:0000000000000000 eclic_priority_group_set
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:69     .text.eclic_priority_group_set:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:71     .text.eclic_priority_group_set:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:72     .text.eclic_priority_group_set:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:74     .text.eclic_priority_group_set:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:81     .text.eclic_irq_enable:0000000000000000 eclic_irq_enable
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:84     .text.eclic_irq_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:86     .text.eclic_irq_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:87     .text.eclic_irq_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:88     .text.eclic_irq_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:90     .text.eclic_irq_enable:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:93     .text.eclic_irq_enable:0000000000000006 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:94     .text.eclic_irq_enable:0000000000000006 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:96     .text.eclic_irq_enable:0000000000000006 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:100    .text.eclic_irq_enable:000000000000000c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:103    .text.eclic_irq_enable:0000000000000014 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:108    .text.eclic_irq_enable:0000000000000020 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:111    .text.eclic_irq_enable:0000000000000024 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:112    .text.eclic_irq_enable:0000000000000026 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:115    .text.eclic_irq_enable:0000000000000028 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:117    .text.eclic_irq_enable:0000000000000028 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:119    .text.eclic_irq_enable:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:121    .text.eclic_irq_enable:000000000000002c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:123    .text.eclic_irq_enable:000000000000002c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:125    .text.eclic_irq_enable:0000000000000034 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:132    .text.eclic_irq_disable:0000000000000000 eclic_irq_disable
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:135    .text.eclic_irq_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:137    .text.eclic_irq_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:138    .text.eclic_irq_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:140    .text.eclic_irq_disable:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:147    .text.eclic_system_reset:0000000000000000 eclic_system_reset
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:150    .text.eclic_system_reset:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:151    .text.eclic_system_reset:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:152    .text.eclic_system_reset:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:153    .text.eclic_system_reset:0000000000000000 .L0 
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s 			page 8
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:57     .text.eclic_global_interrupt_disable:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:58     .text.eclic_global_interrupt_disable:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:59     .text.eclic_global_interrupt_disable:0000000000000006 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:66     .text.eclic_priority_group_set:0000000000000000 eclic_priority_group_set
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:69     .text.eclic_priority_group_set:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:71     .text.eclic_priority_group_set:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:72     .text.eclic_priority_group_set:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:74     .text.eclic_priority_group_set:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:81     .text.eclic_irq_enable:0000000000000000 eclic_irq_enable
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:84     .text.eclic_irq_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:86     .text.eclic_irq_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:87     .text.eclic_irq_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:88     .text.eclic_irq_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:90     .text.eclic_irq_enable:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:93     .text.eclic_irq_enable:0000000000000006 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:94     .text.eclic_irq_enable:0000000000000006 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:96     .text.eclic_irq_enable:0000000000000006 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:100    .text.eclic_irq_enable:000000000000000c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:103    .text.eclic_irq_enable:0000000000000014 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:108    .text.eclic_irq_enable:0000000000000020 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:111    .text.eclic_irq_enable:0000000000000024 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:112    .text.eclic_irq_enable:0000000000000026 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:115    .text.eclic_irq_enable:0000000000000028 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:117    .text.eclic_irq_enable:0000000000000028 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:119    .text.eclic_irq_enable:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:121    .text.eclic_irq_enable:000000000000002c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:123    .text.eclic_irq_enable:000000000000002c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:125    .text.eclic_irq_enable:0000000000000034 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:132    .text.eclic_irq_disable:0000000000000000 eclic_irq_disable
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:135    .text.eclic_irq_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:137    .text.eclic_irq_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:138    .text.eclic_irq_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:140    .text.eclic_irq_disable:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:147    .text.eclic_system_reset:0000000000000000 eclic_system_reset
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:150    .text.eclic_system_reset:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:151    .text.eclic_system_reset:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:152    .text.eclic_system_reset:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:153    .text.eclic_system_reset:0000000000000000 .L0 
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s 			page 8
 
 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:158    .text.eclic_system_reset:000000000000000e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:159    .text.eclic_system_reset:000000000000000e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:162    .text.eclic_system_reset:0000000000000012 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:163    .text.eclic_system_reset:0000000000000014 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:170    .text.eclic_send_event:0000000000000000 eclic_send_event
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:173    .text.eclic_send_event:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:174    .text.eclic_send_event:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:176    .text.eclic_send_event:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:177    .text.eclic_send_event:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:178    .text.eclic_send_event:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:158    .text.eclic_system_reset:000000000000000e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:159    .text.eclic_system_reset:000000000000000e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:162    .text.eclic_system_reset:0000000000000012 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:163    .text.eclic_system_reset:0000000000000014 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:170    .text.eclic_send_event:0000000000000000 eclic_send_event
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:173    .text.eclic_send_event:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:174    .text.eclic_send_event:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:176    .text.eclic_send_event:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:177    .text.eclic_send_event:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:178    .text.eclic_send_event:0000000000000000 .L0 
 ./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_eclic.c:128    .text.eclic_send_event:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:187    .text.eclic_send_event:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:188    .text.eclic_send_event:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:189    .text.eclic_send_event:0000000000000006 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:36     .text.eclic_global_interrupt_enable:0000000000000006 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:62     .text.eclic_global_interrupt_disable:0000000000000006 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:77     .text.eclic_priority_group_set:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:128    .text.eclic_irq_enable:0000000000000034 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:143    .text.eclic_irq_disable:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:166    .text.eclic_system_reset:0000000000000014 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:192    .text.eclic_send_event:0000000000000006 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:187    .text.eclic_send_event:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:188    .text.eclic_send_event:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:189    .text.eclic_send_event:0000000000000006 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:36     .text.eclic_global_interrupt_enable:0000000000000006 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:62     .text.eclic_global_interrupt_disable:0000000000000006 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:77     .text.eclic_priority_group_set:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:128    .text.eclic_irq_enable:0000000000000034 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:143    .text.eclic_irq_disable:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:166    .text.eclic_system_reset:0000000000000014 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:192    .text.eclic_send_event:0000000000000006 .L0 
                      .debug_frame:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:563    .debug_abbrev:0000000000000000 .Ldebug_abbrev0
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:1020   .debug_str:00000000000001b7 .LASF30
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:1026   .debug_str:00000000000002b5 .LASF31
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:1024   .debug_str:0000000000000248 .LASF32
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:946    .debug_ranges:0000000000000000 .Ldebug_ranges0
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:964    .debug_line:0000000000000000 .Ldebug_line0
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:998    .debug_str:0000000000000101 .LASF0
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:1030   .debug_str:0000000000000309 .LASF1
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:970    .debug_str:000000000000002c .LASF6
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:984    .debug_str:00000000000000a3 .LASF2
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:1014   .debug_str:0000000000000185 .LASF3
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:988    .debug_str:00000000000000c3 .LASF4
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:972    .debug_str:0000000000000036 .LASF5
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:996    .debug_str:00000000000000f6 .LASF7
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:986    .debug_str:00000000000000b1 .LASF8
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:966    .debug_str:0000000000000000 .LASF9
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:1002   .debug_str:0000000000000126 .LASF10
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:1004   .debug_str:000000000000013d .LASF11
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:1022   .debug_str:000000000000023f .LASF12
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:1010   .debug_str:000000000000015c .LASF33
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:1028   .debug_str:00000000000002fd .LASF13
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:1006   .debug_str:0000000000000145 .LASF14
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:171    .text.eclic_send_event:0000000000000000 .LFB8
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:190    .text.eclic_send_event:0000000000000006 .LFE8
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:175    .text.eclic_send_event:0000000000000000 .LBB4
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:186    .text.eclic_send_event:0000000000000004 .LBE4
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:994    .debug_str:00000000000000f0 .LASF23
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:974    .debug_str:000000000000003f .LASF34
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:148    .text.eclic_system_reset:0000000000000000 .LFB7
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:164    .text.eclic_system_reset:0000000000000014 .LFE7
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:980    .debug_str:0000000000000088 .LASF15
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:133    .text.eclic_irq_disable:0000000000000000 .LFB6
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:141    .text.eclic_irq_disable:0000000000000008 .LFE6
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:1032   .debug_str:0000000000000315 .LASF17
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:825    .debug_loc:0000000000000000 .LLST5
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s 			page 9
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:563    .debug_abbrev:0000000000000000 .Ldebug_abbrev0
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:1020   .debug_str:0000000000000221 .LASF30
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:1026   .debug_str:00000000000002bb .LASF31
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:980    .debug_str:0000000000000091 .LASF32
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:946    .debug_ranges:0000000000000000 .Ldebug_ranges0
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:964    .debug_line:0000000000000000 .Ldebug_line0
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:998    .debug_str:000000000000016b .LASF0
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:1030   .debug_str:000000000000030f .LASF1
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:970    .debug_str:000000000000002c .LASF6
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:984    .debug_str:000000000000010d .LASF2
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:1014   .debug_str:00000000000001ef .LASF3
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:988    .debug_str:000000000000012d .LASF4
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:1024   .debug_str:00000000000002b2 .LASF5
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:996    .debug_str:0000000000000160 .LASF7
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:986    .debug_str:000000000000011b .LASF8
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:966    .debug_str:0000000000000000 .LASF9
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:1002   .debug_str:0000000000000190 .LASF10
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:1004   .debug_str:00000000000001a7 .LASF11
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:1022   .debug_str:00000000000002a9 .LASF12
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:1010   .debug_str:00000000000001c6 .LASF33
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:1028   .debug_str:0000000000000303 .LASF13
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:1006   .debug_str:00000000000001af .LASF14
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:171    .text.eclic_send_event:0000000000000000 .LFB8
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:190    .text.eclic_send_event:0000000000000006 .LFE8
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:175    .text.eclic_send_event:0000000000000000 .LBB4
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:186    .text.eclic_send_event:0000000000000004 .LBE4
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:994    .debug_str:000000000000015a .LASF23
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:972    .debug_str:0000000000000036 .LASF34
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:148    .text.eclic_system_reset:0000000000000000 .LFB7
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:164    .text.eclic_system_reset:0000000000000014 .LFE7
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:978    .debug_str:000000000000007f .LASF15
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:133    .text.eclic_irq_disable:0000000000000000 .LFB6
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:141    .text.eclic_irq_disable:0000000000000008 .LFE6
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:1032   .debug_str:000000000000031b .LASF17
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:825    .debug_loc:0000000000000000 .LLST5
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s 			page 9
 
 
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:139    .text.eclic_irq_disable:0000000000000008 .LVL10
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:992    .debug_str:00000000000000df .LASF16
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:82     .text.eclic_irq_enable:0000000000000000 .LFB5
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:126    .text.eclic_irq_enable:0000000000000034 .LFE5
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:839    .debug_loc:0000000000000021 .LLST1
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:857    .debug_loc:000000000000004d .LLST2
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:1008   .debug_str:0000000000000156 .LASF18
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:879    .debug_loc:0000000000000084 .LLST3
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:990    .debug_str:00000000000000d6 .LASF19
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:893    .debug_loc:00000000000000a5 .LLST4
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:101    .text.eclic_irq_enable:0000000000000014 .LVL5
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:106    .text.eclic_irq_enable:0000000000000020 .LVL6
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:124    .text.eclic_irq_enable:0000000000000034 .LVL8
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:1012   .debug_str:000000000000016c .LASF20
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:67     .text.eclic_priority_group_set:0000000000000000 .LFB4
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:75     .text.eclic_priority_group_set:0000000000000008 .LFE4
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:982    .debug_str:000000000000009a .LASF21
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:907    .debug_loc:00000000000000c6 .LLST0
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:73     .text.eclic_priority_group_set:0000000000000008 .LVL3
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:978    .debug_str:0000000000000069 .LASF22
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:41     .text.eclic_global_interrupt_disable:0000000000000000 .LFB3
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:60     .text.eclic_global_interrupt_disable:0000000000000006 .LFE3
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:45     .text.eclic_global_interrupt_disable:0000000000000000 .LBB3
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:56     .text.eclic_global_interrupt_disable:0000000000000004 .LBE3
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:968    .debug_str:000000000000000e .LASF24
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:14     .text.eclic_global_interrupt_enable:0000000000000000 .LFB2
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:34     .text.eclic_global_interrupt_enable:0000000000000006 .LFE2
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:19     .text.eclic_global_interrupt_enable:0000000000000000 .LBB2
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:30     .text.eclic_global_interrupt_enable:0000000000000004 .LBE2
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:1000   .debug_str:000000000000010e .LASF25
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:976    .debug_str:0000000000000052 .LASF26
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:1034   .debug_str:000000000000031c .LASF27
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:1016   .debug_str:000000000000018f .LASF28
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:1018   .debug_str:00000000000001a6 .LASF29
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:136    .text.eclic_irq_disable:0000000000000000 .LVL9
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:89     .text.eclic_irq_enable:0000000000000002 .LCFI0
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:120    .text.eclic_irq_enable:000000000000002c .LCFI1
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:85     .text.eclic_irq_enable:0000000000000000 .LVL4
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:113    .text.eclic_irq_enable:0000000000000026 .LVL7
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:70     .text.eclic_priority_group_set:0000000000000000 .LVL2
-C:\Users\Jesper\AppData\Local\Temp\ccKDetya.s:199    .debug_info:0000000000000000 .Ldebug_info0
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:139    .text.eclic_irq_disable:0000000000000008 .LVL10
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:992    .debug_str:0000000000000149 .LASF16
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:82     .text.eclic_irq_enable:0000000000000000 .LFB5
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:126    .text.eclic_irq_enable:0000000000000034 .LFE5
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:839    .debug_loc:0000000000000021 .LLST1
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:857    .debug_loc:000000000000004d .LLST2
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:1008   .debug_str:00000000000001c0 .LASF18
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:879    .debug_loc:0000000000000084 .LLST3
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:990    .debug_str:0000000000000140 .LASF19
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:893    .debug_loc:00000000000000a5 .LLST4
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:101    .text.eclic_irq_enable:0000000000000014 .LVL5
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:106    .text.eclic_irq_enable:0000000000000020 .LVL6
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:124    .text.eclic_irq_enable:0000000000000034 .LVL8
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:1012   .debug_str:00000000000001d6 .LASF20
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:67     .text.eclic_priority_group_set:0000000000000000 .LFB4
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:75     .text.eclic_priority_group_set:0000000000000008 .LFE4
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:982    .debug_str:0000000000000104 .LASF21
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:907    .debug_loc:00000000000000c6 .LLST0
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:73     .text.eclic_priority_group_set:0000000000000008 .LVL3
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:976    .debug_str:0000000000000060 .LASF22
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:41     .text.eclic_global_interrupt_disable:0000000000000000 .LFB3
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:60     .text.eclic_global_interrupt_disable:0000000000000006 .LFE3
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:45     .text.eclic_global_interrupt_disable:0000000000000000 .LBB3
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:56     .text.eclic_global_interrupt_disable:0000000000000004 .LBE3
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:968    .debug_str:000000000000000e .LASF24
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:14     .text.eclic_global_interrupt_enable:0000000000000000 .LFB2
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:34     .text.eclic_global_interrupt_enable:0000000000000006 .LFE2
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:19     .text.eclic_global_interrupt_enable:0000000000000000 .LBB2
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:30     .text.eclic_global_interrupt_enable:0000000000000004 .LBE2
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:1000   .debug_str:0000000000000178 .LASF25
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:974    .debug_str:0000000000000049 .LASF26
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:1034   .debug_str:0000000000000322 .LASF27
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:1016   .debug_str:00000000000001f9 .LASF28
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:1018   .debug_str:0000000000000210 .LASF29
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:136    .text.eclic_irq_disable:0000000000000000 .LVL9
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:89     .text.eclic_irq_enable:0000000000000002 .LCFI0
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:120    .text.eclic_irq_enable:000000000000002c .LCFI1
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:85     .text.eclic_irq_enable:0000000000000000 .LVL4
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:113    .text.eclic_irq_enable:0000000000000026 .LVL7
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:70     .text.eclic_priority_group_set:0000000000000000 .LVL2
+C:\Users\Jesper\AppData\Local\Temp\ccuPmZ1Z.s:199    .debug_info:0000000000000000 .Ldebug_info0
 
 UNDEFINED SYMBOLS
 eclic_set_nlbits

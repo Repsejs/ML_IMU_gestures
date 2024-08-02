@@ -1,4 +1,4 @@
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 1
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s 			page 1
 
 
    1              		.file	"gd32vf103_gpio.c"
@@ -58,7 +58,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 1
   41:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c **** #define PCF_POSITION_MASK                  ((uint32_t)0x000F0000U)  /*!< AFIO_PCF register position
   42:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c **** #define PCF_SWJCFG_MASK                    ((uint32_t)0xF0FFFFFFU)  /*!< AFIO_PCF register SWJCFG m
   43:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c **** #define PCF_LOCATION1_MASK                 ((uint32_t)0x00200000U)  /*!< AFIO_PCF register location
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 2
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s 			page 2
 
 
   44:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c **** #define PCF_LOCATION2_MASK                 ((uint32_t)0x00100000U)  /*!< AFIO_PCF register location
@@ -118,7 +118,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 1
   78:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****         /* reset GPIOE */
   79:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****         rcu_periph_reset_enable(RCU_GPIOERST);
   80:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****         rcu_periph_reset_disable(RCU_GPIOERST);
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 3
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s 			page 3
 
 
   81:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****         break;
@@ -178,7 +178,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 1
   80:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****         break;
   77              		.loc 1 80 9
   78 0060 17030000 		tail	rcu_periph_reset_disable
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 4
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s 			page 4
 
 
   78      67000300 
@@ -238,7 +238,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 1
   91:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****     \retval     none
   92:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c **** */
   93:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c **** void gpio_afio_deinit(void)
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 5
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s 			page 5
 
 
   94:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c **** {
@@ -298,7 +298,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 1
  107:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****       \arg        GPIO_MODE_IPU: pull-up input mode
  108:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****       \arg        GPIO_MODE_OUT_OD: GPIO output with open-drain
  109:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****       \arg        GPIO_MODE_OUT_PP: GPIO output with push-pull
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 6
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s 			page 6
 
 
  110:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****       \arg        GPIO_MODE_AF_OD: AFIO output with open-drain
@@ -358,7 +358,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 1
  126:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****     uint16_t i;
  178              		.loc 1 126 1 is_stmt 0
  179 000e 8147     		li	a5,0
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 7
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s 			page 7
 
 
  142:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****         if ((1U << i) & pin) {
@@ -418,7 +418,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 1
  146:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****             /* set the specified pin mode bits */
  209              		.loc 1 146 17
  210 0036 33785800 		and	a6,a6,t0
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 8
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s 			page 8
 
 
  211              	.LVL22:
@@ -478,7 +478,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 1
  238              		.loc 1 175 16
  239 0054 130F8002 		li	t5,40
  176:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****                 /* reset the corresponding OCTL bit */
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 9
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s 			page 9
 
 
  177:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****                 GPIO_BC(gpio_periph) = (uint32_t) ((1U << i) & pin);
@@ -538,7 +538,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 1
  274              		.loc 1 175 13 is_stmt 1
  175:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****                 /* reset the corresponding OCTL bit */
  275              		.loc 1 175 16 is_stmt 0
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 10
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s 			page 10
 
 
  276 0084 639CE501 		bne	a1,t5,.L20
@@ -598,7 +598,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 1
  312              		.section	.text.gpio_bit_set,"ax",@progbits
  313              		.align	1
  314              		.globl	gpio_bit_set
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 11
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s 			page 11
 
 
  316              	gpio_bit_set:
@@ -658,7 +658,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 1
  344              	.LFE6:
  346              		.section	.text.gpio_bit_write,"ax",@progbits
  347              		.align	1
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 12
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s 			page 12
 
 
  348              		.globl	gpio_bit_write
@@ -718,7 +718,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 1
  245:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****     \retval     none
  246:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c **** */
  247:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c **** void gpio_port_write(uint32_t gpio_periph, uint16_t data)
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 13
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s 			page 13
 
 
  248:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c **** {
@@ -778,7 +778,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 1
  414              	.LFB10:
  269:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c **** 
  270:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c **** /*!
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 14
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s 			page 14
 
 
  271:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****     \brief      get GPIO port input status
@@ -838,7 +838,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 1
  444              		.loc 1 297 1
  445 0004 3335A000 		snez	a0,a0
  446 0008 8280     		ret
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 15
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s 			page 15
 
 
  447              		.cfi_endproc
@@ -898,7 +898,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 1
  327:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****       \arg        GPIO_TIMER3_REMAP: TIMER3 remapping
  328:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****       \arg        GPIO_CAN0_PARTIAL_REMAP: CAN0 partial remapping
  329:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****       \arg        GPIO_CAN0_FULL_REMAP: CAN0 full remapping
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 16
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s 			page 16
 
 
  330:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****       \arg        GPIO_PD01_REMAP: PD01 remapping
@@ -958,7 +958,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 1
  355:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****     remap1 = remap & LSB_16BIT_MASK;
  498              		.loc 1 355 12
  499 0016 4183     		srli	a4,a4,16
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 17
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s 			page 17
 
 
  500              	.LVL47:
@@ -1018,7 +1018,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 1
  376:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****     if (AFIO_PCF1_FIELDS == (remap & AFIO_PCF1_FIELDS)) {
  535              		.loc 1 376 5 is_stmt 1
  377:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****         /* set AFIO_PCF1 regiter value */
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 18
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s 			page 18
 
 
  378:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****         AFIO_PCF1 = temp_reg;
@@ -1078,7 +1078,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 1
  575              		.loc 1 368 18 is_stmt 0
  576 006e B706000F 		li	a3,251658240
  577 0072 D58F     		or	a5,a5,a3
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 19
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s 			page 19
 
 
  578              	.LVL58:
@@ -1138,7 +1138,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 1
  400:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****     uint32_t source = 0U;
  609              		.loc 1 400 5
  401:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****     source = ((uint32_t) 0x0FU)
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 20
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s 			page 20
 
 
  610              		.loc 1 401 5
@@ -1198,7 +1198,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 1
  650              		.loc 1 414 9 is_stmt 1
  651              		.loc 1 414 22 is_stmt 0
  652 003c D847     		lw	a4,12(a5)
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 21
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s 			page 21
 
 
  653 003e 598D     		or	a0,a4,a0
@@ -1258,7 +1258,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 1
  692              		.globl	gpio_event_output_config
  694              	gpio_event_output_config:
  695              	.LFB15:
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 22
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s 			page 22
 
 
  431:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c **** 
@@ -1318,7 +1318,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 1
  720              		.loc 1 458 13 is_stmt 0
  721 0010 0CC3     		sw	a1,0(a4)
  459:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c **** }
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 23
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s 			page 23
 
 
  722              		.loc 1 459 1
@@ -1378,7 +1378,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 1
  759 000a 1CC3     		sw	a5,0(a4)
  481:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c **** }
  760              		.loc 1 481 1
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 24
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s 			page 24
 
 
  761 000c 8280     		ret
@@ -1438,7 +1438,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 1
  503:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c **** }
  796              		.loc 1 503 1
  797 000e 8280     		ret
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 25
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s 			page 25
 
 
  798              		.cfi_endproc
@@ -1451,637 +1451,637 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 1
  806              		.file 5 "./../../firmware/GD32VF103_standard_peripheral/Include/gd32vf103_rcu.h"
  807              		.file 6 "./../../firmware/GD32VF103_standard_peripheral/Include/gd32vf103_gpio.h"
  808              		.file 7 "./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.h"
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 26
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s 			page 26
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 gd32vf103_gpio.c
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:13     .text.gpio_deinit:0000000000000000 gpio_deinit
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:17     .text.gpio_deinit:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:19     .text.gpio_deinit:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:20     .text.gpio_deinit:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:21     .text.gpio_deinit:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:23     .text.gpio_deinit:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:25     .text.gpio_deinit:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:27     .text.gpio_deinit:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:36     .text.gpio_deinit:0000000000000020 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:37     .text.gpio_deinit:0000000000000022 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:38     .text.gpio_deinit:0000000000000022 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:41     .text.gpio_deinit:0000000000000024 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:45     .text.gpio_deinit:0000000000000026 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:47     .text.gpio_deinit:0000000000000026 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:53     .text.gpio_deinit:000000000000003a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:58     .text.gpio_deinit:0000000000000046 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:63     .text.gpio_deinit:000000000000004c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:68     .text.gpio_deinit:0000000000000058 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:71     .text.gpio_deinit:000000000000005c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:72     .text.gpio_deinit:000000000000005e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:73     .text.gpio_deinit:000000000000005e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:76     .text.gpio_deinit:0000000000000060 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:78     .text.gpio_deinit:0000000000000060 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:82     .text.gpio_deinit:0000000000000068 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:84     .text.gpio_deinit:0000000000000068 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:89     .text.gpio_deinit:0000000000000074 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:94     .text.gpio_deinit:000000000000007a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:99     .text.gpio_deinit:0000000000000086 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:104    .text.gpio_deinit:000000000000008c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:109    .text.gpio_deinit:0000000000000098 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:111    .text.gpio_deinit:000000000000009e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:118    .text.gpio_afio_deinit:0000000000000000 gpio_afio_deinit
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:121    .text.gpio_afio_deinit:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:122    .text.gpio_afio_deinit:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:123    .text.gpio_afio_deinit:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:124    .text.gpio_afio_deinit:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:126    .text.gpio_afio_deinit:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:128    .text.gpio_afio_deinit:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:130    .text.gpio_afio_deinit:0000000000000006 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:131    .text.gpio_afio_deinit:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:133    .text.gpio_afio_deinit:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:136    .text.gpio_afio_deinit:0000000000000010 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:137    .text.gpio_afio_deinit:0000000000000010 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:138    .text.gpio_afio_deinit:0000000000000012 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:140    .text.gpio_afio_deinit:0000000000000012 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:142    .text.gpio_afio_deinit:0000000000000016 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:144    .text.gpio_afio_deinit:0000000000000018 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:146    .text.gpio_afio_deinit:0000000000000018 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:148    .text.gpio_afio_deinit:0000000000000020 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:155    .text.gpio_init:0000000000000000 gpio_init
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:158    .text.gpio_init:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:160    .text.gpio_init:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:161    .text.gpio_init:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:162    .text.gpio_init:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:163    .text.gpio_init:0000000000000000 .L0 
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 27
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:13     .text.gpio_deinit:0000000000000000 gpio_deinit
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:17     .text.gpio_deinit:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:19     .text.gpio_deinit:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:20     .text.gpio_deinit:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:21     .text.gpio_deinit:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:23     .text.gpio_deinit:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:25     .text.gpio_deinit:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:27     .text.gpio_deinit:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:36     .text.gpio_deinit:0000000000000020 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:37     .text.gpio_deinit:0000000000000022 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:38     .text.gpio_deinit:0000000000000022 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:41     .text.gpio_deinit:0000000000000024 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:45     .text.gpio_deinit:0000000000000026 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:47     .text.gpio_deinit:0000000000000026 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:53     .text.gpio_deinit:000000000000003a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:58     .text.gpio_deinit:0000000000000046 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:63     .text.gpio_deinit:000000000000004c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:68     .text.gpio_deinit:0000000000000058 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:71     .text.gpio_deinit:000000000000005c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:72     .text.gpio_deinit:000000000000005e .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:73     .text.gpio_deinit:000000000000005e .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:76     .text.gpio_deinit:0000000000000060 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:78     .text.gpio_deinit:0000000000000060 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:82     .text.gpio_deinit:0000000000000068 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:84     .text.gpio_deinit:0000000000000068 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:89     .text.gpio_deinit:0000000000000074 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:94     .text.gpio_deinit:000000000000007a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:99     .text.gpio_deinit:0000000000000086 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:104    .text.gpio_deinit:000000000000008c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:109    .text.gpio_deinit:0000000000000098 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:111    .text.gpio_deinit:000000000000009e .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:118    .text.gpio_afio_deinit:0000000000000000 gpio_afio_deinit
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:121    .text.gpio_afio_deinit:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:122    .text.gpio_afio_deinit:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:123    .text.gpio_afio_deinit:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:124    .text.gpio_afio_deinit:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:126    .text.gpio_afio_deinit:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:128    .text.gpio_afio_deinit:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:130    .text.gpio_afio_deinit:0000000000000006 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:131    .text.gpio_afio_deinit:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:133    .text.gpio_afio_deinit:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:136    .text.gpio_afio_deinit:0000000000000010 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:137    .text.gpio_afio_deinit:0000000000000010 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:138    .text.gpio_afio_deinit:0000000000000012 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:140    .text.gpio_afio_deinit:0000000000000012 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:142    .text.gpio_afio_deinit:0000000000000016 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:144    .text.gpio_afio_deinit:0000000000000018 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:146    .text.gpio_afio_deinit:0000000000000018 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:148    .text.gpio_afio_deinit:0000000000000020 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:155    .text.gpio_init:0000000000000000 gpio_init
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:158    .text.gpio_init:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:160    .text.gpio_init:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:161    .text.gpio_init:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:162    .text.gpio_init:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:163    .text.gpio_init:0000000000000000 .L0 
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s 			page 27
 
 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:164    .text.gpio_init:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:165    .text.gpio_init:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:167    .text.gpio_init:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:170    .text.gpio_init:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:171    .text.gpio_init:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:173    .text.gpio_init:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:174    .text.gpio_init:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:178    .text.gpio_init:000000000000000e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:179    .text.gpio_init:000000000000000e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:181    .text.gpio_init:0000000000000010 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:183    .text.gpio_init:0000000000000012 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:185    .text.gpio_init:0000000000000014 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:187    .text.gpio_init:0000000000000018 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:189    .text.gpio_init:000000000000001c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:193    .text.gpio_init:000000000000001e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:194    .text.gpio_init:000000000000001e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:196    .text.gpio_init:0000000000000022 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:198    .text.gpio_init:0000000000000024 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:200    .text.gpio_init:0000000000000026 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:202    .text.gpio_init:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:205    .text.gpio_init:000000000000002e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:206    .text.gpio_init:000000000000002e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:208    .text.gpio_init:0000000000000032 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:210    .text.gpio_init:0000000000000036 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:213    .text.gpio_init:000000000000003a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:214    .text.gpio_init:000000000000003a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:216    .text.gpio_init:000000000000003e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:219    .text.gpio_init:0000000000000042 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:220    .text.gpio_init:0000000000000042 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:222    .text.gpio_init:0000000000000046 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:223    .text.gpio_init:0000000000000046 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:226    .text.gpio_init:0000000000000048 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:227    .text.gpio_init:0000000000000048 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:233    .text.gpio_init:000000000000004c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:235    .text.gpio_init:0000000000000050 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:237    .text.gpio_init:0000000000000052 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:239    .text.gpio_init:0000000000000054 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:241    .text.gpio_init:0000000000000058 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:243    .text.gpio_init:000000000000005c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:247    .text.gpio_init:000000000000005e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:248    .text.gpio_init:000000000000005e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:250    .text.gpio_init:0000000000000062 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:252    .text.gpio_init:0000000000000064 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:254    .text.gpio_init:0000000000000066 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:255    .text.gpio_init:0000000000000066 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:258    .text.gpio_init:000000000000006c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:261    .text.gpio_init:0000000000000070 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:262    .text.gpio_init:0000000000000070 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:264    .text.gpio_init:0000000000000074 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:266    .text.gpio_init:0000000000000078 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:269    .text.gpio_init:000000000000007c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:270    .text.gpio_init:000000000000007c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:272    .text.gpio_init:0000000000000080 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:275    .text.gpio_init:0000000000000084 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:276    .text.gpio_init:0000000000000084 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:278    .text.gpio_init:0000000000000088 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:279    .text.gpio_init:0000000000000088 .L0 
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 28
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:164    .text.gpio_init:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:165    .text.gpio_init:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:167    .text.gpio_init:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:170    .text.gpio_init:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:171    .text.gpio_init:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:173    .text.gpio_init:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:174    .text.gpio_init:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:178    .text.gpio_init:000000000000000e .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:179    .text.gpio_init:000000000000000e .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:181    .text.gpio_init:0000000000000010 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:183    .text.gpio_init:0000000000000012 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:185    .text.gpio_init:0000000000000014 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:187    .text.gpio_init:0000000000000018 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:189    .text.gpio_init:000000000000001c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:193    .text.gpio_init:000000000000001e .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:194    .text.gpio_init:000000000000001e .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:196    .text.gpio_init:0000000000000022 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:198    .text.gpio_init:0000000000000024 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:200    .text.gpio_init:0000000000000026 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:202    .text.gpio_init:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:205    .text.gpio_init:000000000000002e .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:206    .text.gpio_init:000000000000002e .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:208    .text.gpio_init:0000000000000032 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:210    .text.gpio_init:0000000000000036 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:213    .text.gpio_init:000000000000003a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:214    .text.gpio_init:000000000000003a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:216    .text.gpio_init:000000000000003e .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:219    .text.gpio_init:0000000000000042 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:220    .text.gpio_init:0000000000000042 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:222    .text.gpio_init:0000000000000046 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:223    .text.gpio_init:0000000000000046 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:226    .text.gpio_init:0000000000000048 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:227    .text.gpio_init:0000000000000048 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:233    .text.gpio_init:000000000000004c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:235    .text.gpio_init:0000000000000050 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:237    .text.gpio_init:0000000000000052 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:239    .text.gpio_init:0000000000000054 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:241    .text.gpio_init:0000000000000058 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:243    .text.gpio_init:000000000000005c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:247    .text.gpio_init:000000000000005e .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:248    .text.gpio_init:000000000000005e .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:250    .text.gpio_init:0000000000000062 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:252    .text.gpio_init:0000000000000064 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:254    .text.gpio_init:0000000000000066 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:255    .text.gpio_init:0000000000000066 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:258    .text.gpio_init:000000000000006c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:261    .text.gpio_init:0000000000000070 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:262    .text.gpio_init:0000000000000070 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:264    .text.gpio_init:0000000000000074 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:266    .text.gpio_init:0000000000000078 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:269    .text.gpio_init:000000000000007c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:270    .text.gpio_init:000000000000007c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:272    .text.gpio_init:0000000000000080 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:275    .text.gpio_init:0000000000000084 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:276    .text.gpio_init:0000000000000084 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:278    .text.gpio_init:0000000000000088 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:279    .text.gpio_init:0000000000000088 .L0 
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s 			page 28
 
 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:282    .text.gpio_init:000000000000008a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:283    .text.gpio_init:000000000000008a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:289    .text.gpio_init:000000000000008e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:291    .text.gpio_init:0000000000000092 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:295    .text.gpio_init:0000000000000094 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:296    .text.gpio_init:0000000000000094 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:298    .text.gpio_init:0000000000000098 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:299    .text.gpio_init:0000000000000098 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:303    .text.gpio_init:000000000000009c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:304    .text.gpio_init:000000000000009c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:306    .text.gpio_init:00000000000000a0 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:307    .text.gpio_init:00000000000000a0 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:309    .text.gpio_init:00000000000000a4 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:316    .text.gpio_bit_set:0000000000000000 gpio_bit_set
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:319    .text.gpio_bit_set:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:321    .text.gpio_bit_set:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:322    .text.gpio_bit_set:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:323    .text.gpio_bit_set:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:325    .text.gpio_bit_set:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:326    .text.gpio_bit_set:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:333    .text.gpio_bit_reset:0000000000000000 gpio_bit_reset
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:336    .text.gpio_bit_reset:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:338    .text.gpio_bit_reset:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:339    .text.gpio_bit_reset:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:340    .text.gpio_bit_reset:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:342    .text.gpio_bit_reset:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:343    .text.gpio_bit_reset:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:350    .text.gpio_bit_write:0000000000000000 gpio_bit_write
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:353    .text.gpio_bit_write:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:355    .text.gpio_bit_write:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:356    .text.gpio_bit_write:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:357    .text.gpio_bit_write:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:359    .text.gpio_bit_write:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:360    .text.gpio_bit_write:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:364    .text.gpio_bit_write:0000000000000006 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:365    .text.gpio_bit_write:0000000000000006 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:367    .text.gpio_bit_write:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:368    .text.gpio_bit_write:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:375    .text.gpio_port_write:0000000000000000 gpio_port_write
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:378    .text.gpio_port_write:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:380    .text.gpio_port_write:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:381    .text.gpio_port_write:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:382    .text.gpio_port_write:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:384    .text.gpio_port_write:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:385    .text.gpio_port_write:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:392    .text.gpio_input_bit_get:0000000000000000 gpio_input_bit_get
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:395    .text.gpio_input_bit_get:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:397    .text.gpio_input_bit_get:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:398    .text.gpio_input_bit_get:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:399    .text.gpio_input_bit_get:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:402    .text.gpio_input_bit_get:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:404    .text.gpio_input_bit_get:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:406    .text.gpio_input_bit_get:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:413    .text.gpio_input_port_get:0000000000000000 gpio_input_port_get
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:416    .text.gpio_input_port_get:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:418    .text.gpio_input_port_get:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:419    .text.gpio_input_port_get:0000000000000000 .L0 
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 29
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:282    .text.gpio_init:000000000000008a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:283    .text.gpio_init:000000000000008a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:289    .text.gpio_init:000000000000008e .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:291    .text.gpio_init:0000000000000092 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:295    .text.gpio_init:0000000000000094 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:296    .text.gpio_init:0000000000000094 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:298    .text.gpio_init:0000000000000098 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:299    .text.gpio_init:0000000000000098 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:303    .text.gpio_init:000000000000009c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:304    .text.gpio_init:000000000000009c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:306    .text.gpio_init:00000000000000a0 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:307    .text.gpio_init:00000000000000a0 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:309    .text.gpio_init:00000000000000a4 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:316    .text.gpio_bit_set:0000000000000000 gpio_bit_set
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:319    .text.gpio_bit_set:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:321    .text.gpio_bit_set:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:322    .text.gpio_bit_set:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:323    .text.gpio_bit_set:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:325    .text.gpio_bit_set:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:326    .text.gpio_bit_set:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:333    .text.gpio_bit_reset:0000000000000000 gpio_bit_reset
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:336    .text.gpio_bit_reset:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:338    .text.gpio_bit_reset:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:339    .text.gpio_bit_reset:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:340    .text.gpio_bit_reset:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:342    .text.gpio_bit_reset:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:343    .text.gpio_bit_reset:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:350    .text.gpio_bit_write:0000000000000000 gpio_bit_write
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:353    .text.gpio_bit_write:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:355    .text.gpio_bit_write:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:356    .text.gpio_bit_write:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:357    .text.gpio_bit_write:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:359    .text.gpio_bit_write:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:360    .text.gpio_bit_write:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:364    .text.gpio_bit_write:0000000000000006 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:365    .text.gpio_bit_write:0000000000000006 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:367    .text.gpio_bit_write:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:368    .text.gpio_bit_write:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:375    .text.gpio_port_write:0000000000000000 gpio_port_write
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:378    .text.gpio_port_write:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:380    .text.gpio_port_write:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:381    .text.gpio_port_write:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:382    .text.gpio_port_write:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:384    .text.gpio_port_write:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:385    .text.gpio_port_write:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:392    .text.gpio_input_bit_get:0000000000000000 gpio_input_bit_get
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:395    .text.gpio_input_bit_get:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:397    .text.gpio_input_bit_get:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:398    .text.gpio_input_bit_get:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:399    .text.gpio_input_bit_get:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:402    .text.gpio_input_bit_get:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:404    .text.gpio_input_bit_get:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:406    .text.gpio_input_bit_get:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:413    .text.gpio_input_port_get:0000000000000000 gpio_input_port_get
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:416    .text.gpio_input_port_get:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:418    .text.gpio_input_port_get:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:419    .text.gpio_input_port_get:0000000000000000 .L0 
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s 			page 29
 
 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:420    .text.gpio_input_port_get:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:423    .text.gpio_input_port_get:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:426    .text.gpio_input_port_get:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:433    .text.gpio_output_bit_get:0000000000000000 gpio_output_bit_get
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:436    .text.gpio_output_bit_get:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:438    .text.gpio_output_bit_get:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:439    .text.gpio_output_bit_get:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:440    .text.gpio_output_bit_get:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:443    .text.gpio_output_bit_get:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:445    .text.gpio_output_bit_get:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:447    .text.gpio_output_bit_get:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:454    .text.gpio_output_port_get:0000000000000000 gpio_output_port_get
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:457    .text.gpio_output_port_get:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:459    .text.gpio_output_port_get:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:460    .text.gpio_output_port_get:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:461    .text.gpio_output_port_get:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:464    .text.gpio_output_port_get:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:467    .text.gpio_output_port_get:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:474    .text.gpio_pin_remap_config:0000000000000000 gpio_pin_remap_config
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:477    .text.gpio_pin_remap_config:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:479    .text.gpio_pin_remap_config:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:480    .text.gpio_pin_remap_config:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:481    .text.gpio_pin_remap_config:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:482    .text.gpio_pin_remap_config:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:484    .text.gpio_pin_remap_config:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:486    .text.gpio_pin_remap_config:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:487    .text.gpio_pin_remap_config:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:491    .text.gpio_pin_remap_config:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:492    .text.gpio_pin_remap_config:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:493    .text.gpio_pin_remap_config:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:495    .text.gpio_pin_remap_config:000000000000000e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:497    .text.gpio_pin_remap_config:0000000000000012 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:499    .text.gpio_pin_remap_config:0000000000000016 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:502    .text.gpio_pin_remap_config:0000000000000018 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:503    .text.gpio_pin_remap_config:0000000000000018 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:505    .text.gpio_pin_remap_config:000000000000001c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:506    .text.gpio_pin_remap_config:000000000000001c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:509    .text.gpio_pin_remap_config:0000000000000022 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:511    .text.gpio_pin_remap_config:0000000000000026 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:514    .text.gpio_pin_remap_config:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:515    .text.gpio_pin_remap_config:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:521    .text.gpio_pin_remap_config:0000000000000034 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:522    .text.gpio_pin_remap_config:0000000000000034 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:524    .text.gpio_pin_remap_config:0000000000000036 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:525    .text.gpio_pin_remap_config:0000000000000036 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:527    .text.gpio_pin_remap_config:000000000000003a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:529    .text.gpio_pin_remap_config:000000000000003c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:532    .text.gpio_pin_remap_config:0000000000000040 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:536    .text.gpio_pin_remap_config:0000000000000042 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:537    .text.gpio_pin_remap_config:0000000000000042 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:539    .text.gpio_pin_remap_config:0000000000000046 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:541    .text.gpio_pin_remap_config:000000000000004a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:542    .text.gpio_pin_remap_config:000000000000004a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:547    .text.gpio_pin_remap_config:000000000000004e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:548    .text.gpio_pin_remap_config:000000000000004e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:554    .text.gpio_pin_remap_config:0000000000000052 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:555    .text.gpio_pin_remap_config:0000000000000052 .L0 
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 30
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:420    .text.gpio_input_port_get:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:423    .text.gpio_input_port_get:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:426    .text.gpio_input_port_get:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:433    .text.gpio_output_bit_get:0000000000000000 gpio_output_bit_get
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:436    .text.gpio_output_bit_get:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:438    .text.gpio_output_bit_get:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:439    .text.gpio_output_bit_get:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:440    .text.gpio_output_bit_get:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:443    .text.gpio_output_bit_get:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:445    .text.gpio_output_bit_get:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:447    .text.gpio_output_bit_get:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:454    .text.gpio_output_port_get:0000000000000000 gpio_output_port_get
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:457    .text.gpio_output_port_get:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:459    .text.gpio_output_port_get:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:460    .text.gpio_output_port_get:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:461    .text.gpio_output_port_get:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:464    .text.gpio_output_port_get:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:467    .text.gpio_output_port_get:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:474    .text.gpio_pin_remap_config:0000000000000000 gpio_pin_remap_config
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:477    .text.gpio_pin_remap_config:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:479    .text.gpio_pin_remap_config:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:480    .text.gpio_pin_remap_config:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:481    .text.gpio_pin_remap_config:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:482    .text.gpio_pin_remap_config:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:484    .text.gpio_pin_remap_config:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:486    .text.gpio_pin_remap_config:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:487    .text.gpio_pin_remap_config:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:491    .text.gpio_pin_remap_config:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:492    .text.gpio_pin_remap_config:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:493    .text.gpio_pin_remap_config:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:495    .text.gpio_pin_remap_config:000000000000000e .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:497    .text.gpio_pin_remap_config:0000000000000012 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:499    .text.gpio_pin_remap_config:0000000000000016 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:502    .text.gpio_pin_remap_config:0000000000000018 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:503    .text.gpio_pin_remap_config:0000000000000018 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:505    .text.gpio_pin_remap_config:000000000000001c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:506    .text.gpio_pin_remap_config:000000000000001c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:509    .text.gpio_pin_remap_config:0000000000000022 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:511    .text.gpio_pin_remap_config:0000000000000026 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:514    .text.gpio_pin_remap_config:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:515    .text.gpio_pin_remap_config:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:521    .text.gpio_pin_remap_config:0000000000000034 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:522    .text.gpio_pin_remap_config:0000000000000034 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:524    .text.gpio_pin_remap_config:0000000000000036 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:525    .text.gpio_pin_remap_config:0000000000000036 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:527    .text.gpio_pin_remap_config:000000000000003a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:529    .text.gpio_pin_remap_config:000000000000003c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:532    .text.gpio_pin_remap_config:0000000000000040 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:536    .text.gpio_pin_remap_config:0000000000000042 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:537    .text.gpio_pin_remap_config:0000000000000042 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:539    .text.gpio_pin_remap_config:0000000000000046 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:541    .text.gpio_pin_remap_config:000000000000004a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:542    .text.gpio_pin_remap_config:000000000000004a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:547    .text.gpio_pin_remap_config:000000000000004e .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:548    .text.gpio_pin_remap_config:000000000000004e .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:554    .text.gpio_pin_remap_config:0000000000000052 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:555    .text.gpio_pin_remap_config:0000000000000052 .L0 
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s 			page 30
 
 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:559    .text.gpio_pin_remap_config:000000000000005a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:560    .text.gpio_pin_remap_config:000000000000005a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:561    .text.gpio_pin_remap_config:000000000000005a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:563    .text.gpio_pin_remap_config:000000000000005e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:565    .text.gpio_pin_remap_config:0000000000000062 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:570    .text.gpio_pin_remap_config:0000000000000068 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:572    .text.gpio_pin_remap_config:000000000000006c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:575    .text.gpio_pin_remap_config:000000000000006e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:576    .text.gpio_pin_remap_config:000000000000006e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:583    .text.gpio_pin_remap_config:0000000000000076 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:584    .text.gpio_pin_remap_config:0000000000000076 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:586    .text.gpio_pin_remap_config:000000000000007a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:588    .text.gpio_pin_remap_config:000000000000007c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:593    .text.gpio_pin_remap_config:0000000000000082 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:594    .text.gpio_pin_remap_config:0000000000000082 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:596    .text.gpio_pin_remap_config:0000000000000084 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:597    .text.gpio_pin_remap_config:0000000000000086 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:604    .text.gpio_exti_source_select:0000000000000000 gpio_exti_source_select
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:607    .text.gpio_exti_source_select:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:609    .text.gpio_exti_source_select:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:610    .text.gpio_exti_source_select:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:611    .text.gpio_exti_source_select:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:612    .text.gpio_exti_source_select:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:614    .text.gpio_exti_source_select:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:617    .text.gpio_exti_source_select:0000000000000006 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:618    .text.gpio_exti_source_select:0000000000000006 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:623    .text.gpio_exti_source_select:0000000000000010 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:628    .text.gpio_exti_source_select:000000000000001a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:629    .text.gpio_exti_source_select:000000000000001a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:634    .text.gpio_exti_source_select:0000000000000024 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:635    .text.gpio_exti_source_select:0000000000000024 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:641    .text.gpio_exti_source_select:000000000000002c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:642    .text.gpio_exti_source_select:000000000000002c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:645    .text.gpio_exti_source_select:0000000000000032 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:646    .text.gpio_exti_source_select:0000000000000032 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:651    .text.gpio_exti_source_select:000000000000003c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:652    .text.gpio_exti_source_select:000000000000003c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:658    .text.gpio_exti_source_select:0000000000000044 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:659    .text.gpio_exti_source_select:0000000000000044 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:662    .text.gpio_exti_source_select:000000000000004a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:663    .text.gpio_exti_source_select:000000000000004a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:668    .text.gpio_exti_source_select:0000000000000054 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:669    .text.gpio_exti_source_select:0000000000000054 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:675    .text.gpio_exti_source_select:000000000000005c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:676    .text.gpio_exti_source_select:000000000000005c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:681    .text.gpio_exti_source_select:0000000000000066 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:682    .text.gpio_exti_source_select:0000000000000066 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:686    .text.gpio_exti_source_select:000000000000006c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:687    .text.gpio_exti_source_select:000000000000006e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:694    .text.gpio_event_output_config:0000000000000000 gpio_event_output_config
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:697    .text.gpio_event_output_config:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:699    .text.gpio_event_output_config:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:700    .text.gpio_event_output_config:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:701    .text.gpio_event_output_config:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:702    .text.gpio_event_output_config:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:706    .text.gpio_event_output_config:0000000000000006 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:707    .text.gpio_event_output_config:0000000000000006 .L0 
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 31
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:559    .text.gpio_pin_remap_config:000000000000005a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:560    .text.gpio_pin_remap_config:000000000000005a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:561    .text.gpio_pin_remap_config:000000000000005a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:563    .text.gpio_pin_remap_config:000000000000005e .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:565    .text.gpio_pin_remap_config:0000000000000062 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:570    .text.gpio_pin_remap_config:0000000000000068 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:572    .text.gpio_pin_remap_config:000000000000006c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:575    .text.gpio_pin_remap_config:000000000000006e .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:576    .text.gpio_pin_remap_config:000000000000006e .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:583    .text.gpio_pin_remap_config:0000000000000076 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:584    .text.gpio_pin_remap_config:0000000000000076 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:586    .text.gpio_pin_remap_config:000000000000007a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:588    .text.gpio_pin_remap_config:000000000000007c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:593    .text.gpio_pin_remap_config:0000000000000082 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:594    .text.gpio_pin_remap_config:0000000000000082 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:596    .text.gpio_pin_remap_config:0000000000000084 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:597    .text.gpio_pin_remap_config:0000000000000086 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:604    .text.gpio_exti_source_select:0000000000000000 gpio_exti_source_select
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:607    .text.gpio_exti_source_select:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:609    .text.gpio_exti_source_select:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:610    .text.gpio_exti_source_select:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:611    .text.gpio_exti_source_select:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:612    .text.gpio_exti_source_select:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:614    .text.gpio_exti_source_select:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:617    .text.gpio_exti_source_select:0000000000000006 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:618    .text.gpio_exti_source_select:0000000000000006 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:623    .text.gpio_exti_source_select:0000000000000010 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:628    .text.gpio_exti_source_select:000000000000001a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:629    .text.gpio_exti_source_select:000000000000001a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:634    .text.gpio_exti_source_select:0000000000000024 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:635    .text.gpio_exti_source_select:0000000000000024 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:641    .text.gpio_exti_source_select:000000000000002c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:642    .text.gpio_exti_source_select:000000000000002c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:645    .text.gpio_exti_source_select:0000000000000032 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:646    .text.gpio_exti_source_select:0000000000000032 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:651    .text.gpio_exti_source_select:000000000000003c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:652    .text.gpio_exti_source_select:000000000000003c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:658    .text.gpio_exti_source_select:0000000000000044 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:659    .text.gpio_exti_source_select:0000000000000044 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:662    .text.gpio_exti_source_select:000000000000004a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:663    .text.gpio_exti_source_select:000000000000004a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:668    .text.gpio_exti_source_select:0000000000000054 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:669    .text.gpio_exti_source_select:0000000000000054 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:675    .text.gpio_exti_source_select:000000000000005c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:676    .text.gpio_exti_source_select:000000000000005c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:681    .text.gpio_exti_source_select:0000000000000066 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:682    .text.gpio_exti_source_select:0000000000000066 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:686    .text.gpio_exti_source_select:000000000000006c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:687    .text.gpio_exti_source_select:000000000000006e .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:694    .text.gpio_event_output_config:0000000000000000 gpio_event_output_config
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:697    .text.gpio_event_output_config:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:699    .text.gpio_event_output_config:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:700    .text.gpio_event_output_config:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:701    .text.gpio_event_output_config:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:702    .text.gpio_event_output_config:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:706    .text.gpio_event_output_config:0000000000000006 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:707    .text.gpio_event_output_config:0000000000000006 .L0 
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s 			page 31
 
 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:708    .text.gpio_event_output_config:0000000000000006 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:709    .text.gpio_event_output_config:0000000000000006 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:712    .text.gpio_event_output_config:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:717    .text.gpio_event_output_config:000000000000000e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:720    .text.gpio_event_output_config:0000000000000010 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:721    .text.gpio_event_output_config:0000000000000010 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:723    .text.gpio_event_output_config:0000000000000012 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:724    .text.gpio_event_output_config:0000000000000014 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:731    .text.gpio_event_output_enable:0000000000000000 gpio_event_output_enable
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:734    .text.gpio_event_output_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:735    .text.gpio_event_output_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:736    .text.gpio_event_output_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:737    .text.gpio_event_output_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:742    .text.gpio_event_output_enable:000000000000000c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:743    .text.gpio_event_output_enable:000000000000000e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:750    .text.gpio_event_output_disable:0000000000000000 gpio_event_output_disable
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:753    .text.gpio_event_output_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:754    .text.gpio_event_output_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:755    .text.gpio_event_output_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:756    .text.gpio_event_output_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:761    .text.gpio_event_output_disable:000000000000000c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:762    .text.gpio_event_output_disable:000000000000000e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:769    .text.gpio_pin_lock:0000000000000000 gpio_pin_lock
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:772    .text.gpio_pin_lock:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:774    .text.gpio_pin_lock:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:775    .text.gpio_pin_lock:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:776    .text.gpio_pin_lock:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:777    .text.gpio_pin_lock:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:781    .text.gpio_pin_lock:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:782    .text.gpio_pin_lock:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:784    .text.gpio_pin_lock:0000000000000006 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:785    .text.gpio_pin_lock:0000000000000006 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:787    .text.gpio_pin_lock:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:788    .text.gpio_pin_lock:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:790    .text.gpio_pin_lock:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:791    .text.gpio_pin_lock:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:794    .text.gpio_pin_lock:000000000000000c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:795    .text.gpio_pin_lock:000000000000000c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:797    .text.gpio_pin_lock:000000000000000e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:798    .text.gpio_pin_lock:0000000000000010 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:114    .text.gpio_deinit:000000000000009e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:151    .text.gpio_afio_deinit:0000000000000020 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:312    .text.gpio_init:00000000000000a4 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:329    .text.gpio_bit_set:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:346    .text.gpio_bit_reset:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:371    .text.gpio_bit_write:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:388    .text.gpio_port_write:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:409    .text.gpio_input_bit_get:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:429    .text.gpio_input_port_get:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:450    .text.gpio_output_bit_get:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:470    .text.gpio_output_port_get:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:600    .text.gpio_pin_remap_config:0000000000000086 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:690    .text.gpio_exti_source_select:000000000000006e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:727    .text.gpio_event_output_config:0000000000000014 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:746    .text.gpio_event_output_enable:000000000000000e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:765    .text.gpio_event_output_disable:000000000000000e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:801    .text.gpio_pin_lock:0000000000000010 .L0 
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 32
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:708    .text.gpio_event_output_config:0000000000000006 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:709    .text.gpio_event_output_config:0000000000000006 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:712    .text.gpio_event_output_config:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:717    .text.gpio_event_output_config:000000000000000e .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:720    .text.gpio_event_output_config:0000000000000010 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:721    .text.gpio_event_output_config:0000000000000010 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:723    .text.gpio_event_output_config:0000000000000012 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:724    .text.gpio_event_output_config:0000000000000014 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:731    .text.gpio_event_output_enable:0000000000000000 gpio_event_output_enable
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:734    .text.gpio_event_output_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:735    .text.gpio_event_output_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:736    .text.gpio_event_output_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:737    .text.gpio_event_output_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:742    .text.gpio_event_output_enable:000000000000000c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:743    .text.gpio_event_output_enable:000000000000000e .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:750    .text.gpio_event_output_disable:0000000000000000 gpio_event_output_disable
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:753    .text.gpio_event_output_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:754    .text.gpio_event_output_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:755    .text.gpio_event_output_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:756    .text.gpio_event_output_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:761    .text.gpio_event_output_disable:000000000000000c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:762    .text.gpio_event_output_disable:000000000000000e .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:769    .text.gpio_pin_lock:0000000000000000 gpio_pin_lock
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:772    .text.gpio_pin_lock:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:774    .text.gpio_pin_lock:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:775    .text.gpio_pin_lock:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:776    .text.gpio_pin_lock:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:777    .text.gpio_pin_lock:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:781    .text.gpio_pin_lock:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:782    .text.gpio_pin_lock:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:784    .text.gpio_pin_lock:0000000000000006 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:785    .text.gpio_pin_lock:0000000000000006 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:787    .text.gpio_pin_lock:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:788    .text.gpio_pin_lock:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:790    .text.gpio_pin_lock:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:791    .text.gpio_pin_lock:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:794    .text.gpio_pin_lock:000000000000000c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:795    .text.gpio_pin_lock:000000000000000c .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:797    .text.gpio_pin_lock:000000000000000e .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:798    .text.gpio_pin_lock:0000000000000010 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:114    .text.gpio_deinit:000000000000009e .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:151    .text.gpio_afio_deinit:0000000000000020 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:312    .text.gpio_init:00000000000000a4 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:329    .text.gpio_bit_set:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:346    .text.gpio_bit_reset:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:371    .text.gpio_bit_write:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:388    .text.gpio_port_write:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:409    .text.gpio_input_bit_get:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:429    .text.gpio_input_port_get:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:450    .text.gpio_output_bit_get:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:470    .text.gpio_output_port_get:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:600    .text.gpio_pin_remap_config:0000000000000086 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:690    .text.gpio_exti_source_select:000000000000006e .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:727    .text.gpio_event_output_config:0000000000000014 .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:746    .text.gpio_event_output_enable:000000000000000e .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:765    .text.gpio_event_output_disable:000000000000000e .L0 
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:801    .text.gpio_pin_lock:0000000000000010 .L0 
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s 			page 32
 
 
                      .debug_frame:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:92     .text.gpio_deinit:000000000000007a .L2
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:43     .text.gpio_deinit:0000000000000026 .L3
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:61     .text.gpio_deinit:000000000000004c .L4
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:80     .text.gpio_deinit:0000000000000068 .L5
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:102    .text.gpio_deinit:000000000000008c .L7
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:34     .text.gpio_deinit:0000000000000020 .L1
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:69     .text.gpio_deinit:000000000000005c .L10
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:176    .text.gpio_init:000000000000000e .L14
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:229    .text.gpio_init:000000000000004a .L15
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:293    .text.gpio_init:0000000000000094 .L16
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:191    .text.gpio_init:000000000000001e .L18
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:285    .text.gpio_init:000000000000008c .L19
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:301    .text.gpio_init:000000000000009c .L20
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:244    .text.gpio_init:000000000000005e .L22
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:224    .text.gpio_init:0000000000000048 .L17
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:280    .text.gpio_init:000000000000008a .L21
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:362    .text.gpio_bit_write:0000000000000006 .L37
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:545    .text.gpio_pin_remap_config:000000000000004e .L45
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:552    .text.gpio_pin_remap_config:0000000000000052 .L47
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:534    .text.gpio_pin_remap_config:0000000000000042 .L50
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:591    .text.gpio_pin_remap_config:0000000000000082 .L51
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:489    .text.gpio_pin_remap_config:000000000000000a .L46
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:581    .text.gpio_pin_remap_config:0000000000000076 .L49
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:519    .text.gpio_pin_remap_config:0000000000000034 .L48
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:568    .text.gpio_pin_remap_config:0000000000000068 .L56
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:639    .text.gpio_exti_source_select:000000000000002c .L58
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:656    .text.gpio_exti_source_select:0000000000000044 .L60
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:673    .text.gpio_exti_source_select:000000000000005c .L61
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:1699   .debug_abbrev:0000000000000000 .Ldebug_abbrev0
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2855   .debug_str:0000000000000021 .LASF89
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:3019   .debug_str:0000000000000529 .LASF90
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2919   .debug_str:000000000000022a .LASF91
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2811   .debug_ranges:0000000000000000 .Ldebug_ranges0
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2849   .debug_line:0000000000000000 .Ldebug_line0
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2947   .debug_str:0000000000000357 .LASF0
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2935   .debug_str:00000000000002fd .LASF1
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2911   .debug_str:0000000000000205 .LASF4
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2927   .debug_str:00000000000002c1 .LASF2
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2889   .debug_str:0000000000000187 .LASF3
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2883   .debug_str:0000000000000158 .LASF5
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2961   .debug_str:00000000000003a8 .LASF6
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2905   .debug_str:00000000000001e4 .LASF7
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2875   .debug_str:0000000000000131 .LASF8
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2993   .debug_str:0000000000000488 .LASF9
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2903   .debug_str:00000000000001d6 .LASF10
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2939   .debug_str:0000000000000314 .LASF11
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2891   .debug_str:0000000000000191 .LASF12
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2949   .debug_str:0000000000000364 .LASF13
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2943   .debug_str:0000000000000338 .LASF14
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2981   .debug_str:0000000000000434 .LASF92
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2893   .debug_str:0000000000000199 .LASF15
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:3031   .debug_str:00000000000005b4 .LASF16
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2967   .debug_str:00000000000003dd .LASF17
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:3009   .debug_str:00000000000004f0 .LASF18
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:3027   .debug_str:000000000000059d .LASF19
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2857   .debug_str:00000000000000a9 .LASF20
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 33
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:92     .text.gpio_deinit:000000000000007a .L2
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:43     .text.gpio_deinit:0000000000000026 .L3
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:61     .text.gpio_deinit:000000000000004c .L4
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:80     .text.gpio_deinit:0000000000000068 .L5
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:102    .text.gpio_deinit:000000000000008c .L7
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:34     .text.gpio_deinit:0000000000000020 .L1
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:69     .text.gpio_deinit:000000000000005c .L10
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:176    .text.gpio_init:000000000000000e .L14
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:229    .text.gpio_init:000000000000004a .L15
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:293    .text.gpio_init:0000000000000094 .L16
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:191    .text.gpio_init:000000000000001e .L18
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:285    .text.gpio_init:000000000000008c .L19
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:301    .text.gpio_init:000000000000009c .L20
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:244    .text.gpio_init:000000000000005e .L22
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:224    .text.gpio_init:0000000000000048 .L17
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:280    .text.gpio_init:000000000000008a .L21
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:362    .text.gpio_bit_write:0000000000000006 .L37
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:545    .text.gpio_pin_remap_config:000000000000004e .L45
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:552    .text.gpio_pin_remap_config:0000000000000052 .L47
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:534    .text.gpio_pin_remap_config:0000000000000042 .L50
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:591    .text.gpio_pin_remap_config:0000000000000082 .L51
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:489    .text.gpio_pin_remap_config:000000000000000a .L46
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:581    .text.gpio_pin_remap_config:0000000000000076 .L49
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:519    .text.gpio_pin_remap_config:0000000000000034 .L48
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:568    .text.gpio_pin_remap_config:0000000000000068 .L56
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:639    .text.gpio_exti_source_select:000000000000002c .L58
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:656    .text.gpio_exti_source_select:0000000000000044 .L60
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:673    .text.gpio_exti_source_select:000000000000005c .L61
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:1699   .debug_abbrev:0000000000000000 .Ldebug_abbrev0
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2855   .debug_str:0000000000000021 .LASF89
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:3019   .debug_str:000000000000052f .LASF90
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2919   .debug_str:000000000000022a .LASF91
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2811   .debug_ranges:0000000000000000 .Ldebug_ranges0
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2849   .debug_line:0000000000000000 .Ldebug_line0
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2949   .debug_str:000000000000036b .LASF0
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2937   .debug_str:0000000000000311 .LASF1
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2911   .debug_str:0000000000000205 .LASF4
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2929   .debug_str:00000000000002d5 .LASF2
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2889   .debug_str:0000000000000187 .LASF3
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2883   .debug_str:0000000000000158 .LASF5
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2963   .debug_str:00000000000003bc .LASF6
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2905   .debug_str:00000000000001e4 .LASF7
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2875   .debug_str:0000000000000131 .LASF8
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2993   .debug_str:000000000000048e .LASF9
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2903   .debug_str:00000000000001d6 .LASF10
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2941   .debug_str:0000000000000328 .LASF11
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2891   .debug_str:0000000000000191 .LASF12
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2951   .debug_str:0000000000000378 .LASF13
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2945   .debug_str:000000000000034c .LASF14
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2983   .debug_str:0000000000000448 .LASF92
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2893   .debug_str:0000000000000199 .LASF15
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:3031   .debug_str:00000000000005ba .LASF16
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2969   .debug_str:00000000000003f1 .LASF17
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:3009   .debug_str:00000000000004f6 .LASF18
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:3027   .debug_str:00000000000005a3 .LASF19
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2857   .debug_str:00000000000000a9 .LASF20
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s 			page 33
 
 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2969   .debug_str:00000000000003eb .LASF21
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2895   .debug_str:00000000000001a1 .LASF22
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2989   .debug_str:0000000000000466 .LASF23
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2915   .debug_str:0000000000000216 .LASF24
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2979   .debug_str:0000000000000426 .LASF25
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:3025   .debug_str:000000000000058f .LASF26
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:3035   .debug_str:00000000000005c9 .LASF27
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2869   .debug_str:00000000000000f3 .LASF28
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2909   .debug_str:00000000000001f9 .LASF29
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2987   .debug_str:0000000000000458 .LASF30
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:3033   .debug_str:00000000000005bb .LASF31
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2995   .debug_str:000000000000049a .LASF32
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2859   .debug_str:00000000000000b6 .LASF33
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:3029   .debug_str:00000000000005a8 .LASF34
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:3003   .debug_str:00000000000004cf .LASF35
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2863   .debug_str:00000000000000d0 .LASF36
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2899   .debug_str:00000000000001bc .LASF37
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2867   .debug_str:00000000000000e7 .LASF38
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:3005   .debug_str:00000000000004db .LASF39
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2937   .debug_str:0000000000000309 .LASF40
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2929   .debug_str:00000000000002cf .LASF41
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2941   .debug_str:000000000000032b .LASF42
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2999   .debug_str:00000000000004b8 .LASF43
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2861   .debug_str:00000000000000c3 .LASF44
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2897   .debug_str:00000000000001af .LASF45
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2951   .debug_str:000000000000036d .LASF46
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2957   .debug_str:0000000000000387 .LASF47
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:3011   .debug_str:00000000000004f6 .LASF48
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2853   .debug_str:0000000000000013 .LASF49
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:3015   .debug_str:000000000000050e .LASF50
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2923   .debug_str:00000000000002a7 .LASF51
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2925   .debug_str:00000000000002b5 .LASF52
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2865   .debug_str:00000000000000dc .LASF53
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2901   .debug_str:00000000000001c8 .LASF57
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:770    .text.gpio_pin_lock:0000000000000000 .LFB18
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:799    .text.gpio_pin_lock:0000000000000010 .LFE18
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2931   .debug_str:00000000000002d9 .LASF54
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2977   .debug_str:0000000000000421 .LASF61
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2235   .debug_loc:0000000000000000 .LLST20
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2887   .debug_str:000000000000016d .LASF55
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:751    .text.gpio_event_output_disable:0000000000000000 .LFB17
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:763    .text.gpio_event_output_disable:000000000000000e .LFE17
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2873   .debug_str:0000000000000118 .LASF56
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:732    .text.gpio_event_output_enable:0000000000000000 .LFB16
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:744    .text.gpio_event_output_enable:000000000000000e .LFE16
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2965   .debug_str:00000000000003c4 .LASF58
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:695    .text.gpio_event_output_config:0000000000000000 .LFB15
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:725    .text.gpio_event_output_config:0000000000000014 .LFE15
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2907   .debug_str:00000000000001ed .LASF59
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2249   .debug_loc:0000000000000021 .LLST17
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2971   .debug_str:00000000000003f9 .LASF60
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2263   .debug_loc:0000000000000042 .LLST18
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2277   .debug_loc:0000000000000063 .LLST19
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2933   .debug_str:00000000000002e5 .LASF62
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:605    .text.gpio_exti_source_select:0000000000000000 .LFB14
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:688    .text.gpio_exti_source_select:000000000000006e .LFE14
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2324   .debug_loc:00000000000000b3 .LLST15
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 34
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2971   .debug_str:00000000000003ff .LASF21
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2895   .debug_str:00000000000001a1 .LASF22
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2921   .debug_str:000000000000029d .LASF23
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2915   .debug_str:0000000000000216 .LASF24
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2981   .debug_str:000000000000043a .LASF25
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:3025   .debug_str:0000000000000595 .LASF26
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:3035   .debug_str:00000000000005cf .LASF27
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2869   .debug_str:00000000000000f3 .LASF28
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2909   .debug_str:00000000000001f9 .LASF29
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2989   .debug_str:000000000000046c .LASF30
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:3033   .debug_str:00000000000005c1 .LASF31
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2995   .debug_str:00000000000004a0 .LASF32
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2859   .debug_str:00000000000000b6 .LASF33
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:3029   .debug_str:00000000000005ae .LASF34
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:3003   .debug_str:00000000000004d5 .LASF35
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2863   .debug_str:00000000000000d0 .LASF36
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2899   .debug_str:00000000000001bc .LASF37
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2867   .debug_str:00000000000000e7 .LASF38
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:3005   .debug_str:00000000000004e1 .LASF39
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2939   .debug_str:000000000000031d .LASF40
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2931   .debug_str:00000000000002e3 .LASF41
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2943   .debug_str:000000000000033f .LASF42
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2999   .debug_str:00000000000004be .LASF43
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2861   .debug_str:00000000000000c3 .LASF44
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2897   .debug_str:00000000000001af .LASF45
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2953   .debug_str:0000000000000381 .LASF46
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2959   .debug_str:000000000000039b .LASF47
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:3011   .debug_str:00000000000004fc .LASF48
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2853   .debug_str:0000000000000013 .LASF49
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:3015   .debug_str:0000000000000514 .LASF50
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2925   .debug_str:00000000000002bb .LASF51
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2927   .debug_str:00000000000002c9 .LASF52
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2865   .debug_str:00000000000000dc .LASF53
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2901   .debug_str:00000000000001c8 .LASF57
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:770    .text.gpio_pin_lock:0000000000000000 .LFB18
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:799    .text.gpio_pin_lock:0000000000000010 .LFE18
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2933   .debug_str:00000000000002ed .LASF54
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2979   .debug_str:0000000000000435 .LASF61
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2235   .debug_loc:0000000000000000 .LLST20
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2887   .debug_str:000000000000016d .LASF55
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:751    .text.gpio_event_output_disable:0000000000000000 .LFB17
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:763    .text.gpio_event_output_disable:000000000000000e .LFE17
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2873   .debug_str:0000000000000118 .LASF56
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:732    .text.gpio_event_output_enable:0000000000000000 .LFB16
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:744    .text.gpio_event_output_enable:000000000000000e .LFE16
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2967   .debug_str:00000000000003d8 .LASF58
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:695    .text.gpio_event_output_config:0000000000000000 .LFB15
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:725    .text.gpio_event_output_config:0000000000000014 .LFE15
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2907   .debug_str:00000000000001ed .LASF59
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2249   .debug_loc:0000000000000021 .LLST17
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2973   .debug_str:000000000000040d .LASF60
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2263   .debug_loc:0000000000000042 .LLST18
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2277   .debug_loc:0000000000000063 .LLST19
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2935   .debug_str:00000000000002f9 .LASF62
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:605    .text.gpio_exti_source_select:0000000000000000 .LFB14
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:688    .text.gpio_exti_source_select:000000000000006e .LFE14
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2324   .debug_loc:00000000000000b3 .LLST15
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s 			page 34
 
 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2913   .debug_str:000000000000020f .LASF63
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2338   .debug_loc:00000000000000d4 .LLST16
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2945   .debug_str:0000000000000341 .LASF64
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:475    .text.gpio_pin_remap_config:0000000000000000 .LFB13
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:598    .text.gpio_pin_remap_config:0000000000000086 .LFE13
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2917   .debug_str:0000000000000224 .LASF65
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2963   .debug_str:00000000000003bb .LASF66
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:3021   .debug_str:0000000000000570 .LASF67
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2366   .debug_loc:000000000000010a .LLST11
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2955   .debug_str:0000000000000380 .LASF68
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2407   .debug_loc:0000000000000162 .LLST12
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2973   .debug_str:0000000000000404 .LASF69
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2437   .debug_loc:00000000000001a1 .LLST13
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:3007   .debug_str:00000000000004e6 .LASF70
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2474   .debug_loc:0000000000000203 .LLST14
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2959   .debug_str:0000000000000393 .LASF71
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:455    .text.gpio_output_port_get:0000000000000000 .LFB12
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:468    .text.gpio_output_port_get:0000000000000008 .LFE12
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2507   .debug_loc:0000000000000245 .LLST10
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2975   .debug_str:000000000000040d .LASF72
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:434    .text.gpio_output_bit_get:0000000000000000 .LFB11
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:448    .text.gpio_output_bit_get:000000000000000a .LFE11
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2521   .debug_loc:0000000000000266 .LLST9
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2991   .debug_str:0000000000000474 .LASF73
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:414    .text.gpio_input_port_get:0000000000000000 .LFB10
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:427    .text.gpio_input_port_get:0000000000000008 .LFE10
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2535   .debug_loc:0000000000000287 .LLST8
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2851   .debug_str:0000000000000000 .LASF74
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:393    .text.gpio_input_bit_get:0000000000000000 .LFB9
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:407    .text.gpio_input_bit_get:000000000000000a .LFE9
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2549   .debug_loc:00000000000002a8 .LLST7
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2921   .debug_str:0000000000000297 .LASF75
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:376    .text.gpio_port_write:0000000000000000 .LFB8
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:386    .text.gpio_port_write:0000000000000004 .LFE8
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2985   .debug_str:0000000000000453 .LASF76
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:3017   .debug_str:000000000000051a .LASF77
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:351    .text.gpio_bit_write:0000000000000000 .LFB7
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:369    .text.gpio_bit_write:000000000000000a .LFE7
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2885   .debug_str:0000000000000163 .LASF78
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2983   .debug_str:0000000000000444 .LASF79
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:334    .text.gpio_bit_reset:0000000000000000 .LFB6
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:344    .text.gpio_bit_reset:0000000000000004 .LFE6
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2877   .debug_str:000000000000013c .LASF80
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:317    .text.gpio_bit_set:0000000000000000 .LFB5
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:327    .text.gpio_bit_set:0000000000000004 .LFE5
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:3001   .debug_str:00000000000004c5 .LASF81
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:156    .text.gpio_init:0000000000000000 .LFB4
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:310    .text.gpio_init:00000000000000a4 .LFE4
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2879   .debug_str:0000000000000149 .LASF82
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2953   .debug_str:000000000000037a .LASF83
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2563   .debug_loc:00000000000002c9 .LLST3
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2577   .debug_loc:00000000000002ea .LLST4
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2881   .debug_str:000000000000014e .LASF84
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2609   .debug_loc:0000000000000339 .LLST5
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2621   .debug_loc:0000000000000358 .LLST6
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2997   .debug_str:00000000000004a7 .LASF85
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:119    .text.gpio_afio_deinit:0000000000000000 .LFB3
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 35
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2913   .debug_str:000000000000020f .LASF63
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2338   .debug_loc:00000000000000d4 .LLST16
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2947   .debug_str:0000000000000355 .LASF64
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:475    .text.gpio_pin_remap_config:0000000000000000 .LFB13
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:598    .text.gpio_pin_remap_config:0000000000000086 .LFE13
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2917   .debug_str:0000000000000224 .LASF65
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2965   .debug_str:00000000000003cf .LASF66
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:3021   .debug_str:0000000000000576 .LASF67
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2366   .debug_loc:000000000000010a .LLST11
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2957   .debug_str:0000000000000394 .LASF68
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2407   .debug_loc:0000000000000162 .LLST12
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2975   .debug_str:0000000000000418 .LASF69
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2437   .debug_loc:00000000000001a1 .LLST13
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:3007   .debug_str:00000000000004ec .LASF70
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2474   .debug_loc:0000000000000203 .LLST14
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2961   .debug_str:00000000000003a7 .LASF71
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:455    .text.gpio_output_port_get:0000000000000000 .LFB12
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:468    .text.gpio_output_port_get:0000000000000008 .LFE12
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2507   .debug_loc:0000000000000245 .LLST10
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2977   .debug_str:0000000000000421 .LASF72
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:434    .text.gpio_output_bit_get:0000000000000000 .LFB11
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:448    .text.gpio_output_bit_get:000000000000000a .LFE11
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2521   .debug_loc:0000000000000266 .LLST9
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2991   .debug_str:000000000000047a .LASF73
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:414    .text.gpio_input_port_get:0000000000000000 .LFB10
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:427    .text.gpio_input_port_get:0000000000000008 .LFE10
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2535   .debug_loc:0000000000000287 .LLST8
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2851   .debug_str:0000000000000000 .LASF74
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:393    .text.gpio_input_bit_get:0000000000000000 .LFB9
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:407    .text.gpio_input_bit_get:000000000000000a .LFE9
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2549   .debug_loc:00000000000002a8 .LLST7
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2923   .debug_str:00000000000002ab .LASF75
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:376    .text.gpio_port_write:0000000000000000 .LFB8
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:386    .text.gpio_port_write:0000000000000004 .LFE8
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2987   .debug_str:0000000000000467 .LASF76
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:3017   .debug_str:0000000000000520 .LASF77
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:351    .text.gpio_bit_write:0000000000000000 .LFB7
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:369    .text.gpio_bit_write:000000000000000a .LFE7
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2885   .debug_str:0000000000000163 .LASF78
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2985   .debug_str:0000000000000458 .LASF79
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:334    .text.gpio_bit_reset:0000000000000000 .LFB6
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:344    .text.gpio_bit_reset:0000000000000004 .LFE6
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2877   .debug_str:000000000000013c .LASF80
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:317    .text.gpio_bit_set:0000000000000000 .LFB5
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:327    .text.gpio_bit_set:0000000000000004 .LFE5
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:3001   .debug_str:00000000000004cb .LASF81
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:156    .text.gpio_init:0000000000000000 .LFB4
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:310    .text.gpio_init:00000000000000a4 .LFE4
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2879   .debug_str:0000000000000149 .LASF82
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2955   .debug_str:000000000000038e .LASF83
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2563   .debug_loc:00000000000002c9 .LLST3
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2577   .debug_loc:00000000000002ea .LLST4
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2881   .debug_str:000000000000014e .LASF84
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2609   .debug_loc:0000000000000339 .LLST5
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2621   .debug_loc:0000000000000358 .LLST6
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2997   .debug_str:00000000000004ad .LASF85
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:119    .text.gpio_afio_deinit:0000000000000000 .LFB3
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s 			page 35
 
 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:149    .text.gpio_afio_deinit:0000000000000020 .LFE3
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2657   .debug_loc:00000000000003b9 .LLST2
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:134    .text.gpio_afio_deinit:0000000000000010 .LVL15
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:147    .text.gpio_afio_deinit:0000000000000020 .LVL16
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:3013   .debug_str:0000000000000502 .LASF86
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:14     .text.gpio_deinit:0000000000000000 .LFB2
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:112    .text.gpio_deinit:000000000000009e .LFE2
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2675   .debug_loc:00000000000003e5 .LLST0
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2708   .debug_loc:0000000000000435 .LLST1
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:56     .text.gpio_deinit:0000000000000046 .LVL2
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:66     .text.gpio_deinit:0000000000000058 .LVL5
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:79     .text.gpio_deinit:0000000000000068 .LVL6
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:87     .text.gpio_deinit:0000000000000074 .LVL8
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:97     .text.gpio_deinit:0000000000000086 .LVL11
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:107    .text.gpio_deinit:0000000000000098 .LVL14
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:3023   .debug_str:0000000000000577 .LASF87
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:2871   .debug_str:00000000000000ff .LASF88
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:773    .text.gpio_pin_lock:0000000000000000 .LVL71
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:779    .text.gpio_pin_lock:0000000000000004 .LVL72
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:792    .text.gpio_pin_lock:000000000000000c .LVL73
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:698    .text.gpio_event_output_config:0000000000000000 .LVL65
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:710    .text.gpio_event_output_config:0000000000000008 .LVL67
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:715    .text.gpio_event_output_config:000000000000000e .LVL69
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:704    .text.gpio_event_output_config:0000000000000006 .LVL66
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:713    .text.gpio_event_output_config:000000000000000c .LVL68
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:718    .text.gpio_event_output_config:0000000000000010 .LVL70
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:608    .text.gpio_exti_source_select:0000000000000000 .LVL61
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:621    .text.gpio_exti_source_select:0000000000000010 .LVL63
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:615    .text.gpio_exti_source_select:0000000000000006 .LVL62
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:624    .text.gpio_exti_source_select:0000000000000012 .LVL64
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:478    .text.gpio_pin_remap_config:0000000000000000 .LVL45
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:500    .text.gpio_pin_remap_config:0000000000000018 .LVL47
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:530    .text.gpio_pin_remap_config:0000000000000040 .LVL50
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:544    .text.gpio_pin_remap_config:000000000000004e .LVL52
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:551    .text.gpio_pin_remap_config:0000000000000052 .LVL54
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:590    .text.gpio_pin_remap_config:0000000000000082 .LVL60
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:518    .text.gpio_pin_remap_config:0000000000000034 .LVL49
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:558    .text.gpio_pin_remap_config:000000000000005a .LVL55
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:567    .text.gpio_pin_remap_config:0000000000000068 .LVL56
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:580    .text.gpio_pin_remap_config:0000000000000076 .LVL59
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:488    .text.gpio_pin_remap_config:000000000000000a .LVL46
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:512    .text.gpio_pin_remap_config:000000000000002a .LVL48
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:549    .text.gpio_pin_remap_config:0000000000000050 .LVL53
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:573    .text.gpio_pin_remap_config:000000000000006e .LVL57
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:458    .text.gpio_output_port_get:0000000000000000 .LVL43
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:462    .text.gpio_output_port_get:0000000000000002 .LVL44
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:437    .text.gpio_output_bit_get:0000000000000000 .LVL41
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:441    .text.gpio_output_bit_get:0000000000000002 .LVL42
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:417    .text.gpio_input_port_get:0000000000000000 .LVL39
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:421    .text.gpio_input_port_get:0000000000000002 .LVL40
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:396    .text.gpio_input_bit_get:0000000000000000 .LVL37
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:400    .text.gpio_input_bit_get:0000000000000002 .LVL38
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:159    .text.gpio_init:0000000000000000 .LVL17
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:190    .text.gpio_init:000000000000001e .LVL20
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:175    .text.gpio_init:000000000000000e .LVL19
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:228    .text.gpio_init:000000000000004a .LVL24
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:231    .text.gpio_init:000000000000004c .LVL25
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s 			page 36
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:149    .text.gpio_afio_deinit:0000000000000020 .LFE3
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2657   .debug_loc:00000000000003b9 .LLST2
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:134    .text.gpio_afio_deinit:0000000000000010 .LVL15
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:147    .text.gpio_afio_deinit:0000000000000020 .LVL16
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:3013   .debug_str:0000000000000508 .LASF86
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:14     .text.gpio_deinit:0000000000000000 .LFB2
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:112    .text.gpio_deinit:000000000000009e .LFE2
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2675   .debug_loc:00000000000003e5 .LLST0
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2708   .debug_loc:0000000000000435 .LLST1
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:56     .text.gpio_deinit:0000000000000046 .LVL2
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:66     .text.gpio_deinit:0000000000000058 .LVL5
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:79     .text.gpio_deinit:0000000000000068 .LVL6
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:87     .text.gpio_deinit:0000000000000074 .LVL8
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:97     .text.gpio_deinit:0000000000000086 .LVL11
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:107    .text.gpio_deinit:0000000000000098 .LVL14
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:3023   .debug_str:000000000000057d .LASF87
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:2871   .debug_str:00000000000000ff .LASF88
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:773    .text.gpio_pin_lock:0000000000000000 .LVL71
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:779    .text.gpio_pin_lock:0000000000000004 .LVL72
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:792    .text.gpio_pin_lock:000000000000000c .LVL73
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:698    .text.gpio_event_output_config:0000000000000000 .LVL65
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:710    .text.gpio_event_output_config:0000000000000008 .LVL67
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:715    .text.gpio_event_output_config:000000000000000e .LVL69
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:704    .text.gpio_event_output_config:0000000000000006 .LVL66
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:713    .text.gpio_event_output_config:000000000000000c .LVL68
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:718    .text.gpio_event_output_config:0000000000000010 .LVL70
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:608    .text.gpio_exti_source_select:0000000000000000 .LVL61
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:621    .text.gpio_exti_source_select:0000000000000010 .LVL63
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:615    .text.gpio_exti_source_select:0000000000000006 .LVL62
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:624    .text.gpio_exti_source_select:0000000000000012 .LVL64
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:478    .text.gpio_pin_remap_config:0000000000000000 .LVL45
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:500    .text.gpio_pin_remap_config:0000000000000018 .LVL47
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:530    .text.gpio_pin_remap_config:0000000000000040 .LVL50
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:544    .text.gpio_pin_remap_config:000000000000004e .LVL52
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:551    .text.gpio_pin_remap_config:0000000000000052 .LVL54
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:590    .text.gpio_pin_remap_config:0000000000000082 .LVL60
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:518    .text.gpio_pin_remap_config:0000000000000034 .LVL49
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:558    .text.gpio_pin_remap_config:000000000000005a .LVL55
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:567    .text.gpio_pin_remap_config:0000000000000068 .LVL56
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:580    .text.gpio_pin_remap_config:0000000000000076 .LVL59
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:488    .text.gpio_pin_remap_config:000000000000000a .LVL46
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:512    .text.gpio_pin_remap_config:000000000000002a .LVL48
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:549    .text.gpio_pin_remap_config:0000000000000050 .LVL53
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:573    .text.gpio_pin_remap_config:000000000000006e .LVL57
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:458    .text.gpio_output_port_get:0000000000000000 .LVL43
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:462    .text.gpio_output_port_get:0000000000000002 .LVL44
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:437    .text.gpio_output_bit_get:0000000000000000 .LVL41
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:441    .text.gpio_output_bit_get:0000000000000002 .LVL42
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:417    .text.gpio_input_port_get:0000000000000000 .LVL39
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:421    .text.gpio_input_port_get:0000000000000002 .LVL40
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:396    .text.gpio_input_bit_get:0000000000000000 .LVL37
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:400    .text.gpio_input_bit_get:0000000000000002 .LVL38
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:159    .text.gpio_init:0000000000000000 .LVL17
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:190    .text.gpio_init:000000000000001e .LVL20
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:175    .text.gpio_init:000000000000000e .LVL19
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:228    .text.gpio_init:000000000000004a .LVL24
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:231    .text.gpio_init:000000000000004c .LVL25
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s 			page 36
 
 
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:245    .text.gpio_init:000000000000005e .LVL26
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:284    .text.gpio_init:000000000000008c .LVL30
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:287    .text.gpio_init:000000000000008e .LVL31
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:292    .text.gpio_init:0000000000000094 .LVL32
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:168    .text.gpio_init:0000000000000008 .LVL18
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:203    .text.gpio_init:000000000000002e .LVL21
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:211    .text.gpio_init:000000000000003a .LVL22
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:217    .text.gpio_init:0000000000000042 .LVL23
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:259    .text.gpio_init:0000000000000070 .LVL27
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:267    .text.gpio_init:000000000000007c .LVL28
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:273    .text.gpio_init:0000000000000084 .LVL29
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:125    .text.gpio_afio_deinit:0000000000000002 .LCFI5
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:143    .text.gpio_afio_deinit:0000000000000018 .LCFI6
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:22     .text.gpio_deinit:0000000000000002 .LCFI0
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:40     .text.gpio_deinit:0000000000000024 .LCFI1
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:44     .text.gpio_deinit:0000000000000026 .LCFI2
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:75     .text.gpio_deinit:0000000000000060 .LCFI3
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:81     .text.gpio_deinit:0000000000000068 .LCFI4
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:18     .text.gpio_deinit:0000000000000000 .LVL0
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:54     .text.gpio_deinit:000000000000003e .LVL1
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:60     .text.gpio_deinit:000000000000004c .LVL3
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:64     .text.gpio_deinit:0000000000000050 .LVL4
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:85     .text.gpio_deinit:000000000000006c .LVL7
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:91     .text.gpio_deinit:000000000000007a .LVL9
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:95     .text.gpio_deinit:000000000000007e .LVL10
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:101    .text.gpio_deinit:000000000000008c .LVL12
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:105    .text.gpio_deinit:0000000000000090 .LVL13
-C:\Users\Jesper\AppData\Local\Temp\ccmJB3PS.s:810    .debug_info:0000000000000000 .Ldebug_info0
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:245    .text.gpio_init:000000000000005e .LVL26
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:284    .text.gpio_init:000000000000008c .LVL30
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:287    .text.gpio_init:000000000000008e .LVL31
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:292    .text.gpio_init:0000000000000094 .LVL32
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:168    .text.gpio_init:0000000000000008 .LVL18
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:203    .text.gpio_init:000000000000002e .LVL21
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:211    .text.gpio_init:000000000000003a .LVL22
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:217    .text.gpio_init:0000000000000042 .LVL23
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:259    .text.gpio_init:0000000000000070 .LVL27
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:267    .text.gpio_init:000000000000007c .LVL28
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:273    .text.gpio_init:0000000000000084 .LVL29
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:125    .text.gpio_afio_deinit:0000000000000002 .LCFI5
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:143    .text.gpio_afio_deinit:0000000000000018 .LCFI6
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:22     .text.gpio_deinit:0000000000000002 .LCFI0
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:40     .text.gpio_deinit:0000000000000024 .LCFI1
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:44     .text.gpio_deinit:0000000000000026 .LCFI2
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:75     .text.gpio_deinit:0000000000000060 .LCFI3
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:81     .text.gpio_deinit:0000000000000068 .LCFI4
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:18     .text.gpio_deinit:0000000000000000 .LVL0
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:54     .text.gpio_deinit:000000000000003e .LVL1
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:60     .text.gpio_deinit:000000000000004c .LVL3
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:64     .text.gpio_deinit:0000000000000050 .LVL4
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:85     .text.gpio_deinit:000000000000006c .LVL7
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:91     .text.gpio_deinit:000000000000007a .LVL9
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:95     .text.gpio_deinit:000000000000007e .LVL10
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:101    .text.gpio_deinit:000000000000008c .LVL12
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:105    .text.gpio_deinit:0000000000000090 .LVL13
+C:\Users\Jesper\AppData\Local\Temp\cckzhtmJ.s:810    .debug_info:0000000000000000 .Ldebug_info0
 
 UNDEFINED SYMBOLS
 rcu_periph_reset_enable

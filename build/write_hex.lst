@@ -1,4 +1,4 @@
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s 			page 1
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s 			page 1
 
 
    1              		.file	"write_hex.c"
@@ -58,7 +58,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s 			page 1
   43              		.cfi_offset 9, -12
   44              		.cfi_offset 18, -16
   45              		.cfi_offset 20, -24
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s 			page 2
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s 			page 2
 
 
   46              		.cfi_offset 21, -28
@@ -118,7 +118,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s 			page 1
   86              		.loc 1 16 5 discriminator 2
   87 004a 0546     		li	a2,1
   88 004c 9305F100 		addi	a1,sp,15
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s 			page 3
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s 			page 3
 
 
   89 0050 4A85     		mv	a0,s2
@@ -178,138 +178,138 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s 			page 1
  138 0000 307800   		.string	"0x"
  139              		.text
  140              	.Letext0:
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s 			page 4
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s 			page 4
 
 
  141              		.file 2 "c:\\users\\jesper\\documents\\ml_sommarjobb\\toolchain-gd32v-v201-win\\toolchain-gd32v-v2
  142              		.file 3 "c:\\users\\jesper\\documents\\ml_sommarjobb\\toolchain-gd32v-v201-win\\toolchain-gd32v-v2
  143              		.file 4 "c:\\users\\jesper\\documents\\ml_sommarjobb\\toolchain-gd32v-v201-win\\toolchain-gd32v-v2
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s 			page 5
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s 			page 5
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 write_hex.c
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:13     .text.write_hex:0000000000000000 write_hex
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:17     .text.write_hex:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:19     .text.write_hex:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:20     .text.write_hex:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:21     .text.write_hex:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:22     .text.write_hex:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:23     .text.write_hex:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:24     .text.write_hex:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:26     .text.write_hex:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:28     .text.write_hex:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:31     .text.write_hex:0000000000000006 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:36     .text.write_hex:0000000000000010 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:42     .text.write_hex:000000000000001c .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:43     .text.write_hex:000000000000001c .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:44     .text.write_hex:000000000000001c .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:45     .text.write_hex:000000000000001c .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:46     .text.write_hex:000000000000001c .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:47     .text.write_hex:000000000000001c .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:49     .text.write_hex:000000000000001c .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:51     .text.write_hex:000000000000001e .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:56     .text.write_hex:0000000000000028 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:57     .text.write_hex:0000000000000028 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:59     .text.write_hex:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:62     .text.write_hex:000000000000002c .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:67     .text.write_hex:000000000000002e .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:68     .text.write_hex:000000000000002e .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:69     .text.write_hex:000000000000002e .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:71     .text.write_hex:0000000000000032 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:73     .text.write_hex:0000000000000036 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:75     .text.write_hex:000000000000003a .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:78     .text.write_hex:000000000000003e .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:79     .text.write_hex:000000000000003e .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:81     .text.write_hex:0000000000000042 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:85     .text.write_hex:0000000000000046 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:87     .text.write_hex:000000000000004a .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:93     .text.write_hex:0000000000000054 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:95     .text.write_hex:0000000000000058 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:99     .text.write_hex:0000000000000060 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:101    .text.write_hex:0000000000000064 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:102    .text.write_hex:0000000000000066 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:103    .text.write_hex:0000000000000066 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:105    .text.write_hex:0000000000000068 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:107    .text.write_hex:000000000000006a .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:109    .text.write_hex:000000000000006c .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:112    .text.write_hex:000000000000006e .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:115    .text.write_hex:0000000000000070 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:117    .text.write_hex:0000000000000072 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:120    .text.write_hex:0000000000000074 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:125    .text.write_hex:0000000000000076 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:128    .text.write_hex:0000000000000076 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:132    .text.write_hex:000000000000007c .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:135    .text.write_hex:000000000000007c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:13     .text.write_hex:0000000000000000 write_hex
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:17     .text.write_hex:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:19     .text.write_hex:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:20     .text.write_hex:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:21     .text.write_hex:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:22     .text.write_hex:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:23     .text.write_hex:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:24     .text.write_hex:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:26     .text.write_hex:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:28     .text.write_hex:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:31     .text.write_hex:0000000000000006 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:36     .text.write_hex:0000000000000010 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:42     .text.write_hex:000000000000001c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:43     .text.write_hex:000000000000001c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:44     .text.write_hex:000000000000001c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:45     .text.write_hex:000000000000001c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:46     .text.write_hex:000000000000001c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:47     .text.write_hex:000000000000001c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:49     .text.write_hex:000000000000001c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:51     .text.write_hex:000000000000001e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:56     .text.write_hex:0000000000000028 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:57     .text.write_hex:0000000000000028 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:59     .text.write_hex:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:62     .text.write_hex:000000000000002c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:67     .text.write_hex:000000000000002e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:68     .text.write_hex:000000000000002e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:69     .text.write_hex:000000000000002e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:71     .text.write_hex:0000000000000032 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:73     .text.write_hex:0000000000000036 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:75     .text.write_hex:000000000000003a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:78     .text.write_hex:000000000000003e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:79     .text.write_hex:000000000000003e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:81     .text.write_hex:0000000000000042 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:85     .text.write_hex:0000000000000046 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:87     .text.write_hex:000000000000004a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:93     .text.write_hex:0000000000000054 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:95     .text.write_hex:0000000000000058 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:99     .text.write_hex:0000000000000060 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:101    .text.write_hex:0000000000000064 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:102    .text.write_hex:0000000000000066 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:103    .text.write_hex:0000000000000066 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:105    .text.write_hex:0000000000000068 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:107    .text.write_hex:000000000000006a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:109    .text.write_hex:000000000000006c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:112    .text.write_hex:000000000000006e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:115    .text.write_hex:0000000000000070 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:117    .text.write_hex:0000000000000072 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:120    .text.write_hex:0000000000000074 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:125    .text.write_hex:0000000000000076 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:128    .text.write_hex:0000000000000076 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:132    .text.write_hex:000000000000007c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:135    .text.write_hex:000000000000007c .L0 
                      .debug_frame:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:137    .rodata.write_hex.str1.4:0000000000000000 .LC0
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:123    .text.write_hex:0000000000000076 .L2
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s 			page 6
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:137    .rodata.write_hex.str1.4:0000000000000000 .LC0
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:123    .text.write_hex:0000000000000076 .L2
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s 			page 6
 
 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:64     .text.write_hex:000000000000002e .L4
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:83     .text.write_hex:0000000000000046 .L7
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:385    .debug_abbrev:0000000000000000 .Ldebug_abbrev0
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:817    .debug_str:0000000000000167 .LASF21
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:789    .debug_str:000000000000005d .LASF22
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:793    .debug_str:000000000000008f .LASF23
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:757    .debug_ranges:0000000000000000 .Ldebug_ranges0
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:771    .debug_line:0000000000000000 .Ldebug_line0
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:823    .debug_str:0000000000000204 .LASF0
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:773    .debug_str:0000000000000000 .LASF9
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:781    .debug_str:0000000000000023 .LASF1
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:813    .debug_str:0000000000000155 .LASF2
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:787    .debug_str:000000000000004a .LASF3
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:819    .debug_str:00000000000001ef .LASF4
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:785    .debug_str:0000000000000038 .LASF5
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:809    .debug_str:0000000000000142 .LASF6
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:803    .debug_str:000000000000011c .LASF7
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:797    .debug_str:0000000000000102 .LASF8
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:805    .debug_str:0000000000000133 .LASF10
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:811    .debug_str:0000000000000150 .LASF11
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:821    .debug_str:00000000000001f8 .LASF12
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:815    .debug_str:000000000000015f .LASF13
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:799    .debug_str:000000000000010f .LASF14
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:783    .debug_str:0000000000000031 .LASF15
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:777    .debug_str:0000000000000012 .LASF16
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:807    .debug_str:000000000000013b .LASF17
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:791    .debug_str:0000000000000086 .LASF18
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:779    .debug_str:0000000000000019 .LASF24
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:14     .text.write_hex:0000000000000000 .LFB0
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:133    .text.write_hex:000000000000007c .LFE0
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:631    .debug_loc:0000000000000000 .LLST0
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:654    .debug_loc:0000000000000038 .LLST1
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:676    .debug_loc:000000000000006f .LLST2
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:698    .debug_loc:00000000000000a6 .LLST3
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:775    .debug_str:000000000000000a .LASF19
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:801    .debug_str:0000000000000116 .LASF20
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:706    .debug_loc:00000000000000ba .LLST4
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:96     .text.write_hex:0000000000000060 .LVL7
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:53     .text.write_hex:0000000000000028 .LVL2
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:795    .debug_str:00000000000000fc .LASF25
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:25     .text.write_hex:0000000000000002 .LCFI0
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:119    .text.write_hex:0000000000000074 .LCFI1
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:124    .text.write_hex:0000000000000076 .LCFI2
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:18     .text.write_hex:0000000000000000 .LVL0
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:110    .text.write_hex:000000000000006c .LVL8
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:122    .text.write_hex:0000000000000076 .LVL10
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:32     .text.write_hex:000000000000000a .LVL1
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:113    .text.write_hex:000000000000006e .LVL9
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:63     .text.write_hex:000000000000002e .LVL3
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:76     .text.write_hex:000000000000003e .LVL4
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:82     .text.write_hex:0000000000000046 .LVL5
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:91     .text.write_hex:0000000000000054 .LVL6
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:129    .text.write_hex:000000000000007a .LVL11
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:145    .debug_info:0000000000000000 .Ldebug_info0
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:55     .text.write_hex:0000000000000028 .LBB2
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:60     .text.write_hex:000000000000002c .LBE2
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:65     .text.write_hex:000000000000002e .LBB3
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s 			page 7
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:64     .text.write_hex:000000000000002e .L4
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:83     .text.write_hex:0000000000000046 .L7
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:385    .debug_abbrev:0000000000000000 .Ldebug_abbrev0
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:817    .debug_str:000000000000016d .LASF21
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:791    .debug_str:00000000000000d0 .LASF22
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:779    .debug_str:0000000000000019 .LASF23
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:757    .debug_ranges:0000000000000000 .Ldebug_ranges0
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:771    .debug_line:0000000000000000 .Ldebug_line0
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:823    .debug_str:000000000000020a .LASF0
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:773    .debug_str:0000000000000000 .LASF9
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:783    .debug_str:0000000000000096 .LASF1
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:813    .debug_str:000000000000015b .LASF2
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:789    .debug_str:00000000000000bd .LASF3
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:819    .debug_str:00000000000001f5 .LASF4
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:787    .debug_str:00000000000000ab .LASF5
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:809    .debug_str:0000000000000148 .LASF6
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:803    .debug_str:0000000000000122 .LASF7
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:797    .debug_str:0000000000000108 .LASF8
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:805    .debug_str:0000000000000139 .LASF10
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:811    .debug_str:0000000000000156 .LASF11
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:821    .debug_str:00000000000001fe .LASF12
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:815    .debug_str:0000000000000165 .LASF13
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:799    .debug_str:0000000000000115 .LASF14
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:785    .debug_str:00000000000000a4 .LASF15
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:777    .debug_str:0000000000000012 .LASF16
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:807    .debug_str:0000000000000141 .LASF17
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:793    .debug_str:00000000000000f9 .LASF18
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:781    .debug_str:000000000000008c .LASF24
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:14     .text.write_hex:0000000000000000 .LFB0
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:133    .text.write_hex:000000000000007c .LFE0
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:631    .debug_loc:0000000000000000 .LLST0
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:654    .debug_loc:0000000000000038 .LLST1
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:676    .debug_loc:000000000000006f .LLST2
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:698    .debug_loc:00000000000000a6 .LLST3
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:775    .debug_str:000000000000000a .LASF19
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:801    .debug_str:000000000000011c .LASF20
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:706    .debug_loc:00000000000000ba .LLST4
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:96     .text.write_hex:0000000000000060 .LVL7
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:53     .text.write_hex:0000000000000028 .LVL2
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:795    .debug_str:0000000000000102 .LASF25
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:25     .text.write_hex:0000000000000002 .LCFI0
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:119    .text.write_hex:0000000000000074 .LCFI1
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:124    .text.write_hex:0000000000000076 .LCFI2
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:18     .text.write_hex:0000000000000000 .LVL0
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:110    .text.write_hex:000000000000006c .LVL8
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:122    .text.write_hex:0000000000000076 .LVL10
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:32     .text.write_hex:000000000000000a .LVL1
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:113    .text.write_hex:000000000000006e .LVL9
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:63     .text.write_hex:000000000000002e .LVL3
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:76     .text.write_hex:000000000000003e .LVL4
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:82     .text.write_hex:0000000000000046 .LVL5
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:91     .text.write_hex:0000000000000054 .LVL6
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:129    .text.write_hex:000000000000007a .LVL11
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:145    .debug_info:0000000000000000 .Ldebug_info0
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:55     .text.write_hex:0000000000000028 .LBB2
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:60     .text.write_hex:000000000000002c .LBE2
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:65     .text.write_hex:000000000000002e .LBB3
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s 			page 7
 
 
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:97     .text.write_hex:0000000000000060 .LBE3
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:126    .text.write_hex:0000000000000076 .LBB4
-C:\Users\Jesper\AppData\Local\Temp\cchCy9ru.s:131    .text.write_hex:000000000000007c .LBE4
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:97     .text.write_hex:0000000000000060 .LBE3
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:126    .text.write_hex:0000000000000076 .LBB4
+C:\Users\Jesper\AppData\Local\Temp\ccnPScUw.s:131    .text.write_hex:000000000000007c .LBE4
 
 UNDEFINED SYMBOLS
 write

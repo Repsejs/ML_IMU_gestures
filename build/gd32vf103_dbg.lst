@@ -1,4 +1,4 @@
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s 			page 1
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s 			page 1
 
 
    1              		.file	"gd32vf103_dbg.c"
@@ -58,7 +58,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s 			page 1
   41:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dbg.c ****     \param[out] none
   42:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dbg.c ****     \retval     DBG_ID code
   43:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dbg.c **** */
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s 			page 2
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s 			page 2
 
 
   44:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dbg.c **** uint32_t dbg_id_get(void)
@@ -118,7 +118,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s 			page 1
   64:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dbg.c **** /*!
   65:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dbg.c ****     \brief      disable low power behavior when the mcu is in debug mode
   66:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dbg.c ****     \param[in]  dbg_low_power:
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s 			page 3
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s 			page 3
 
 
   67:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dbg.c ****                 one or more parameters can be selected which are shown as below:
@@ -178,7 +178,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s 			page 1
   83              		.loc 1 93 13 is_stmt 0
   84 0000 372704E0 		li	a4,-536600576
   85 0004 5C43     		lw	a5,4(a4)
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s 			page 4
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s 			page 4
 
 
   86 0006 5D8D     		or	a0,a5,a0
@@ -235,126 +235,126 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s 			page 1
  122              		.file 3 "c:\\users\\jesper\\documents\\ml_sommarjobb\\toolchain-gd32v-v201-win\\toolchain-gd32v-v2
  123              		.file 4 "./../../firmware/GD32VF103_standard_peripheral/Include/gd32vf103_dbg.h"
  124              		.file 5 "./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.h"
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s 			page 5
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s 			page 5
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 gd32vf103_dbg.c
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:13     .text.dbg_id_get:0000000000000000 dbg_id_get
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:17     .text.dbg_id_get:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:18     .text.dbg_id_get:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:19     .text.dbg_id_get:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:20     .text.dbg_id_get:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:23     .text.dbg_id_get:0000000000000006 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:24     .text.dbg_id_get:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:31     .text.dbg_low_power_enable:0000000000000000 dbg_low_power_enable
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:34     .text.dbg_low_power_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:36     .text.dbg_low_power_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:37     .text.dbg_low_power_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:38     .text.dbg_low_power_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:44     .text.dbg_low_power_enable:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:45     .text.dbg_low_power_enable:000000000000000c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:52     .text.dbg_low_power_disable:0000000000000000 dbg_low_power_disable
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:55     .text.dbg_low_power_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:57     .text.dbg_low_power_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:58     .text.dbg_low_power_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:59     .text.dbg_low_power_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:62     .text.dbg_low_power_disable:0000000000000006 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:65     .text.dbg_low_power_disable:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:69     .text.dbg_low_power_disable:000000000000000e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:70     .text.dbg_low_power_disable:0000000000000010 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:77     .text.dbg_periph_enable:0000000000000000 dbg_periph_enable
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:80     .text.dbg_periph_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:82     .text.dbg_periph_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:83     .text.dbg_periph_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:84     .text.dbg_periph_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:90     .text.dbg_periph_enable:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:91     .text.dbg_periph_enable:000000000000000c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:98     .text.dbg_periph_disable:0000000000000000 dbg_periph_disable
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:101    .text.dbg_periph_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:103    .text.dbg_periph_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:104    .text.dbg_periph_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:105    .text.dbg_periph_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:108    .text.dbg_periph_disable:0000000000000006 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:111    .text.dbg_periph_disable:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:115    .text.dbg_periph_disable:000000000000000e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:116    .text.dbg_periph_disable:0000000000000010 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:27     .text.dbg_id_get:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:48     .text.dbg_low_power_enable:000000000000000c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:73     .text.dbg_low_power_disable:0000000000000010 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:94     .text.dbg_periph_enable:000000000000000c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:119    .text.dbg_periph_disable:0000000000000010 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:13     .text.dbg_id_get:0000000000000000 dbg_id_get
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:17     .text.dbg_id_get:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:18     .text.dbg_id_get:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:19     .text.dbg_id_get:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:20     .text.dbg_id_get:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:23     .text.dbg_id_get:0000000000000006 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:24     .text.dbg_id_get:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:31     .text.dbg_low_power_enable:0000000000000000 dbg_low_power_enable
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:34     .text.dbg_low_power_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:36     .text.dbg_low_power_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:37     .text.dbg_low_power_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:38     .text.dbg_low_power_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:44     .text.dbg_low_power_enable:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:45     .text.dbg_low_power_enable:000000000000000c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:52     .text.dbg_low_power_disable:0000000000000000 dbg_low_power_disable
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:55     .text.dbg_low_power_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:57     .text.dbg_low_power_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:58     .text.dbg_low_power_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:59     .text.dbg_low_power_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:62     .text.dbg_low_power_disable:0000000000000006 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:65     .text.dbg_low_power_disable:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:69     .text.dbg_low_power_disable:000000000000000e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:70     .text.dbg_low_power_disable:0000000000000010 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:77     .text.dbg_periph_enable:0000000000000000 dbg_periph_enable
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:80     .text.dbg_periph_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:82     .text.dbg_periph_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:83     .text.dbg_periph_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:84     .text.dbg_periph_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:90     .text.dbg_periph_enable:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:91     .text.dbg_periph_enable:000000000000000c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:98     .text.dbg_periph_disable:0000000000000000 dbg_periph_disable
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:101    .text.dbg_periph_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:103    .text.dbg_periph_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:104    .text.dbg_periph_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:105    .text.dbg_periph_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:108    .text.dbg_periph_disable:0000000000000006 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:111    .text.dbg_periph_disable:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:115    .text.dbg_periph_disable:000000000000000e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:116    .text.dbg_periph_disable:0000000000000010 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:27     .text.dbg_id_get:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:48     .text.dbg_low_power_enable:000000000000000c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:73     .text.dbg_low_power_disable:0000000000000010 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:94     .text.dbg_periph_enable:000000000000000c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:119    .text.dbg_periph_disable:0000000000000010 .L0 
                      .debug_frame:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:362    .debug_abbrev:0000000000000000 .Ldebug_abbrev0
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:714    .debug_str:00000000000001ab .LASF32
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:726    .debug_str:00000000000002d1 .LASF33
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:718    .debug_str:000000000000023c .LASF34
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:642    .debug_ranges:0000000000000000 .Ldebug_ranges0
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:656    .debug_line:0000000000000000 .Ldebug_line0
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:696    .debug_str:000000000000011e .LASF0
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:722    .debug_str:00000000000002b5 .LASF1
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:678    .debug_str:000000000000008f .LASF2
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:712    .debug_str:00000000000001a1 .LASF3
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s 			page 6
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:362    .debug_abbrev:0000000000000000 .Ldebug_abbrev0
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:714    .debug_str:000000000000020b .LASF32
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:726    .debug_str:00000000000002d7 .LASF33
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:674    .debug_str:000000000000006a .LASF34
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:642    .debug_ranges:0000000000000000 .Ldebug_ranges0
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:656    .debug_line:0000000000000000 .Ldebug_line0
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:698    .debug_str:0000000000000191 .LASF0
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:722    .debug_str:00000000000002bb .LASF1
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:680    .debug_str:0000000000000102 .LASF2
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:712    .debug_str:0000000000000201 .LASF3
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s 			page 6
 
 
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:684    .debug_str:00000000000000bd .LASF4
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:666    .debug_str:0000000000000034 .LASF5
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:690    .debug_str:00000000000000f0 .LASF9
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:682    .debug_str:00000000000000ab .LASF6
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:708    .debug_str:0000000000000183 .LASF7
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:700    .debug_str:0000000000000139 .LASF8
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:716    .debug_str:0000000000000233 .LASF10
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:710    .debug_str:0000000000000191 .LASF35
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:720    .debug_str:00000000000002a9 .LASF11
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:676    .debug_str:0000000000000080 .LASF12
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:668    .debug_str:000000000000003d .LASF13
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:724    .debug_str:00000000000002c1 .LASF14
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:688    .debug_str:00000000000000e0 .LASF15
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:704    .debug_str:0000000000000160 .LASF16
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:660    .debug_str:000000000000000b .LASF17
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:664    .debug_str:0000000000000026 .LASF18
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:670    .debug_str:000000000000004c .LASF19
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:698    .debug_str:000000000000012b .LASF20
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:686    .debug_str:00000000000000d0 .LASF21
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:702    .debug_str:0000000000000150 .LASF22
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:728    .debug_str:0000000000000317 .LASF23
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:680    .debug_str:000000000000009d .LASF24
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:672    .debug_str:000000000000005a .LASF25
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:706    .debug_str:0000000000000170 .LASF26
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:99     .text.dbg_periph_disable:0000000000000000 .LFB6
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:117    .text.dbg_periph_disable:0000000000000010 .LFE6
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:658    .debug_str:0000000000000000 .LASF28
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:551    .debug_loc:0000000000000000 .LLST3
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:730    .debug_str:0000000000000327 .LASF27
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:78     .text.dbg_periph_enable:0000000000000000 .LFB5
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:92     .text.dbg_periph_enable:000000000000000c .LFE5
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:572    .debug_loc:000000000000002f .LLST2
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:674    .debug_str:000000000000006a .LASF29
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:53     .text.dbg_low_power_disable:0000000000000000 .LFB4
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:71     .text.dbg_low_power_disable:0000000000000010 .LFE4
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:694    .debug_str:0000000000000110 .LASF30
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:586    .debug_loc:0000000000000050 .LLST1
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:692    .debug_str:00000000000000fb .LASF31
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:32     .text.dbg_low_power_enable:0000000000000000 .LFB3
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:46     .text.dbg_low_power_enable:000000000000000c .LFE3
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:607    .debug_loc:000000000000007f .LLST0
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:662    .debug_str:000000000000001b .LASF36
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:14     .text.dbg_id_get:0000000000000000 .LFB2
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:25     .text.dbg_id_get:0000000000000008 .LFE2
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:102    .text.dbg_periph_disable:0000000000000000 .LVL7
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:109    .text.dbg_periph_disable:000000000000000a .LVL8
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:112    .text.dbg_periph_disable:000000000000000c .LVL9
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:81     .text.dbg_periph_enable:0000000000000000 .LVL5
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:87     .text.dbg_periph_enable:0000000000000008 .LVL6
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:56     .text.dbg_low_power_disable:0000000000000000 .LVL2
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:63     .text.dbg_low_power_disable:000000000000000a .LVL3
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:66     .text.dbg_low_power_disable:000000000000000c .LVL4
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:35     .text.dbg_low_power_enable:0000000000000000 .LVL0
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:41     .text.dbg_low_power_enable:0000000000000008 .LVL1
-C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s:126    .debug_info:0000000000000000 .Ldebug_info0
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:686    .debug_str:0000000000000130 .LASF4
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:668    .debug_str:0000000000000044 .LASF5
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:692    .debug_str:0000000000000163 .LASF9
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:684    .debug_str:000000000000011e .LASF6
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:708    .debug_str:00000000000001e3 .LASF7
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:702    .debug_str:00000000000001ac .LASF8
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:716    .debug_str:0000000000000293 .LASF10
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:710    .debug_str:00000000000001f1 .LASF35
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:720    .debug_str:00000000000002af .LASF11
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:678    .debug_str:00000000000000f3 .LASF12
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:670    .debug_str:000000000000004d .LASF13
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:724    .debug_str:00000000000002c7 .LASF14
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:690    .debug_str:0000000000000153 .LASF15
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:706    .debug_str:00000000000001d3 .LASF16
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:660    .debug_str:000000000000000b .LASF17
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:666    .debug_str:0000000000000036 .LASF18
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:672    .debug_str:000000000000005c .LASF19
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:700    .debug_str:000000000000019e .LASF20
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:688    .debug_str:0000000000000143 .LASF21
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:704    .debug_str:00000000000001c3 .LASF22
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:728    .debug_str:000000000000031d .LASF23
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:682    .debug_str:0000000000000110 .LASF24
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:662    .debug_str:000000000000001b .LASF25
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:718    .debug_str:000000000000029c .LASF26
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:99     .text.dbg_periph_disable:0000000000000000 .LFB6
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:117    .text.dbg_periph_disable:0000000000000010 .LFE6
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:658    .debug_str:0000000000000000 .LASF28
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:551    .debug_loc:0000000000000000 .LLST3
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:730    .debug_str:000000000000032d .LASF27
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:78     .text.dbg_periph_enable:0000000000000000 .LFB5
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:92     .text.dbg_periph_enable:000000000000000c .LFE5
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:572    .debug_loc:000000000000002f .LLST2
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:676    .debug_str:00000000000000dd .LASF29
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:53     .text.dbg_low_power_disable:0000000000000000 .LFB4
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:71     .text.dbg_low_power_disable:0000000000000010 .LFE4
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:696    .debug_str:0000000000000183 .LASF30
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:586    .debug_loc:0000000000000050 .LLST1
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:694    .debug_str:000000000000016e .LASF31
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:32     .text.dbg_low_power_enable:0000000000000000 .LFB3
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:46     .text.dbg_low_power_enable:000000000000000c .LFE3
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:607    .debug_loc:000000000000007f .LLST0
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:664    .debug_str:000000000000002b .LASF36
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:14     .text.dbg_id_get:0000000000000000 .LFB2
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:25     .text.dbg_id_get:0000000000000008 .LFE2
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:102    .text.dbg_periph_disable:0000000000000000 .LVL7
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:109    .text.dbg_periph_disable:000000000000000a .LVL8
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:112    .text.dbg_periph_disable:000000000000000c .LVL9
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:81     .text.dbg_periph_enable:0000000000000000 .LVL5
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:87     .text.dbg_periph_enable:0000000000000008 .LVL6
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:56     .text.dbg_low_power_disable:0000000000000000 .LVL2
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:63     .text.dbg_low_power_disable:000000000000000a .LVL3
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:66     .text.dbg_low_power_disable:000000000000000c .LVL4
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:35     .text.dbg_low_power_enable:0000000000000000 .LVL0
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:41     .text.dbg_low_power_enable:0000000000000008 .LVL1
+C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s:126    .debug_info:0000000000000000 .Ldebug_info0
 
 NO UNDEFINED SYMBOLS
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccxh0eok.s 			page 7
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccdyFFtU.s 			page 7
 
 

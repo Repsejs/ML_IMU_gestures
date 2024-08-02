@@ -1,4 +1,4 @@
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 1
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s 			page 1
 
 
    1              		.file	"usb_serial_if.c"
@@ -58,7 +58,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 1
   24              	.LCFI0:
   25              		.cfi_def_cfa_offset 16
   26 0002 06C6     		sw	ra,12(sp)
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 2
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s 			page 2
 
 
   27              		.cfi_offset 1, -4
@@ -118,7 +118,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 1
   73              		.cfi_offset 18, -16
   74              		.cfi_offset 19, -20
   75              		.cfi_offset 20, -24
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 3
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s 			page 3
 
 
   76              		.cfi_offset 21, -28
@@ -178,7 +178,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 1
   53:lib/usbcdc/src/usb_serial_if.c ****         for(int i = 0; i < usb_buffer.index; i++) data[i] = usb_buffer.buffer[i];
  115              		.loc 1 53 9 is_stmt 1
  116              	.LBB3:
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 4
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s 			page 4
 
 
  117              		.loc 1 53 13
@@ -238,7 +238,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 1
   41:lib/usbcdc/src/usb_serial_if.c ****                 for(int i = 0; i < receive_length; i++) usb_buffer.buffer[usb_buffer.index + i] = r
  165              		.loc 1 41 13 is_stmt 1
   41:lib/usbcdc/src/usb_serial_if.c ****                 for(int i = 0; i < receive_length; i++) usb_buffer.buffer[usb_buffer.index + i] = r
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 5
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s 			page 5
 
 
  166              		.loc 1 41 31 is_stmt 0
@@ -298,7 +298,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 1
  206 00be 23000A00 		sb	zero,%lo(packet_receive)(s4)
   48:lib/usbcdc/src/usb_serial_if.c ****             usbd_ep_recev (&USB_OTG_dev, CDC_ACM_DATA_OUT_EP, receive_buffer, 64);
  207              		.loc 1 48 13 is_stmt 1
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 6
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s 			page 6
 
 
   48:lib/usbcdc/src/usb_serial_if.c ****             usbd_ep_recev (&USB_OTG_dev, CDC_ACM_DATA_OUT_EP, receive_buffer, 64);
@@ -358,7 +358,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 1
  248              	.LCFI5:
  249              		.cfi_def_cfa_offset 16
  250 0002 06C6     		sw	ra,12(sp)
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 7
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s 			page 7
 
 
  251              		.cfi_offset 1, -4
@@ -418,7 +418,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 1
  289              		.loc 1 70 1
  290 004e 4101     		addi	sp,sp,16
  291              	.LCFI6:
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 8
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s 			page 8
 
 
  292              		.cfi_def_cfa_offset 0
@@ -478,7 +478,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 1
  339 000c 52C4     		sw	s4,8(sp)
  340 000e 56C2     		sw	s5,4(sp)
  341              		.cfi_offset 18, -16
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 9
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s 			page 9
 
 
  342              		.cfi_offset 19, -20
@@ -538,7 +538,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 1
  389 0058 37060000 		lui	a2,%hi(.LANCHOR3)
  390              		.loc 1 82 17 is_stmt 0
  391 005c 23800A00 		sb	zero,%lo(packet_sent)(s5)
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 10
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s 			page 10
 
 
   83:lib/usbcdc/src/usb_serial_if.c ****     for(int i = 0; i < len; i++) tx_buffer[i] = ((uint8_t*)ptr)[i];
@@ -598,7 +598,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 1
  440              	.L27:
  441              	.LCFI9:
  442              		.cfi_restore_state
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 11
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s 			page 11
 
 
  443              	.LBB8:
@@ -658,7 +658,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 1
   98:lib/usbcdc/src/usb_serial_if.c **** 
   99:lib/usbcdc/src/usb_serial_if.c ****     /* reset HXTALEN, CKMEN, PLLEN bits */
  100:lib/usbcdc/src/usb_serial_if.c ****     RCU_CTL &= ~(RCU_CTL_HXTALEN | RCU_CTL_CKMEN | RCU_CTL_PLLEN);
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 12
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s 			page 12
 
 
  483              		.loc 1 100 5 is_stmt 1
@@ -718,7 +718,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 1
  118:lib/usbcdc/src/usb_serial_if.c ****     uint32_t stab_flag = 0U;
  520              		.loc 1 118 5
  119:lib/usbcdc/src/usb_serial_if.c **** 
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 13
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s 			page 13
 
 
  120:lib/usbcdc/src/usb_serial_if.c ****     /* enable HXTAL */
@@ -778,7 +778,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 1
  560              	.LBB11:
  561              	.LBB12:
  133:lib/usbcdc/src/usb_serial_if.c ****     }
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 14
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s 			page 14
 
 
  134:lib/usbcdc/src/usb_serial_if.c **** 
@@ -838,7 +838,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 1
  582              		.loc 1 160 18 is_stmt 0
  583 0096 D843     		lw	a4,4(a5)
  584 0098 758F     		and	a4,a4,a3
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 15
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s 			page 15
 
 
  585 009a D8C3     		sw	a4,4(a5)
@@ -898,7 +898,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 1
  621              		.loc 1 175 5 is_stmt 1
  622              		.loc 1 175 14 is_stmt 0
  623 00ce D843     		lw	a4,4(a5)
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 16
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s 			page 16
 
 
  624 00d0 719B     		andi	a4,a4,-4
@@ -958,7 +958,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 1
  664              		.section	.data.USB_OTG_dev,"aw"
  665              		.align	2
  666              		.set	.LANCHOR1,. + 0
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 17
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s 			page 17
 
 
  669              	USB_OTG_dev:
@@ -1013,815 +1013,815 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 1
  705              		.file 18 "lib/usbcdc/include/usbd_core.h"
  706              		.file 19 "./../../firmware/GD32VF103_standard_peripheral/Include/gd32vf103_eclic.h"
  707              		.file 20 "lib/usbcdc/include/drv_usb_hw.h"
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 18
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s 			page 18
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 usb_serial_if.c
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:682    .data.usb_buffer:0000000000000000 usb_buffer
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:662    .bss.tx_buffer:0000000000000000 tx_buffer
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:669    .data.USB_OTG_dev:0000000000000000 USB_OTG_dev
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:16     .text.usb_serial_connected:0000000000000000 usb_serial_connected
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:20     .text.usb_serial_connected:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:21     .text.usb_serial_connected:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:22     .text.usb_serial_connected:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:23     .text.usb_serial_connected:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:25     .text.usb_serial_connected:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:27     .text.usb_serial_connected:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:29     .text.usb_serial_connected:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:32     .text.usb_serial_connected:000000000000000c .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:33     .text.usb_serial_connected:000000000000000e .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:37     .text.usb_serial_connected:0000000000000014 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:39     .text.usb_serial_connected:0000000000000016 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:46     .text.read_usb_serial:0000000000000000 read_usb_serial
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:49     .text.read_usb_serial:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:51     .text.read_usb_serial:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:52     .text.read_usb_serial:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:53     .text.read_usb_serial:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:54     .text.read_usb_serial:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:55     .text.read_usb_serial:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:57     .text.read_usb_serial:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:59     .text.read_usb_serial:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:61     .text.read_usb_serial:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:64     .text.read_usb_serial:000000000000000c .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:71     .text.read_usb_serial:000000000000001a .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:72     .text.read_usb_serial:000000000000001a .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:73     .text.read_usb_serial:000000000000001a .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:74     .text.read_usb_serial:000000000000001a .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:75     .text.read_usb_serial:000000000000001a .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:76     .text.read_usb_serial:000000000000001a .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:77     .text.read_usb_serial:000000000000001a .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:79     .text.read_usb_serial:000000000000001a .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:81     .text.read_usb_serial:000000000000001e .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:82     .text.read_usb_serial:000000000000001e .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:86     .text.read_usb_serial:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:93     .text.read_usb_serial:000000000000003c .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:95     .text.read_usb_serial:0000000000000040 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:97     .text.read_usb_serial:0000000000000042 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:100    .text.read_usb_serial:0000000000000046 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:105    .text.read_usb_serial:000000000000004a .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:108    .text.read_usb_serial:0000000000000052 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:109    .text.read_usb_serial:0000000000000052 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:111    .text.read_usb_serial:0000000000000056 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:113    .text.read_usb_serial:000000000000005a .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:117    .text.read_usb_serial:0000000000000060 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:120    .text.read_usb_serial:0000000000000060 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:121    .text.read_usb_serial:0000000000000060 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:124    .text.read_usb_serial:0000000000000064 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:128    .text.read_usb_serial:0000000000000066 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:134    .text.read_usb_serial:000000000000006e .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:135    .text.read_usb_serial:000000000000006e .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:137    .text.read_usb_serial:0000000000000072 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:138    .text.read_usb_serial:0000000000000074 .L0 
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 19
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:682    .data.usb_buffer:0000000000000000 usb_buffer
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:662    .bss.tx_buffer:0000000000000000 tx_buffer
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:669    .data.USB_OTG_dev:0000000000000000 USB_OTG_dev
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:16     .text.usb_serial_connected:0000000000000000 usb_serial_connected
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:20     .text.usb_serial_connected:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:21     .text.usb_serial_connected:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:22     .text.usb_serial_connected:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:23     .text.usb_serial_connected:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:25     .text.usb_serial_connected:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:27     .text.usb_serial_connected:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:29     .text.usb_serial_connected:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:32     .text.usb_serial_connected:000000000000000c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:33     .text.usb_serial_connected:000000000000000e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:37     .text.usb_serial_connected:0000000000000014 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:39     .text.usb_serial_connected:0000000000000016 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:46     .text.read_usb_serial:0000000000000000 read_usb_serial
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:49     .text.read_usb_serial:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:51     .text.read_usb_serial:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:52     .text.read_usb_serial:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:53     .text.read_usb_serial:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:54     .text.read_usb_serial:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:55     .text.read_usb_serial:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:57     .text.read_usb_serial:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:59     .text.read_usb_serial:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:61     .text.read_usb_serial:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:64     .text.read_usb_serial:000000000000000c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:71     .text.read_usb_serial:000000000000001a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:72     .text.read_usb_serial:000000000000001a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:73     .text.read_usb_serial:000000000000001a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:74     .text.read_usb_serial:000000000000001a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:75     .text.read_usb_serial:000000000000001a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:76     .text.read_usb_serial:000000000000001a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:77     .text.read_usb_serial:000000000000001a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:79     .text.read_usb_serial:000000000000001a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:81     .text.read_usb_serial:000000000000001e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:82     .text.read_usb_serial:000000000000001e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:86     .text.read_usb_serial:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:93     .text.read_usb_serial:000000000000003c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:95     .text.read_usb_serial:0000000000000040 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:97     .text.read_usb_serial:0000000000000042 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:100    .text.read_usb_serial:0000000000000046 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:105    .text.read_usb_serial:000000000000004a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:108    .text.read_usb_serial:0000000000000052 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:109    .text.read_usb_serial:0000000000000052 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:111    .text.read_usb_serial:0000000000000056 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:113    .text.read_usb_serial:000000000000005a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:117    .text.read_usb_serial:0000000000000060 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:120    .text.read_usb_serial:0000000000000060 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:121    .text.read_usb_serial:0000000000000060 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:124    .text.read_usb_serial:0000000000000064 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:128    .text.read_usb_serial:0000000000000066 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:134    .text.read_usb_serial:000000000000006e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:135    .text.read_usb_serial:000000000000006e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:137    .text.read_usb_serial:0000000000000072 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:138    .text.read_usb_serial:0000000000000074 .L0 
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s 			page 19
 
 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:139    .text.read_usb_serial:0000000000000074 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:141    .text.read_usb_serial:0000000000000076 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:143    .text.read_usb_serial:0000000000000078 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:145    .text.read_usb_serial:000000000000007a .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:147    .text.read_usb_serial:000000000000007c .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:149    .text.read_usb_serial:000000000000007e .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:151    .text.read_usb_serial:0000000000000080 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:153    .text.read_usb_serial:0000000000000082 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:155    .text.read_usb_serial:0000000000000082 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:157    .text.read_usb_serial:0000000000000084 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:159    .text.read_usb_serial:0000000000000086 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:164    .text.read_usb_serial:0000000000000088 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:166    .text.read_usb_serial:0000000000000088 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:167    .text.read_usb_serial:0000000000000088 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:169    .text.read_usb_serial:000000000000008c .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:172    .text.read_usb_serial:000000000000008e .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:175    .text.read_usb_serial:0000000000000092 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:179    .text.read_usb_serial:0000000000000094 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:180    .text.read_usb_serial:0000000000000094 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:182    .text.read_usb_serial:0000000000000098 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:187    .text.read_usb_serial:00000000000000a6 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:190    .text.read_usb_serial:00000000000000a8 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:193    .text.read_usb_serial:00000000000000ac .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:194    .text.read_usb_serial:00000000000000ac .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:199    .text.read_usb_serial:00000000000000b2 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:200    .text.read_usb_serial:00000000000000b2 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:201    .text.read_usb_serial:00000000000000b2 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:206    .text.read_usb_serial:00000000000000be .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:208    .text.read_usb_serial:00000000000000c2 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:209    .text.read_usb_serial:00000000000000c2 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:211    .text.read_usb_serial:00000000000000c6 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:214    .text.read_usb_serial:00000000000000ce .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:222    .text.read_usb_serial:00000000000000da .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:223    .text.read_usb_serial:00000000000000da .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:226    .text.read_usb_serial:00000000000000e2 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:228    .text.read_usb_serial:00000000000000e6 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:231    .text.read_usb_serial:00000000000000e8 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:234    .text.read_usb_serial:00000000000000ee .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:241    .text.configure_usb_serial:0000000000000000 configure_usb_serial
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:244    .text.configure_usb_serial:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:245    .text.configure_usb_serial:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:246    .text.configure_usb_serial:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:247    .text.configure_usb_serial:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:249    .text.configure_usb_serial:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:251    .text.configure_usb_serial:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:464    .text.set_usb_clock_96m_hxtal:0000000000000000 set_usb_clock_96m_hxtal
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:253    .text.configure_usb_serial:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:139    .text.read_usb_serial:0000000000000074 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:141    .text.read_usb_serial:0000000000000076 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:143    .text.read_usb_serial:0000000000000078 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:145    .text.read_usb_serial:000000000000007a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:147    .text.read_usb_serial:000000000000007c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:149    .text.read_usb_serial:000000000000007e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:151    .text.read_usb_serial:0000000000000080 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:153    .text.read_usb_serial:0000000000000082 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:155    .text.read_usb_serial:0000000000000082 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:157    .text.read_usb_serial:0000000000000084 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:159    .text.read_usb_serial:0000000000000086 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:164    .text.read_usb_serial:0000000000000088 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:166    .text.read_usb_serial:0000000000000088 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:167    .text.read_usb_serial:0000000000000088 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:169    .text.read_usb_serial:000000000000008c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:172    .text.read_usb_serial:000000000000008e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:175    .text.read_usb_serial:0000000000000092 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:179    .text.read_usb_serial:0000000000000094 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:180    .text.read_usb_serial:0000000000000094 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:182    .text.read_usb_serial:0000000000000098 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:187    .text.read_usb_serial:00000000000000a6 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:190    .text.read_usb_serial:00000000000000a8 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:193    .text.read_usb_serial:00000000000000ac .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:194    .text.read_usb_serial:00000000000000ac .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:199    .text.read_usb_serial:00000000000000b2 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:200    .text.read_usb_serial:00000000000000b2 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:201    .text.read_usb_serial:00000000000000b2 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:206    .text.read_usb_serial:00000000000000be .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:208    .text.read_usb_serial:00000000000000c2 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:209    .text.read_usb_serial:00000000000000c2 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:211    .text.read_usb_serial:00000000000000c6 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:214    .text.read_usb_serial:00000000000000ce .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:222    .text.read_usb_serial:00000000000000da .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:223    .text.read_usb_serial:00000000000000da .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:226    .text.read_usb_serial:00000000000000e2 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:228    .text.read_usb_serial:00000000000000e6 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:231    .text.read_usb_serial:00000000000000e8 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:234    .text.read_usb_serial:00000000000000ee .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:241    .text.configure_usb_serial:0000000000000000 configure_usb_serial
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:244    .text.configure_usb_serial:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:245    .text.configure_usb_serial:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:246    .text.configure_usb_serial:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:247    .text.configure_usb_serial:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:249    .text.configure_usb_serial:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:251    .text.configure_usb_serial:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:464    .text.set_usb_clock_96m_hxtal:0000000000000000 set_usb_clock_96m_hxtal
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:253    .text.configure_usb_serial:0000000000000004 .L0 
 lib/usbcdc/src/usb_serial_if.c:63     .text.configure_usb_serial:000000000000000c .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:262    .text.configure_usb_serial:0000000000000010 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:265    .text.configure_usb_serial:0000000000000018 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:269    .text.configure_usb_serial:0000000000000022 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:272    .text.configure_usb_serial:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:275    .text.configure_usb_serial:0000000000000032 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:278    .text.configure_usb_serial:000000000000003a .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:279    .text.configure_usb_serial:000000000000003a .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:280    .text.configure_usb_serial:000000000000003c .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:282    .text.configure_usb_serial:000000000000003c .L0 
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 20
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:262    .text.configure_usb_serial:0000000000000010 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:265    .text.configure_usb_serial:0000000000000018 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:269    .text.configure_usb_serial:0000000000000022 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:272    .text.configure_usb_serial:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:275    .text.configure_usb_serial:0000000000000032 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:278    .text.configure_usb_serial:000000000000003a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:279    .text.configure_usb_serial:000000000000003a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:280    .text.configure_usb_serial:000000000000003c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:282    .text.configure_usb_serial:000000000000003c .L0 
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s 			page 20
 
 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:285    .text.configure_usb_serial:0000000000000044 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:286    .text.configure_usb_serial:0000000000000044 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:290    .text.configure_usb_serial:000000000000004e .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:292    .text.configure_usb_serial:0000000000000050 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:294    .text.configure_usb_serial:0000000000000050 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:296    .text.configure_usb_serial:0000000000000058 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:303    .text.usb_serial_available:0000000000000000 usb_serial_available
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:306    .text.usb_serial_available:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:307    .text.usb_serial_available:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:308    .text.usb_serial_available:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:309    .text.usb_serial_available:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:313    .text.usb_serial_available:000000000000000c .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:315    .text.usb_serial_available:000000000000000e .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:317    .text.usb_serial_available:0000000000000014 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:324    .text._write:0000000000000000 _write
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:327    .text._write:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:329    .text._write:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:330    .text._write:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:331    .text._write:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:333    .text._write:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:341    .text._write:0000000000000010 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:342    .text._write:0000000000000010 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:343    .text._write:0000000000000010 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:344    .text._write:0000000000000010 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:345    .text._write:0000000000000010 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:346    .text._write:0000000000000010 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:347    .text._write:0000000000000010 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:349    .text._write:0000000000000010 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:352    .text._write:0000000000000014 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:355    .text._write:000000000000001c .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:356    .text._write:000000000000001c .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:362    .text._write:0000000000000028 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:363    .text._write:0000000000000028 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:364    .text._write:0000000000000028 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:368    .text._write:0000000000000030 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:370    .text._write:0000000000000034 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:377    .text._write:000000000000003e .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:378    .text._write:000000000000003e .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:381    .text._write:0000000000000044 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:384    .text._write:000000000000004c .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:389    .text._write:0000000000000058 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:391    .text._write:000000000000005c .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:394    .text._write:0000000000000060 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:396    .text._write:0000000000000060 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:397    .text._write:0000000000000060 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:399    .text._write:0000000000000062 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:403    .text._write:0000000000000066 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:406    .text._write:000000000000006a .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:415    .text._write:0000000000000088 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:416    .text._write:0000000000000088 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:418    .text._write:000000000000008c .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:419    .text._write:000000000000008c .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:421    .text._write:000000000000008e .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:424    .text._write:0000000000000090 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:426    .text._write:0000000000000092 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:429    .text._write:0000000000000094 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:432    .text._write:0000000000000096 .L0 
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 21
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:285    .text.configure_usb_serial:0000000000000044 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:286    .text.configure_usb_serial:0000000000000044 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:290    .text.configure_usb_serial:000000000000004e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:292    .text.configure_usb_serial:0000000000000050 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:294    .text.configure_usb_serial:0000000000000050 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:296    .text.configure_usb_serial:0000000000000058 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:303    .text.usb_serial_available:0000000000000000 usb_serial_available
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:306    .text.usb_serial_available:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:307    .text.usb_serial_available:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:308    .text.usb_serial_available:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:309    .text.usb_serial_available:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:313    .text.usb_serial_available:000000000000000c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:315    .text.usb_serial_available:000000000000000e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:317    .text.usb_serial_available:0000000000000014 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:324    .text._write:0000000000000000 _write
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:327    .text._write:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:329    .text._write:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:330    .text._write:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:331    .text._write:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:333    .text._write:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:341    .text._write:0000000000000010 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:342    .text._write:0000000000000010 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:343    .text._write:0000000000000010 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:344    .text._write:0000000000000010 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:345    .text._write:0000000000000010 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:346    .text._write:0000000000000010 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:347    .text._write:0000000000000010 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:349    .text._write:0000000000000010 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:352    .text._write:0000000000000014 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:355    .text._write:000000000000001c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:356    .text._write:000000000000001c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:362    .text._write:0000000000000028 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:363    .text._write:0000000000000028 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:364    .text._write:0000000000000028 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:368    .text._write:0000000000000030 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:370    .text._write:0000000000000034 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:377    .text._write:000000000000003e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:378    .text._write:000000000000003e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:381    .text._write:0000000000000044 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:384    .text._write:000000000000004c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:389    .text._write:0000000000000058 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:391    .text._write:000000000000005c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:394    .text._write:0000000000000060 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:396    .text._write:0000000000000060 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:397    .text._write:0000000000000060 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:399    .text._write:0000000000000062 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:403    .text._write:0000000000000066 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:406    .text._write:000000000000006a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:415    .text._write:0000000000000088 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:416    .text._write:0000000000000088 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:418    .text._write:000000000000008c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:419    .text._write:000000000000008c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:421    .text._write:000000000000008e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:424    .text._write:0000000000000090 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:426    .text._write:0000000000000092 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:429    .text._write:0000000000000094 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:432    .text._write:0000000000000096 .L0 
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s 			page 21
 
 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:434    .text._write:0000000000000098 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:437    .text._write:000000000000009a .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:442    .text._write:000000000000009c .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:445    .text._write:000000000000009c .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:446    .text._write:000000000000009c .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:449    .text._write:00000000000000a4 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:451    .text._write:00000000000000a8 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:454    .text._write:00000000000000aa .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:457    .text._write:00000000000000b0 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:467    .text.set_usb_clock_96m_hxtal:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:468    .text.set_usb_clock_96m_hxtal:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:469    .text.set_usb_clock_96m_hxtal:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:470    .text.set_usb_clock_96m_hxtal:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:473    .text.set_usb_clock_96m_hxtal:0000000000000006 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:476    .text.set_usb_clock_96m_hxtal:000000000000000c .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:479    .text.set_usb_clock_96m_hxtal:0000000000000012 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:480    .text.set_usb_clock_96m_hxtal:0000000000000012 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:484    .text.set_usb_clock_96m_hxtal:0000000000000018 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:485    .text.set_usb_clock_96m_hxtal:0000000000000018 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:491    .text.set_usb_clock_96m_hxtal:0000000000000024 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:492    .text.set_usb_clock_96m_hxtal:0000000000000024 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:498    .text.set_usb_clock_96m_hxtal:0000000000000030 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:499    .text.set_usb_clock_96m_hxtal:0000000000000030 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:505    .text.set_usb_clock_96m_hxtal:000000000000003c .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:506    .text.set_usb_clock_96m_hxtal:000000000000003c .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:508    .text.set_usb_clock_96m_hxtal:0000000000000040 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:509    .text.set_usb_clock_96m_hxtal:0000000000000040 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:515    .text.set_usb_clock_96m_hxtal:000000000000004c .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:516    .text.set_usb_clock_96m_hxtal:000000000000004c .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:520    .text.set_usb_clock_96m_hxtal:0000000000000052 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:521    .text.set_usb_clock_96m_hxtal:0000000000000052 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:522    .text.set_usb_clock_96m_hxtal:0000000000000052 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:523    .text.set_usb_clock_96m_hxtal:0000000000000052 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:529    .text.set_usb_clock_96m_hxtal:000000000000005e .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:533    .text.set_usb_clock_96m_hxtal:0000000000000062 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:534    .text.set_usb_clock_96m_hxtal:0000000000000062 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:535    .text.set_usb_clock_96m_hxtal:0000000000000062 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:536    .text.set_usb_clock_96m_hxtal:0000000000000062 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:539    .text.set_usb_clock_96m_hxtal:0000000000000064 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:544    .text.set_usb_clock_96m_hxtal:000000000000006e .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:548    .text.set_usb_clock_96m_hxtal:0000000000000070 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:549    .text.set_usb_clock_96m_hxtal:0000000000000070 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:552    .text.set_usb_clock_96m_hxtal:0000000000000076 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:557    .text.set_usb_clock_96m_hxtal:000000000000007e .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:558    .text.set_usb_clock_96m_hxtal:000000000000007e .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:563    .text.set_usb_clock_96m_hxtal:0000000000000080 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:564    .text.set_usb_clock_96m_hxtal:0000000000000080 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:566    .text.set_usb_clock_96m_hxtal:0000000000000082 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:569    .text.set_usb_clock_96m_hxtal:0000000000000088 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:571    .text.set_usb_clock_96m_hxtal:000000000000008a .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:572    .text.set_usb_clock_96m_hxtal:000000000000008a .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:575    .text.set_usb_clock_96m_hxtal:000000000000008e .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:576    .text.set_usb_clock_96m_hxtal:000000000000008e .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:580    .text.set_usb_clock_96m_hxtal:0000000000000096 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:581    .text.set_usb_clock_96m_hxtal:0000000000000096 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:582    .text.set_usb_clock_96m_hxtal:0000000000000096 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:583    .text.set_usb_clock_96m_hxtal:0000000000000096 .L0 
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 22
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:434    .text._write:0000000000000098 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:437    .text._write:000000000000009a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:442    .text._write:000000000000009c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:445    .text._write:000000000000009c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:446    .text._write:000000000000009c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:449    .text._write:00000000000000a4 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:451    .text._write:00000000000000a8 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:454    .text._write:00000000000000aa .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:457    .text._write:00000000000000b0 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:467    .text.set_usb_clock_96m_hxtal:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:468    .text.set_usb_clock_96m_hxtal:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:469    .text.set_usb_clock_96m_hxtal:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:470    .text.set_usb_clock_96m_hxtal:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:473    .text.set_usb_clock_96m_hxtal:0000000000000006 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:476    .text.set_usb_clock_96m_hxtal:000000000000000c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:479    .text.set_usb_clock_96m_hxtal:0000000000000012 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:480    .text.set_usb_clock_96m_hxtal:0000000000000012 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:484    .text.set_usb_clock_96m_hxtal:0000000000000018 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:485    .text.set_usb_clock_96m_hxtal:0000000000000018 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:491    .text.set_usb_clock_96m_hxtal:0000000000000024 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:492    .text.set_usb_clock_96m_hxtal:0000000000000024 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:498    .text.set_usb_clock_96m_hxtal:0000000000000030 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:499    .text.set_usb_clock_96m_hxtal:0000000000000030 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:505    .text.set_usb_clock_96m_hxtal:000000000000003c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:506    .text.set_usb_clock_96m_hxtal:000000000000003c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:508    .text.set_usb_clock_96m_hxtal:0000000000000040 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:509    .text.set_usb_clock_96m_hxtal:0000000000000040 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:515    .text.set_usb_clock_96m_hxtal:000000000000004c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:516    .text.set_usb_clock_96m_hxtal:000000000000004c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:520    .text.set_usb_clock_96m_hxtal:0000000000000052 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:521    .text.set_usb_clock_96m_hxtal:0000000000000052 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:522    .text.set_usb_clock_96m_hxtal:0000000000000052 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:523    .text.set_usb_clock_96m_hxtal:0000000000000052 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:529    .text.set_usb_clock_96m_hxtal:000000000000005e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:533    .text.set_usb_clock_96m_hxtal:0000000000000062 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:534    .text.set_usb_clock_96m_hxtal:0000000000000062 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:535    .text.set_usb_clock_96m_hxtal:0000000000000062 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:536    .text.set_usb_clock_96m_hxtal:0000000000000062 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:539    .text.set_usb_clock_96m_hxtal:0000000000000064 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:544    .text.set_usb_clock_96m_hxtal:000000000000006e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:548    .text.set_usb_clock_96m_hxtal:0000000000000070 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:549    .text.set_usb_clock_96m_hxtal:0000000000000070 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:552    .text.set_usb_clock_96m_hxtal:0000000000000076 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:557    .text.set_usb_clock_96m_hxtal:000000000000007e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:558    .text.set_usb_clock_96m_hxtal:000000000000007e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:563    .text.set_usb_clock_96m_hxtal:0000000000000080 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:564    .text.set_usb_clock_96m_hxtal:0000000000000080 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:566    .text.set_usb_clock_96m_hxtal:0000000000000082 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:569    .text.set_usb_clock_96m_hxtal:0000000000000088 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:571    .text.set_usb_clock_96m_hxtal:000000000000008a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:572    .text.set_usb_clock_96m_hxtal:000000000000008a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:575    .text.set_usb_clock_96m_hxtal:000000000000008e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:576    .text.set_usb_clock_96m_hxtal:000000000000008e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:580    .text.set_usb_clock_96m_hxtal:0000000000000096 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:581    .text.set_usb_clock_96m_hxtal:0000000000000096 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:582    .text.set_usb_clock_96m_hxtal:0000000000000096 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:583    .text.set_usb_clock_96m_hxtal:0000000000000096 .L0 
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s 			page 22
 
 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:587    .text.set_usb_clock_96m_hxtal:000000000000009c .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:588    .text.set_usb_clock_96m_hxtal:000000000000009c .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:593    .text.set_usb_clock_96m_hxtal:00000000000000a6 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:594    .text.set_usb_clock_96m_hxtal:00000000000000a6 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:599    .text.set_usb_clock_96m_hxtal:00000000000000ae .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:600    .text.set_usb_clock_96m_hxtal:00000000000000ae .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:602    .text.set_usb_clock_96m_hxtal:00000000000000b0 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:604    .text.set_usb_clock_96m_hxtal:00000000000000b4 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:607    .text.set_usb_clock_96m_hxtal:00000000000000ba .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:608    .text.set_usb_clock_96m_hxtal:00000000000000ba .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:612    .text.set_usb_clock_96m_hxtal:00000000000000c0 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:613    .text.set_usb_clock_96m_hxtal:00000000000000c0 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:616    .text.set_usb_clock_96m_hxtal:00000000000000c4 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:617    .text.set_usb_clock_96m_hxtal:00000000000000c4 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:619    .text.set_usb_clock_96m_hxtal:00000000000000c6 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:622    .text.set_usb_clock_96m_hxtal:00000000000000ce .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:623    .text.set_usb_clock_96m_hxtal:00000000000000ce .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:627    .text.set_usb_clock_96m_hxtal:00000000000000d4 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:628    .text.set_usb_clock_96m_hxtal:00000000000000d4 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:632    .text.set_usb_clock_96m_hxtal:00000000000000dc .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:633    .text.set_usb_clock_96m_hxtal:00000000000000dc .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:636    .text.set_usb_clock_96m_hxtal:00000000000000e0 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:637    .text.set_usb_clock_96m_hxtal:00000000000000e0 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:639    .text.set_usb_clock_96m_hxtal:00000000000000e2 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:641    .text.set_usb_clock_96m_hxtal:00000000000000e4 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:643    .text.set_usb_clock_96m_hxtal:00000000000000e6 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:647    .text.set_usb_clock_96m_hxtal:00000000000000ee .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:652    .bss.receive_buffer.5944:0000000000000000 .LANCHOR2
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:655    .bss.receive_buffer.5944:0000000000000000 receive_buffer.5944
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:659    .bss.tx_buffer:0000000000000000 .LANCHOR3
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:666    .data.USB_OTG_dev:0000000000000000 .LANCHOR1
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:679    .data.usb_buffer:0000000000000000 .LANCHOR0
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:42     .text.usb_serial_connected:0000000000000016 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:237    .text.read_usb_serial:00000000000000ee .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:299    .text.configure_usb_serial:0000000000000058 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:320    .text.usb_serial_available:0000000000000014 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:460    .text._write:00000000000000b0 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:650    .text.set_usb_clock_96m_hxtal:00000000000000ee .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:587    .text.set_usb_clock_96m_hxtal:000000000000009c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:588    .text.set_usb_clock_96m_hxtal:000000000000009c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:593    .text.set_usb_clock_96m_hxtal:00000000000000a6 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:594    .text.set_usb_clock_96m_hxtal:00000000000000a6 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:599    .text.set_usb_clock_96m_hxtal:00000000000000ae .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:600    .text.set_usb_clock_96m_hxtal:00000000000000ae .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:602    .text.set_usb_clock_96m_hxtal:00000000000000b0 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:604    .text.set_usb_clock_96m_hxtal:00000000000000b4 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:607    .text.set_usb_clock_96m_hxtal:00000000000000ba .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:608    .text.set_usb_clock_96m_hxtal:00000000000000ba .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:612    .text.set_usb_clock_96m_hxtal:00000000000000c0 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:613    .text.set_usb_clock_96m_hxtal:00000000000000c0 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:616    .text.set_usb_clock_96m_hxtal:00000000000000c4 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:617    .text.set_usb_clock_96m_hxtal:00000000000000c4 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:619    .text.set_usb_clock_96m_hxtal:00000000000000c6 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:622    .text.set_usb_clock_96m_hxtal:00000000000000ce .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:623    .text.set_usb_clock_96m_hxtal:00000000000000ce .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:627    .text.set_usb_clock_96m_hxtal:00000000000000d4 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:628    .text.set_usb_clock_96m_hxtal:00000000000000d4 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:632    .text.set_usb_clock_96m_hxtal:00000000000000dc .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:633    .text.set_usb_clock_96m_hxtal:00000000000000dc .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:636    .text.set_usb_clock_96m_hxtal:00000000000000e0 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:637    .text.set_usb_clock_96m_hxtal:00000000000000e0 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:639    .text.set_usb_clock_96m_hxtal:00000000000000e2 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:641    .text.set_usb_clock_96m_hxtal:00000000000000e4 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:643    .text.set_usb_clock_96m_hxtal:00000000000000e6 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:647    .text.set_usb_clock_96m_hxtal:00000000000000ee .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:652    .bss.receive_buffer.5944:0000000000000000 .LANCHOR2
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:655    .bss.receive_buffer.5944:0000000000000000 receive_buffer.5944
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:659    .bss.tx_buffer:0000000000000000 .LANCHOR3
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:666    .data.USB_OTG_dev:0000000000000000 .LANCHOR1
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:679    .data.usb_buffer:0000000000000000 .LANCHOR0
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:42     .text.usb_serial_connected:0000000000000016 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:237    .text.read_usb_serial:00000000000000ee .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:299    .text.configure_usb_serial:0000000000000058 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:320    .text.usb_serial_available:0000000000000014 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:460    .text._write:00000000000000b0 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:650    .text.set_usb_clock_96m_hxtal:00000000000000ee .L0 
                      .debug_frame:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:131    .text.read_usb_serial:000000000000006e .L10
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:162    .text.read_usb_serial:0000000000000088 .L7
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:219    .text.read_usb_serial:00000000000000da .L9
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:198    .text.read_usb_serial:00000000000000b2 .L5
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:177    .text.read_usb_serial:0000000000000094 .L6
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:102    .text.read_usb_serial:000000000000004a .L4
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:126    .text.read_usb_serial:0000000000000066 .L8
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:360    .text._write:0000000000000028 .L22
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:387    .text._write:0000000000000058 .L23
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:375    .text._write:000000000000003e .L28
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:440    .text._write:000000000000009c .L27
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:401    .text._write:0000000000000066 .L26
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:546    .text.set_usb_clock_96m_hxtal:0000000000000070 .L31
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:531    .text.set_usb_clock_96m_hxtal:0000000000000062 .L32
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:559    .text.set_usb_clock_96m_hxtal:0000000000000080 .L33
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:555    .text.set_usb_clock_96m_hxtal:000000000000007e .L34
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:614    .text.set_usb_clock_96m_hxtal:00000000000000c4 .L35
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:634    .text.set_usb_clock_96m_hxtal:00000000000000e0 .L36
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 23
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:131    .text.read_usb_serial:000000000000006e .L10
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:162    .text.read_usb_serial:0000000000000088 .L7
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:219    .text.read_usb_serial:00000000000000da .L9
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:198    .text.read_usb_serial:00000000000000b2 .L5
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:177    .text.read_usb_serial:0000000000000094 .L6
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:102    .text.read_usb_serial:000000000000004a .L4
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:126    .text.read_usb_serial:0000000000000066 .L8
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:360    .text._write:0000000000000028 .L22
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:387    .text._write:0000000000000058 .L23
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:375    .text._write:000000000000003e .L28
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:440    .text._write:000000000000009c .L27
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:401    .text._write:0000000000000066 .L26
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:546    .text.set_usb_clock_96m_hxtal:0000000000000070 .L31
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:531    .text.set_usb_clock_96m_hxtal:0000000000000062 .L32
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:559    .text.set_usb_clock_96m_hxtal:0000000000000080 .L33
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:555    .text.set_usb_clock_96m_hxtal:000000000000007e .L34
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:614    .text.set_usb_clock_96m_hxtal:00000000000000c4 .L35
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:634    .text.set_usb_clock_96m_hxtal:00000000000000e0 .L36
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s 			page 23
 
 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:5070   .debug_abbrev:0000000000000000 .Ldebug_abbrev0
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6423   .debug_str:0000000000000200 .LASF374
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6905   .debug_str:0000000000000dde .LASF375
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6721   .debug_str:0000000000000951 .LASF376
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6301   .debug_ranges:0000000000000000 .Ldebug_ranges0
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6337   .debug_line:0000000000000000 .Ldebug_line0
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6761   .debug_str:0000000000000aa1 .LASF0
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6509   .debug_str:0000000000000470 .LASF1
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6445   .debug_str:00000000000002f4 .LASF4
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6521   .debug_str:00000000000004d0 .LASF2
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6975   .debug_str:0000000000000f3e .LASF3
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6579   .debug_str:000000000000062d .LASF5
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7059   .debug_str:0000000000001112 .LASF6
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6469   .debug_str:000000000000037a .LASF7
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6709   .debug_str:0000000000000912 .LASF8
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6653   .debug_str:00000000000007c1 .LASF9
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7011   .debug_str:0000000000000ff4 .LASF10
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6713   .debug_str:0000000000000928 .LASF11
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6867   .debug_str:0000000000000d10 .LASF12
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6511   .debug_str:000000000000047c .LASF13
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6875   .debug_str:0000000000000d44 .LASF14
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7035   .debug_str:000000000000109a .LASF15
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7075   .debug_str:0000000000001181 .LASF16
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6667   .debug_str:0000000000000822 .LASF92
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6353   .debug_str:0000000000000064 .LASF17
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6829   .debug_str:0000000000000c48 .LASF18
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6623   .debug_str:000000000000071a .LASF19
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6589   .debug_str:0000000000000675 .LASF20
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6529   .debug_str:00000000000004ff .LASF21
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6715   .debug_str:0000000000000936 .LASF22
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6601   .debug_str:00000000000006b8 .LASF23
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6957   .debug_str:0000000000000ede .LASF24
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6615   .debug_str:00000000000006f9 .LASF25
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7073   .debug_str:000000000000117b .LASF26
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6977   .debug_str:0000000000000f48 .LASF27
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7085   .debug_str:00000000000011b2 .LASF28
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7083   .debug_str:00000000000011aa .LASF29
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6947   .debug_str:0000000000000eb2 .LASF30
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7079   .debug_str:0000000000001191 .LASF31
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7047   .debug_str:00000000000010dc .LASF32
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6605   .debug_str:00000000000006c8 .LASF33
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6541   .debug_str:0000000000000530 .LASF34
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6629   .debug_str:0000000000000743 .LASF35
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7077   .debug_str:0000000000001189 .LASF36
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6433   .debug_str:00000000000002af .LASF37
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7067   .debug_str:000000000000114a .LASF38
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6893   .debug_str:0000000000000d9b .LASF39
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6505   .debug_str:000000000000045c .LASF40
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6841   .debug_str:0000000000000c90 .LASF41
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7039   .debug_str:00000000000010b5 .LASF42
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6939   .debug_str:0000000000000e8c .LASF43
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7065   .debug_str:0000000000001140 .LASF44
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7093   .debug_str:00000000000011e5 .LASF45
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6647   .debug_str:00000000000007a9 .LASF46
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6599   .debug_str:00000000000006af .LASF47
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7055   .debug_str:0000000000001100 .LASF48
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6951   .debug_str:0000000000000ec3 .LASF49
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 24
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:5070   .debug_abbrev:0000000000000000 .Ldebug_abbrev0
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6423   .debug_str:0000000000000200 .LASF374
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6905   .debug_str:0000000000000de4 .LASF375
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6777   .debug_str:0000000000000ab7 .LASF376
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6301   .debug_ranges:0000000000000000 .Ldebug_ranges0
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6337   .debug_line:0000000000000000 .Ldebug_line0
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6759   .debug_str:0000000000000a34 .LASF0
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6509   .debug_str:0000000000000470 .LASF1
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6445   .debug_str:00000000000002f4 .LASF4
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6521   .debug_str:00000000000004d0 .LASF2
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6975   .debug_str:0000000000000f44 .LASF3
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6579   .debug_str:000000000000062d .LASF5
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7059   .debug_str:0000000000001118 .LASF6
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6469   .debug_str:000000000000037a .LASF7
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6707   .debug_str:0000000000000906 .LASF8
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6651   .debug_str:00000000000007b5 .LASF9
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7011   .debug_str:0000000000000ffa .LASF10
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6711   .debug_str:000000000000091c .LASF11
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6867   .debug_str:0000000000000d16 .LASF12
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6511   .debug_str:000000000000047c .LASF13
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6875   .debug_str:0000000000000d4a .LASF14
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7035   .debug_str:00000000000010a0 .LASF15
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7075   .debug_str:0000000000001187 .LASF16
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6665   .debug_str:0000000000000816 .LASF92
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6353   .debug_str:0000000000000064 .LASF17
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6829   .debug_str:0000000000000c4e .LASF18
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6621   .debug_str:000000000000070e .LASF19
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6589   .debug_str:0000000000000675 .LASF20
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6529   .debug_str:00000000000004ff .LASF21
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6713   .debug_str:000000000000092a .LASF22
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6599   .debug_str:00000000000006ac .LASF23
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6957   .debug_str:0000000000000ee4 .LASF24
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6613   .debug_str:00000000000006ed .LASF25
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7073   .debug_str:0000000000001181 .LASF26
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6977   .debug_str:0000000000000f4e .LASF27
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7085   .debug_str:00000000000011b8 .LASF28
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7083   .debug_str:00000000000011b0 .LASF29
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6947   .debug_str:0000000000000eb8 .LASF30
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7079   .debug_str:0000000000001197 .LASF31
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7047   .debug_str:00000000000010e2 .LASF32
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6603   .debug_str:00000000000006bc .LASF33
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6541   .debug_str:0000000000000530 .LASF34
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6627   .debug_str:0000000000000737 .LASF35
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7077   .debug_str:000000000000118f .LASF36
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6433   .debug_str:00000000000002af .LASF37
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7067   .debug_str:0000000000001150 .LASF38
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6893   .debug_str:0000000000000da1 .LASF39
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6505   .debug_str:000000000000045c .LASF40
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6841   .debug_str:0000000000000c96 .LASF41
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7039   .debug_str:00000000000010bb .LASF42
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6939   .debug_str:0000000000000e92 .LASF43
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7065   .debug_str:0000000000001146 .LASF44
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7093   .debug_str:00000000000011eb .LASF45
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6645   .debug_str:000000000000079d .LASF46
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6597   .debug_str:00000000000006a3 .LASF47
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7055   .debug_str:0000000000001106 .LASF48
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6951   .debug_str:0000000000000ec9 .LASF49
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s 			page 24
 
 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6891   .debug_str:0000000000000d94 .LASF50
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6491   .debug_str:00000000000003ff .LASF51
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6779   .debug_str:0000000000000b24 .LASF52
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6531   .debug_str:0000000000000506 .LASF53
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6535   .debug_str:0000000000000514 .LASF54
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6879   .debug_str:0000000000000d59 .LASF55
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6405   .debug_str:000000000000018c .LASF56
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6557   .debug_str:000000000000059b .LASF57
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6693   .debug_str:00000000000008b2 .LASF58
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6577   .debug_str:0000000000000623 .LASF59
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7097   .debug_str:00000000000011f1 .LASF60
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6387   .debug_str:0000000000000139 .LASF61
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6591   .debug_str:0000000000000686 .LASF62
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6593   .debug_str:0000000000000691 .LASF63
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6991   .debug_str:0000000000000f8d .LASF64
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6539   .debug_str:0000000000000528 .LASF65
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6463   .debug_str:000000000000035a .LASF66
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6363   .debug_str:0000000000000097 .LASF67
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6889   .debug_str:0000000000000d8c .LASF68
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6465   .debug_str:0000000000000362 .LASF69
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6845   .debug_str:0000000000000ca2 .LASF70
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6633   .debug_str:0000000000000756 .LASF71
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7103   .debug_str:000000000000120f .LASF72
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6987   .debug_str:0000000000000f7c .LASF73
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6995   .debug_str:0000000000000fa4 .LASF74
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6551   .debug_str:0000000000000572 .LASF75
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6383   .debug_str:0000000000000116 .LASF76
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6493   .debug_str:000000000000040a .LASF77
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6525   .debug_str:00000000000004ec .LASF78
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6817   .debug_str:0000000000000c03 .LASF79
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6687   .debug_str:0000000000000896 .LASF80
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6501   .debug_str:0000000000000441 .LASF81
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6603   .debug_str:00000000000006bf .LASF82
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6737   .debug_str:0000000000000a1f .LASF83
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6979   .debug_str:0000000000000f4f .LASF84
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6481   .debug_str:00000000000003af .LASF85
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6609   .debug_str:00000000000006da .LASF94
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6473   .debug_str:000000000000038f .LASF86
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6959   .debug_str:0000000000000ee5 .LASF87
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6953   .debug_str:0000000000000ecc .LASF88
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6675   .debug_str:000000000000085a .LASF89
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6437   .debug_str:00000000000002c1 .LASF90
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6849   .debug_str:0000000000000cb3 .LASF91
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6949   .debug_str:0000000000000eb9 .LASF93
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6619   .debug_str:0000000000000706 .LASF95
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6523   .debug_str:00000000000004de .LASF96
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6801   .debug_str:0000000000000b98 .LASF97
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6533   .debug_str:000000000000050d .LASF98
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6871   .debug_str:0000000000000d35 .LASF99
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6399   .debug_str:000000000000016b .LASF100
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6697   .debug_str:00000000000008c4 .LASF101
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6447   .debug_str:00000000000002fe .LASF102
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6865   .debug_str:0000000000000d08 .LASF103
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6643   .debug_str:000000000000078a .LASF104
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6585   .debug_str:0000000000000650 .LASF105
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6895   .debug_str:0000000000000da0 .LASF106
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6553   .debug_str:000000000000057d .LASF107
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 25
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6891   .debug_str:0000000000000d9a .LASF50
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6491   .debug_str:00000000000003ff .LASF51
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6779   .debug_str:0000000000000b2a .LASF52
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6531   .debug_str:0000000000000506 .LASF53
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6535   .debug_str:0000000000000514 .LASF54
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6879   .debug_str:0000000000000d5f .LASF55
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6405   .debug_str:000000000000018c .LASF56
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6557   .debug_str:000000000000059b .LASF57
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6691   .debug_str:00000000000008a6 .LASF58
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6577   .debug_str:0000000000000623 .LASF59
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7097   .debug_str:00000000000011f7 .LASF60
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6387   .debug_str:0000000000000139 .LASF61
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6591   .debug_str:0000000000000686 .LASF62
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6593   .debug_str:0000000000000691 .LASF63
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6991   .debug_str:0000000000000f93 .LASF64
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6539   .debug_str:0000000000000528 .LASF65
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6463   .debug_str:000000000000035a .LASF66
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6363   .debug_str:0000000000000097 .LASF67
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6889   .debug_str:0000000000000d92 .LASF68
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6465   .debug_str:0000000000000362 .LASF69
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6845   .debug_str:0000000000000ca8 .LASF70
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6631   .debug_str:000000000000074a .LASF71
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7103   .debug_str:0000000000001215 .LASF72
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6987   .debug_str:0000000000000f82 .LASF73
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6995   .debug_str:0000000000000faa .LASF74
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6551   .debug_str:0000000000000572 .LASF75
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6383   .debug_str:0000000000000116 .LASF76
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6493   .debug_str:000000000000040a .LASF77
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6525   .debug_str:00000000000004ec .LASF78
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6817   .debug_str:0000000000000c09 .LASF79
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6685   .debug_str:000000000000088a .LASF80
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6501   .debug_str:0000000000000441 .LASF81
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6601   .debug_str:00000000000006b3 .LASF82
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6735   .debug_str:00000000000009b2 .LASF83
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6979   .debug_str:0000000000000f55 .LASF84
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6481   .debug_str:00000000000003af .LASF85
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6607   .debug_str:00000000000006ce .LASF94
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6473   .debug_str:000000000000038f .LASF86
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6959   .debug_str:0000000000000eeb .LASF87
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6953   .debug_str:0000000000000ed2 .LASF88
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6673   .debug_str:000000000000084e .LASF89
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6437   .debug_str:00000000000002c1 .LASF90
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6849   .debug_str:0000000000000cb9 .LASF91
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6949   .debug_str:0000000000000ebf .LASF93
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6617   .debug_str:00000000000006fa .LASF95
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6523   .debug_str:00000000000004de .LASF96
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6801   .debug_str:0000000000000b9e .LASF97
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6533   .debug_str:000000000000050d .LASF98
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6871   .debug_str:0000000000000d3b .LASF99
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6399   .debug_str:000000000000016b .LASF100
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6695   .debug_str:00000000000008b8 .LASF101
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6447   .debug_str:00000000000002fe .LASF102
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6865   .debug_str:0000000000000d0e .LASF103
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6641   .debug_str:000000000000077e .LASF104
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6585   .debug_str:0000000000000650 .LASF105
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6895   .debug_str:0000000000000da6 .LASF106
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6553   .debug_str:000000000000057d .LASF107
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s 			page 25
 
 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6431   .debug_str:00000000000002a8 .LASF108
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6955   .debug_str:0000000000000ed1 .LASF109
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6377   .debug_str:00000000000000f1 .LASF110
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6461   .debug_str:000000000000034a .LASF111
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6657   .debug_str:00000000000007e9 .LASF112
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6907   .debug_str:0000000000000dfd .LASF113
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6897   .debug_str:0000000000000dae .LASF114
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6519   .debug_str:00000000000004c6 .LASF115
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6745   .debug_str:0000000000000a43 .LASF116
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6339   .debug_str:0000000000000000 .LASF117
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6659   .debug_str:00000000000007f9 .LASF118
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6655   .debug_str:00000000000007d3 .LASF119
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6727   .debug_str:00000000000009de .LASF120
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6567   .debug_str:00000000000005ee .LASF121
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6833   .debug_str:0000000000000c5e .LASF122
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6765   .debug_str:0000000000000ab9 .LASF123
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6773   .debug_str:0000000000000af1 .LASF124
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6797   .debug_str:0000000000000b7e .LASF125
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6703   .debug_str:00000000000008df .LASF126
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7043   .debug_str:00000000000010c7 .LASF127
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6683   .debug_str:000000000000087a .LASF128
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6517   .debug_str:00000000000004b8 .LASF129
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6967   .debug_str:0000000000000f07 .LASF130
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6343   .debug_str:0000000000000015 .LASF131
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6671   .debug_str:000000000000083a .LASF132
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6769   .debug_str:0000000000000ad1 .LASF133
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6943   .debug_str:0000000000000e9a .LASF134
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6503   .debug_str:0000000000000449 .LASF135
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6925   .debug_str:0000000000000e55 .LASF136
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6347   .debug_str:0000000000000035 .LASF137
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7049   .debug_str:00000000000010e7 .LASF138
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6355   .debug_str:000000000000006b .LASF139
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6733   .debug_str:0000000000000a01 .LASF140
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6479   .debug_str:00000000000003a5 .LASF141
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6649   .debug_str:00000000000007b0 .LASF142
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7057   .debug_str:0000000000001108 .LASF143
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6689   .debug_str:000000000000089f .LASF144
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6973   .debug_str:0000000000000f35 .LASF145
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6489   .debug_str:00000000000003f8 .LASF146
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6345   .debug_str:0000000000000027 .LASF147
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6781   .debug_str:0000000000000b2d .LASF148
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6981   .debug_str:0000000000000f5b .LASF149
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6997   .debug_str:0000000000000fac .LASF150
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6819   .debug_str:0000000000000c0e .LASF151
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6857   .debug_str:0000000000000cda .LASF152
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6919   .debug_str:0000000000000e32 .LASF153
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6393   .debug_str:0000000000000150 .LASF154
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6963   .debug_str:0000000000000ef4 .LASF155
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6459   .debug_str:0000000000000342 .LASF156
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6839   .debug_str:0000000000000c87 .LASF157
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6361   .debug_str:000000000000008f .LASF158
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6719   .debug_str:0000000000000946 .LASF159
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6965   .debug_str:0000000000000efd .LASF160
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7037   .debug_str:00000000000010a3 .LASF161
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6443   .debug_str:00000000000002e3 .LASF162
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6527   .debug_str:00000000000004f8 .LASF163
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6731   .debug_str:00000000000009f4 .LASF164
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 26
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6431   .debug_str:00000000000002a8 .LASF108
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6955   .debug_str:0000000000000ed7 .LASF109
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6377   .debug_str:00000000000000f1 .LASF110
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6461   .debug_str:000000000000034a .LASF111
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6655   .debug_str:00000000000007dd .LASF112
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6907   .debug_str:0000000000000e03 .LASF113
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6897   .debug_str:0000000000000db4 .LASF114
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6519   .debug_str:00000000000004c6 .LASF115
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6743   .debug_str:00000000000009d6 .LASF116
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6339   .debug_str:0000000000000000 .LASF117
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6657   .debug_str:00000000000007ed .LASF118
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6653   .debug_str:00000000000007c7 .LASF119
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6725   .debug_str:0000000000000971 .LASF120
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6567   .debug_str:00000000000005ee .LASF121
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6833   .debug_str:0000000000000c64 .LASF122
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6763   .debug_str:0000000000000a4c .LASF123
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6771   .debug_str:0000000000000a84 .LASF124
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6797   .debug_str:0000000000000b84 .LASF125
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6701   .debug_str:00000000000008d3 .LASF126
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7043   .debug_str:00000000000010cd .LASF127
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6681   .debug_str:000000000000086e .LASF128
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6517   .debug_str:00000000000004b8 .LASF129
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6967   .debug_str:0000000000000f0d .LASF130
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6343   .debug_str:0000000000000015 .LASF131
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6669   .debug_str:000000000000082e .LASF132
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6767   .debug_str:0000000000000a64 .LASF133
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6943   .debug_str:0000000000000ea0 .LASF134
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6503   .debug_str:0000000000000449 .LASF135
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6925   .debug_str:0000000000000e5b .LASF136
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6347   .debug_str:0000000000000035 .LASF137
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7049   .debug_str:00000000000010ed .LASF138
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6355   .debug_str:000000000000006b .LASF139
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6731   .debug_str:0000000000000994 .LASF140
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6479   .debug_str:00000000000003a5 .LASF141
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6647   .debug_str:00000000000007a4 .LASF142
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7057   .debug_str:000000000000110e .LASF143
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6687   .debug_str:0000000000000893 .LASF144
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6973   .debug_str:0000000000000f3b .LASF145
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6489   .debug_str:00000000000003f8 .LASF146
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6345   .debug_str:0000000000000027 .LASF147
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6781   .debug_str:0000000000000b33 .LASF148
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6981   .debug_str:0000000000000f61 .LASF149
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6997   .debug_str:0000000000000fb2 .LASF150
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6819   .debug_str:0000000000000c14 .LASF151
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6857   .debug_str:0000000000000ce0 .LASF152
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6919   .debug_str:0000000000000e38 .LASF153
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6393   .debug_str:0000000000000150 .LASF154
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6963   .debug_str:0000000000000efa .LASF155
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6459   .debug_str:0000000000000342 .LASF156
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6839   .debug_str:0000000000000c8d .LASF157
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6361   .debug_str:000000000000008f .LASF158
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6717   .debug_str:000000000000093a .LASF159
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6965   .debug_str:0000000000000f03 .LASF160
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7037   .debug_str:00000000000010a9 .LASF161
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6443   .debug_str:00000000000002e3 .LASF162
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6527   .debug_str:00000000000004f8 .LASF163
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6729   .debug_str:0000000000000987 .LASF164
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s 			page 26
 
 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6807   .debug_str:0000000000000bb0 .LASF165
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6707   .debug_str:000000000000090a .LASF166
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6341   .debug_str:0000000000000009 .LASF167
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6961   .debug_str:0000000000000eec .LASF168
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6367   .debug_str:00000000000000a8 .LASF169
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6861   .debug_str:0000000000000cf2 .LASF170
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6561   .debug_str:00000000000005c2 .LASF171
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6669   .debug_str:0000000000000832 .LASF172
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6421   .debug_str:00000000000001f7 .LASF173
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6767   .debug_str:0000000000000ac8 .LASF174
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7045   .debug_str:00000000000010d1 .LASF175
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6549   .debug_str:0000000000000567 .LASF176
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6413   .debug_str:00000000000001d9 .LASF177
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6621   .debug_str:000000000000070f .LASF178
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6835   .debug_str:0000000000000c6b .LASF179
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7063   .debug_str:000000000000112f .LASF180
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6933   .debug_str:0000000000000e7a .LASF181
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6929   .debug_str:0000000000000e65 .LASF182
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6873   .debug_str:0000000000000d3c .LASF183
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6499   .debug_str:0000000000000437 .LASF184
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6945   .debug_str:0000000000000ead .LASF185
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6597   .debug_str:00000000000006a8 .LASF186
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6449   .debug_str:000000000000030f .LASF187
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6439   .debug_str:00000000000002cb .LASF188
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6547   .debug_str:000000000000055e .LASF189
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6565   .debug_str:00000000000005db .LASF190
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6783   .debug_str:0000000000000b35 .LASF191
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6921   .debug_str:0000000000000e3b .LASF192
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6627   .debug_str:0000000000000735 .LASF193
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6415   .debug_str:00000000000001e2 .LASF194
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6757   .debug_str:0000000000000a87 .LASF195
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6763   .debug_str:0000000000000aae .LASF196
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6869   .debug_str:0000000000000d27 .LASF197
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6901   .debug_str:0000000000000dc5 .LASF198
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6915   .debug_str:0000000000000e20 .LASF199
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6927   .debug_str:0000000000000e60 .LASF200
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6751   .debug_str:0000000000000a5d .LASF201
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6785   .debug_str:0000000000000b49 .LASF202
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6985   .debug_str:0000000000000f6f .LASF203
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6441   .debug_str:00000000000002d3 .LASF204
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6613   .debug_str:00000000000006ec .LASF377
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6827   .debug_str:0000000000000c3b .LASF205
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6993   .debug_str:0000000000000f95 .LASF206
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6771   .debug_str:0000000000000ae1 .LASF207
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6563   .debug_str:00000000000005cc .LASF208
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6935   .debug_str:0000000000000e7f .LASF209
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7051   .debug_str:00000000000010f4 .LASF210
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6853   .debug_str:0000000000000ccb .LASF211
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6351   .debug_str:000000000000005b .LASF212
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6455   .debug_str:000000000000032c .LASF213
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6855   .debug_str:0000000000000cd3 .LASF214
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6811   .debug_str:0000000000000bc5 .LASF215
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6359   .debug_str:0000000000000087 .LASF216
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6923   .debug_str:0000000000000e4a .LASF217
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7033   .debug_str:0000000000001092 .LASF218
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6673   .debug_str:0000000000000848 .LASF219
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6913   .debug_str:0000000000000e17 .LASF220
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 27
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6807   .debug_str:0000000000000bb6 .LASF165
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6705   .debug_str:00000000000008fe .LASF166
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6341   .debug_str:0000000000000009 .LASF167
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6961   .debug_str:0000000000000ef2 .LASF168
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6367   .debug_str:00000000000000a8 .LASF169
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6861   .debug_str:0000000000000cf8 .LASF170
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6561   .debug_str:00000000000005c2 .LASF171
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6667   .debug_str:0000000000000826 .LASF172
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6421   .debug_str:00000000000001f7 .LASF173
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6765   .debug_str:0000000000000a5b .LASF174
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7045   .debug_str:00000000000010d7 .LASF175
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6549   .debug_str:0000000000000567 .LASF176
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6413   .debug_str:00000000000001d9 .LASF177
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6619   .debug_str:0000000000000703 .LASF178
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6835   .debug_str:0000000000000c71 .LASF179
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7063   .debug_str:0000000000001135 .LASF180
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6933   .debug_str:0000000000000e80 .LASF181
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6929   .debug_str:0000000000000e6b .LASF182
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6873   .debug_str:0000000000000d42 .LASF183
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6499   .debug_str:0000000000000437 .LASF184
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6945   .debug_str:0000000000000eb3 .LASF185
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6595   .debug_str:000000000000069c .LASF186
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6449   .debug_str:000000000000030f .LASF187
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6439   .debug_str:00000000000002cb .LASF188
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6547   .debug_str:000000000000055e .LASF189
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6565   .debug_str:00000000000005db .LASF190
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6783   .debug_str:0000000000000b3b .LASF191
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6921   .debug_str:0000000000000e41 .LASF192
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6625   .debug_str:0000000000000729 .LASF193
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6415   .debug_str:00000000000001e2 .LASF194
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6755   .debug_str:0000000000000a1a .LASF195
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6761   .debug_str:0000000000000a41 .LASF196
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6869   .debug_str:0000000000000d2d .LASF197
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6901   .debug_str:0000000000000dcb .LASF198
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6915   .debug_str:0000000000000e26 .LASF199
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6927   .debug_str:0000000000000e66 .LASF200
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6749   .debug_str:00000000000009f0 .LASF201
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6785   .debug_str:0000000000000b4f .LASF202
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6985   .debug_str:0000000000000f75 .LASF203
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6441   .debug_str:00000000000002d3 .LASF204
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6611   .debug_str:00000000000006e0 .LASF377
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6827   .debug_str:0000000000000c41 .LASF205
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6993   .debug_str:0000000000000f9b .LASF206
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6769   .debug_str:0000000000000a74 .LASF207
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6563   .debug_str:00000000000005cc .LASF208
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6935   .debug_str:0000000000000e85 .LASF209
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7051   .debug_str:00000000000010fa .LASF210
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6853   .debug_str:0000000000000cd1 .LASF211
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6351   .debug_str:000000000000005b .LASF212
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6455   .debug_str:000000000000032c .LASF213
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6855   .debug_str:0000000000000cd9 .LASF214
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6811   .debug_str:0000000000000bcb .LASF215
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6359   .debug_str:0000000000000087 .LASF216
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6923   .debug_str:0000000000000e50 .LASF217
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7033   .debug_str:0000000000001098 .LASF218
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6671   .debug_str:000000000000083c .LASF219
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6913   .debug_str:0000000000000e1d .LASF220
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s 			page 27
 
 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6691   .debug_str:00000000000008aa .LASF221
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6937   .debug_str:0000000000000e86 .LASF222
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6695   .debug_str:00000000000008bc .LASF223
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6749   .debug_str:0000000000000a57 .LASF224
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6617   .debug_str:0000000000000701 .LASF225
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6391   .debug_str:000000000000014b .LASF226
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6397   .debug_str:0000000000000162 .LASF227
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7099   .debug_str:00000000000011f9 .LASF228
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7061   .debug_str:0000000000001125 .LASF229
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6637   .debug_str:0000000000000769 .LASF230
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6495   .debug_str:0000000000000412 .LASF231
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6989   .debug_str:0000000000000f83 .LASF232
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6825   .debug_str:0000000000000c31 .LASF233
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6831   .debug_str:0000000000000c54 .LASF234
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7087   .debug_str:00000000000011ba .LASF235
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6453   .debug_str:000000000000031e .LASF236
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6417   .debug_str:00000000000001e9 .LASF237
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6877   .debug_str:0000000000000d4d .LASF238
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6983   .debug_str:0000000000000f66 .LASF239
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7015   .debug_str:0000000000001005 .LASF240
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6805   .debug_str:0000000000000ba8 .LASF241
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7009   .debug_str:0000000000000fef .LASF242
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6569   .debug_str:00000000000005ff .LASF243
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7013   .debug_str:0000000000000ffe .LASF244
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6911   .debug_str:0000000000000e11 .LASF245
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6477   .debug_str:000000000000039f .LASF246
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6661   .debug_str:0000000000000807 .LASF247
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6803   .debug_str:0000000000000ba1 .LASF248
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6451   .debug_str:0000000000000318 .LASF249
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7005   .debug_str:0000000000000fe1 .LASF250
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6611   .debug_str:00000000000006e4 .LASF251
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6369   .debug_str:00000000000000b0 .LASF252
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6373   .debug_str:00000000000000de .LASF253
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6847   .debug_str:0000000000000cad .LASF254
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6571   .debug_str:0000000000000604 .LASF255
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6789   .debug_str:0000000000000b59 .LASF256
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6395   .debug_str:000000000000015c .LASF257
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6887   .debug_str:0000000000000d83 .LASF258
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6631   .debug_str:000000000000074e .LASF259
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6941   .debug_str:0000000000000e94 .LASF260
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6419   .debug_str:00000000000001f1 .LASF261
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6795   .debug_str:0000000000000b75 .LASF262
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6665   .debug_str:000000000000081a .LASF263
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6427   .debug_str:000000000000028e .LASF264
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6679   .debug_str:000000000000086a .LASF265
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6583   .debug_str:0000000000000649 .LASF266
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6883   .debug_str:0000000000000d66 .LASF267
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6791   .debug_str:0000000000000b5f .LASF268
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7007   .debug_str:0000000000000fea .LASF269
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6711   .debug_str:000000000000091d .LASF270
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7089   .debug_str:00000000000011c5 .LASF271
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7031   .debug_str:000000000000108a .LASF272
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6663   .debug_str:000000000000080f .LASF273
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6699   .debug_str:00000000000008cc .LASF274
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7041   .debug_str:00000000000010bf .LASF275
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6475   .debug_str:0000000000000395 .LASF276
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6651   .debug_str:00000000000007bc .LASF277
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 28
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6689   .debug_str:000000000000089e .LASF221
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6937   .debug_str:0000000000000e8c .LASF222
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6693   .debug_str:00000000000008b0 .LASF223
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6747   .debug_str:00000000000009ea .LASF224
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6615   .debug_str:00000000000006f5 .LASF225
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6391   .debug_str:000000000000014b .LASF226
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6397   .debug_str:0000000000000162 .LASF227
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7099   .debug_str:00000000000011ff .LASF228
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7061   .debug_str:000000000000112b .LASF229
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6635   .debug_str:000000000000075d .LASF230
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6495   .debug_str:0000000000000412 .LASF231
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6989   .debug_str:0000000000000f89 .LASF232
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6825   .debug_str:0000000000000c37 .LASF233
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6831   .debug_str:0000000000000c5a .LASF234
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7087   .debug_str:00000000000011c0 .LASF235
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6453   .debug_str:000000000000031e .LASF236
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6417   .debug_str:00000000000001e9 .LASF237
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6877   .debug_str:0000000000000d53 .LASF238
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6983   .debug_str:0000000000000f6c .LASF239
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7015   .debug_str:000000000000100b .LASF240
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6805   .debug_str:0000000000000bae .LASF241
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7009   .debug_str:0000000000000ff5 .LASF242
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6569   .debug_str:00000000000005ff .LASF243
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7013   .debug_str:0000000000001004 .LASF244
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6911   .debug_str:0000000000000e17 .LASF245
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6477   .debug_str:000000000000039f .LASF246
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6659   .debug_str:00000000000007fb .LASF247
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6803   .debug_str:0000000000000ba7 .LASF248
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6451   .debug_str:0000000000000318 .LASF249
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7005   .debug_str:0000000000000fe7 .LASF250
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6609   .debug_str:00000000000006d8 .LASF251
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6369   .debug_str:00000000000000b0 .LASF252
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6373   .debug_str:00000000000000de .LASF253
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6847   .debug_str:0000000000000cb3 .LASF254
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6571   .debug_str:0000000000000604 .LASF255
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6789   .debug_str:0000000000000b5f .LASF256
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6395   .debug_str:000000000000015c .LASF257
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6887   .debug_str:0000000000000d89 .LASF258
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6629   .debug_str:0000000000000742 .LASF259
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6941   .debug_str:0000000000000e9a .LASF260
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6419   .debug_str:00000000000001f1 .LASF261
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6795   .debug_str:0000000000000b7b .LASF262
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6663   .debug_str:000000000000080e .LASF263
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6427   .debug_str:000000000000028e .LASF264
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6677   .debug_str:000000000000085e .LASF265
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6583   .debug_str:0000000000000649 .LASF266
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6883   .debug_str:0000000000000d6c .LASF267
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6791   .debug_str:0000000000000b65 .LASF268
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7007   .debug_str:0000000000000ff0 .LASF269
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6709   .debug_str:0000000000000911 .LASF270
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7089   .debug_str:00000000000011cb .LASF271
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7031   .debug_str:0000000000001090 .LASF272
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6661   .debug_str:0000000000000803 .LASF273
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6697   .debug_str:00000000000008c0 .LASF274
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7041   .debug_str:00000000000010c5 .LASF275
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6475   .debug_str:0000000000000395 .LASF276
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6649   .debug_str:00000000000007b0 .LASF277
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s 			page 28
 
 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6741   .debug_str:0000000000000a33 .LASF278
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6381   .debug_str:000000000000010e .LASF279
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6635   .debug_str:0000000000000761 .LASF280
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6787   .debug_str:0000000000000b54 .LASF281
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6701   .debug_str:00000000000008d6 .LASF282
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6625   .debug_str:000000000000072b .LASF283
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6723   .debug_str:00000000000009be .LASF284
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6365   .debug_str:00000000000000a3 .LASF285
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6823   .debug_str:0000000000000c2c .LASF286
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6917   .debug_str:0000000000000e2b .LASF287
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6747   .debug_str:0000000000000a51 .LASF288
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6717   .debug_str:000000000000093f .LASF289
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6743   .debug_str:0000000000000a3d .LASF290
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6881   .debug_str:0000000000000d5e .LASF291
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6843   .debug_str:0000000000000c9c .LASF292
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6425   .debug_str:0000000000000288 .LASF293
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7053   .debug_str:00000000000010fb .LASF294
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6507   .debug_str:0000000000000463 .LASF295
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6899   .debug_str:0000000000000db8 .LASF296
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6379   .debug_str:0000000000000101 .LASF297
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6487   .debug_str:00000000000003e9 .LASF298
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6735   .debug_str:0000000000000a10 .LASF299
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6799   .debug_str:0000000000000b8d .LASF300
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6931   .debug_str:0000000000000e75 .LASF301
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6971   .debug_str:0000000000000f28 .LASF302
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6859   .debug_str:0000000000000ce4 .LASF303
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6793   .debug_str:0000000000000b67 .LASF304
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6401   .debug_str:0000000000000173 .LASF305
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6685   .debug_str:000000000000088a .LASF306
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7101   .debug_str:0000000000001202 .LASF307
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6467   .debug_str:000000000000036c .LASF308
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6903   .debug_str:0000000000000dcf .LASF309
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7069   .debug_str:0000000000001151 .LASF310
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6775   .debug_str:0000000000000b05 .LASF311
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6759   .debug_str:0000000000000a90 .LASF312
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6573   .debug_str:000000000000060b .LASF313
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7019   .debug_str:000000000000101a .LASF314
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6729   .debug_str:00000000000009eb .LASF315
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6389   .debug_str:0000000000000143 .LASF316
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6357   .debug_str:000000000000007c .LASF378
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6471   .debug_str:0000000000000383 .LASF317
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6815   .debug_str:0000000000000bf0 .LASF318
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6543   .debug_str:0000000000000536 .LASF319
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7091   .debug_str:00000000000011de .LASF320
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7021   .debug_str:0000000000001021 .LASF321
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6515   .debug_str:00000000000004a9 .LASF322
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6537   .debug_str:0000000000000519 .LASF323
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6407   .debug_str:0000000000000192 .LASF324
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6813   .debug_str:0000000000000bcd .LASF325
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7027   .debug_str:0000000000001063 .LASF326
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6581   .debug_str:0000000000000638 .LASF327
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6513   .debug_str:0000000000000484 .LASF328
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6485   .debug_str:00000000000003d2 .LASF329
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7001   .debug_str:0000000000000fbf .LASF330
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6497   .debug_str:000000000000041b .LASF331
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6641   .debug_str:0000000000000779 .LASF332
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6429   .debug_str:0000000000000295 .LASF333
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 29
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6739   .debug_str:00000000000009c6 .LASF278
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6381   .debug_str:000000000000010e .LASF279
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6633   .debug_str:0000000000000755 .LASF280
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6787   .debug_str:0000000000000b5a .LASF281
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6699   .debug_str:00000000000008ca .LASF282
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6623   .debug_str:000000000000071f .LASF283
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6721   .debug_str:0000000000000951 .LASF284
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6365   .debug_str:00000000000000a3 .LASF285
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6823   .debug_str:0000000000000c32 .LASF286
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6917   .debug_str:0000000000000e31 .LASF287
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6745   .debug_str:00000000000009e4 .LASF288
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6715   .debug_str:0000000000000933 .LASF289
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6741   .debug_str:00000000000009d0 .LASF290
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6881   .debug_str:0000000000000d64 .LASF291
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6843   .debug_str:0000000000000ca2 .LASF292
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6425   .debug_str:0000000000000288 .LASF293
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7053   .debug_str:0000000000001101 .LASF294
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6507   .debug_str:0000000000000463 .LASF295
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6899   .debug_str:0000000000000dbe .LASF296
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6379   .debug_str:0000000000000101 .LASF297
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6487   .debug_str:00000000000003e9 .LASF298
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6733   .debug_str:00000000000009a3 .LASF299
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6799   .debug_str:0000000000000b93 .LASF300
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6931   .debug_str:0000000000000e7b .LASF301
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6971   .debug_str:0000000000000f2e .LASF302
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6859   .debug_str:0000000000000cea .LASF303
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6793   .debug_str:0000000000000b6d .LASF304
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6401   .debug_str:0000000000000173 .LASF305
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6683   .debug_str:000000000000087e .LASF306
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7101   .debug_str:0000000000001208 .LASF307
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6467   .debug_str:000000000000036c .LASF308
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6903   .debug_str:0000000000000dd5 .LASF309
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7069   .debug_str:0000000000001157 .LASF310
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6773   .debug_str:0000000000000a98 .LASF311
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6757   .debug_str:0000000000000a23 .LASF312
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6573   .debug_str:000000000000060b .LASF313
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7019   .debug_str:0000000000001020 .LASF314
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6727   .debug_str:000000000000097e .LASF315
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6389   .debug_str:0000000000000143 .LASF316
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6357   .debug_str:000000000000007c .LASF378
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6471   .debug_str:0000000000000383 .LASF317
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6815   .debug_str:0000000000000bf6 .LASF318
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6543   .debug_str:0000000000000536 .LASF319
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7091   .debug_str:00000000000011e4 .LASF320
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7021   .debug_str:0000000000001027 .LASF321
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6515   .debug_str:00000000000004a9 .LASF322
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6537   .debug_str:0000000000000519 .LASF323
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6407   .debug_str:0000000000000192 .LASF324
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6813   .debug_str:0000000000000bd3 .LASF325
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7027   .debug_str:0000000000001069 .LASF326
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6581   .debug_str:0000000000000638 .LASF327
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6513   .debug_str:0000000000000484 .LASF328
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6485   .debug_str:00000000000003d2 .LASF329
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7001   .debug_str:0000000000000fc5 .LASF330
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6497   .debug_str:000000000000041b .LASF331
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6639   .debug_str:000000000000076d .LASF332
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6429   .debug_str:0000000000000295 .LASF333
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s 			page 29
 
 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6385   .debug_str:000000000000011f .LASF334
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6559   .debug_str:00000000000005a6 .LASF335
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6753   .debug_str:0000000000000a65 .LASF336
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6349   .debug_str:0000000000000042 .LASF337
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6371   .debug_str:00000000000000b6 .LASF338
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7017   .debug_str:000000000000100d .LASF339
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7025   .debug_str:0000000000001051 .LASF340
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6483   .debug_str:00000000000003b9 .LASF341
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6375   .debug_str:00000000000000e5 .LASF342
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6435   .debug_str:00000000000002b9 .LASF343
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6677   .debug_str:0000000000000860 .LASF344
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6739   .debug_str:0000000000000a27 .LASF345
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6409   .debug_str:00000000000001c0 .LASF346
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6645   .debug_str:000000000000079a .LASF347
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6595   .debug_str:000000000000069c .LASF348
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6607   .debug_str:00000000000006d3 .LASF349
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6681   .debug_str:0000000000000871 .LASF350
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6639   .debug_str:0000000000000773 .LASF351
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6837   .debug_str:0000000000000c73 .LASF352
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6909   .debug_str:0000000000000e06 .LASF353
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7023   .debug_str:0000000000001047 .LASF354
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6725   .debug_str:00000000000009c6 .LASF379
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6755   .debug_str:0000000000000a7f .LASF355
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6411   .debug_str:00000000000001cf .LASF356
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:325    .text._write:0000000000000000 .LFB10
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:458    .text._write:00000000000000b0 .LFE10
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:5999   .debug_loc:0000000000000000 .LLST7
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6022   .debug_loc:0000000000000038 .LLST8
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6036   .debug_loc:0000000000000059 .LLST9
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6058   .debug_loc:0000000000000090 .LLST10
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7081   .debug_str:00000000000011a5 .LASF357
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6073   .debug_loc:00000000000000b9 .LLST11
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6999   .debug_str:0000000000000fb6 .LASF358
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6085   .debug_loc:00000000000000d1 .LLST12
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6096   .debug_loc:00000000000000ef .LLST13
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:353    .text._write:000000000000001c .LVL23
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:382    .text._write:000000000000004c .LVL27
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:413    .text._write:0000000000000088 .LVL30
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6885   .debug_str:0000000000000d6e .LASF380
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:304    .text.usb_serial_available:0000000000000000 .LFB9
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:318    .text.usb_serial_available:0000000000000014 .LFE9
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6587   .debug_str:0000000000000660 .LASF381
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:242    .text.configure_usb_serial:0000000000000000 .LFB8
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:297    .text.configure_usb_serial:0000000000000058 .LFE8
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6116   .debug_loc:0000000000000124 .LLST6
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:254    .text.configure_usb_serial:000000000000000c .LVL15
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:263    .text.configure_usb_serial:0000000000000018 .LVL16
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:267    .text.configure_usb_serial:0000000000000022 .LVL17
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:270    .text.configure_usb_serial:000000000000002a .LVL18
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:273    .text.configure_usb_serial:0000000000000032 .LVL19
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:276    .text.configure_usb_serial:000000000000003a .LVL20
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:295    .text.configure_usb_serial:0000000000000058 .LVL21
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6969   .debug_str:0000000000000f18 .LASF359
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:47     .text.read_usb_serial:0000000000000000 .LFB7
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:235    .text.read_usb_serial:00000000000000ee .LFE7
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6134   .debug_loc:0000000000000150 .LLST1
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7095   .debug_str:00000000000011ec .LASF360
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 30
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6385   .debug_str:000000000000011f .LASF334
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6559   .debug_str:00000000000005a6 .LASF335
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6751   .debug_str:00000000000009f8 .LASF336
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6349   .debug_str:0000000000000042 .LASF337
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6371   .debug_str:00000000000000b6 .LASF338
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7017   .debug_str:0000000000001013 .LASF339
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7025   .debug_str:0000000000001057 .LASF340
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6483   .debug_str:00000000000003b9 .LASF341
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6375   .debug_str:00000000000000e5 .LASF342
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6435   .debug_str:00000000000002b9 .LASF343
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6675   .debug_str:0000000000000854 .LASF344
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6737   .debug_str:00000000000009ba .LASF345
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6409   .debug_str:00000000000001c0 .LASF346
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6643   .debug_str:000000000000078e .LASF347
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6719   .debug_str:0000000000000945 .LASF348
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6605   .debug_str:00000000000006c7 .LASF349
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6679   .debug_str:0000000000000865 .LASF350
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6637   .debug_str:0000000000000767 .LASF351
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6837   .debug_str:0000000000000c79 .LASF352
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6909   .debug_str:0000000000000e0c .LASF353
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7023   .debug_str:000000000000104d .LASF354
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6723   .debug_str:0000000000000959 .LASF379
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6753   .debug_str:0000000000000a12 .LASF355
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6411   .debug_str:00000000000001cf .LASF356
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:325    .text._write:0000000000000000 .LFB10
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:458    .text._write:00000000000000b0 .LFE10
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:5999   .debug_loc:0000000000000000 .LLST7
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6022   .debug_loc:0000000000000038 .LLST8
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6036   .debug_loc:0000000000000059 .LLST9
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6058   .debug_loc:0000000000000090 .LLST10
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7081   .debug_str:00000000000011ab .LASF357
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6073   .debug_loc:00000000000000b9 .LLST11
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6999   .debug_str:0000000000000fbc .LASF358
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6085   .debug_loc:00000000000000d1 .LLST12
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6096   .debug_loc:00000000000000ef .LLST13
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:353    .text._write:000000000000001c .LVL23
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:382    .text._write:000000000000004c .LVL27
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:413    .text._write:0000000000000088 .LVL30
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6885   .debug_str:0000000000000d74 .LASF380
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:304    .text.usb_serial_available:0000000000000000 .LFB9
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:318    .text.usb_serial_available:0000000000000014 .LFE9
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6587   .debug_str:0000000000000660 .LASF381
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:242    .text.configure_usb_serial:0000000000000000 .LFB8
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:297    .text.configure_usb_serial:0000000000000058 .LFE8
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6116   .debug_loc:0000000000000124 .LLST6
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:254    .text.configure_usb_serial:000000000000000c .LVL15
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:263    .text.configure_usb_serial:0000000000000018 .LVL16
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:267    .text.configure_usb_serial:0000000000000022 .LVL17
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:270    .text.configure_usb_serial:000000000000002a .LVL18
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:273    .text.configure_usb_serial:0000000000000032 .LVL19
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:276    .text.configure_usb_serial:000000000000003a .LVL20
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:295    .text.configure_usb_serial:0000000000000058 .LVL21
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6969   .debug_str:0000000000000f1e .LASF359
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:47     .text.read_usb_serial:0000000000000000 .LFB7
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:235    .text.read_usb_serial:00000000000000ee .LFE7
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6134   .debug_loc:0000000000000150 .LLST1
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7095   .debug_str:00000000000011f2 .LASF360
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s 			page 30
 
 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6157   .debug_loc:0000000000000188 .LLST2
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6179   .debug_loc:00000000000001bf .LLST3
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6403   .debug_str:000000000000017d .LASF361
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6187   .debug_loc:00000000000001d3 .LLST4
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6199   .debug_loc:00000000000001f2 .LLST5
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:212    .text.read_usb_serial:00000000000000ce .LVL11
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:216    .text.read_usb_serial:00000000000000d8 .LVL12
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6545   .debug_str:0000000000000549 .LASF382
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:17     .text.usb_serial_connected:0000000000000000 .LFB6
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:40     .text.usb_serial_connected:0000000000000016 .LFE6
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6215   .debug_loc:000000000000021c .LLST0
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:30     .text.usb_serial_connected:000000000000000c .LVL0
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:465    .text.set_usb_clock_96m_hxtal:0000000000000000 .LFB11
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:648    .text.set_usb_clock_96m_hxtal:00000000000000ee .LFE11
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6233   .debug_loc:0000000000000248 .LLST14
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6260   .debug_loc:000000000000027e .LLST15
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:560    .text.set_usb_clock_96m_hxtal:0000000000000080 .LBB11
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:646    .text.set_usb_clock_96m_hxtal:00000000000000ee .LBE11
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:561    .text.set_usb_clock_96m_hxtal:0000000000000080 .LBB12
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:645    .text.set_usb_clock_96m_hxtal:00000000000000ee .LBE12
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:644    .text.set_usb_clock_96m_hxtal:00000000000000ee .LVL42
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6777   .debug_str:0000000000000b14 .LASF362
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6863   .debug_str:0000000000000cfb .LASF363
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6705   .debug_str:00000000000008ec .LASF364
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7071   .debug_str:0000000000001162 .LASF365
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6575   .debug_str:0000000000000614 .LASF366
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6821   .debug_str:0000000000000c1d .LASF367
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6457   .debug_str:0000000000000332 .LASF368
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6851   .debug_str:0000000000000cc1 .LASF369
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7003   .debug_str:0000000000000fd3 .LASF370
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6809   .debug_str:0000000000000bba .LASF371
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:6555   .debug_str:0000000000000584 .LASF372
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:7029   .debug_str:0000000000001074 .LASF373
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:332    .text._write:0000000000000002 .LCFI7
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:436    .text._write:000000000000009a .LCFI8
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:441    .text._write:000000000000009c .LCFI9
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:328    .text._write:0000000000000000 .LVL22
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:430    .text._write:0000000000000094 .LVL33
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:439    .text._write:000000000000009c .LVL34
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:427    .text._write:0000000000000092 .LVL32
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:371    .text._write:0000000000000038 .LVL25
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:359    .text._write:0000000000000028 .LVL24
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:395    .text._write:0000000000000060 .LVL28
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:400    .text._write:0000000000000066 .LVL29
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:422    .text._write:000000000000008e .LVL31
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:248    .text.configure_usb_serial:0000000000000002 .LCFI5
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:291    .text.configure_usb_serial:0000000000000050 .LCFI6
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:56     .text.read_usb_serial:0000000000000002 .LCFI2
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:158    .text.read_usb_serial:0000000000000086 .LCFI3
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:163    .text.read_usb_serial:0000000000000088 .LCFI4
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:50     .text.read_usb_serial:0000000000000000 .LVL1
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:101    .text.read_usb_serial:000000000000004a .LVL2
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:130    .text.read_usb_serial:000000000000006e .LVL5
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:161    .text.read_usb_serial:0000000000000088 .LVL6
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:173    .text.read_usb_serial:0000000000000092 .LVL7
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:176    .text.read_usb_serial:0000000000000094 .LVL8
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:195    .text.read_usb_serial:00000000000000ae .LVL10
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s 			page 31
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6157   .debug_loc:0000000000000188 .LLST2
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6179   .debug_loc:00000000000001bf .LLST3
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6403   .debug_str:000000000000017d .LASF361
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6187   .debug_loc:00000000000001d3 .LLST4
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6199   .debug_loc:00000000000001f2 .LLST5
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:212    .text.read_usb_serial:00000000000000ce .LVL11
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:216    .text.read_usb_serial:00000000000000d8 .LVL12
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6545   .debug_str:0000000000000549 .LASF382
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:17     .text.usb_serial_connected:0000000000000000 .LFB6
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:40     .text.usb_serial_connected:0000000000000016 .LFE6
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6215   .debug_loc:000000000000021c .LLST0
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:30     .text.usb_serial_connected:000000000000000c .LVL0
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:465    .text.set_usb_clock_96m_hxtal:0000000000000000 .LFB11
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:648    .text.set_usb_clock_96m_hxtal:00000000000000ee .LFE11
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6233   .debug_loc:0000000000000248 .LLST14
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6260   .debug_loc:000000000000027e .LLST15
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:560    .text.set_usb_clock_96m_hxtal:0000000000000080 .LBB11
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:646    .text.set_usb_clock_96m_hxtal:00000000000000ee .LBE11
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:561    .text.set_usb_clock_96m_hxtal:0000000000000080 .LBB12
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:645    .text.set_usb_clock_96m_hxtal:00000000000000ee .LBE12
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:644    .text.set_usb_clock_96m_hxtal:00000000000000ee .LVL42
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6775   .debug_str:0000000000000aa7 .LASF362
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6863   .debug_str:0000000000000d01 .LASF363
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6703   .debug_str:00000000000008e0 .LASF364
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7071   .debug_str:0000000000001168 .LASF365
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6575   .debug_str:0000000000000614 .LASF366
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6821   .debug_str:0000000000000c23 .LASF367
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6457   .debug_str:0000000000000332 .LASF368
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6851   .debug_str:0000000000000cc7 .LASF369
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7003   .debug_str:0000000000000fd9 .LASF370
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6809   .debug_str:0000000000000bc0 .LASF371
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:6555   .debug_str:0000000000000584 .LASF372
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:7029   .debug_str:000000000000107a .LASF373
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:332    .text._write:0000000000000002 .LCFI7
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:436    .text._write:000000000000009a .LCFI8
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:441    .text._write:000000000000009c .LCFI9
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:328    .text._write:0000000000000000 .LVL22
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:430    .text._write:0000000000000094 .LVL33
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:439    .text._write:000000000000009c .LVL34
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:427    .text._write:0000000000000092 .LVL32
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:371    .text._write:0000000000000038 .LVL25
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:359    .text._write:0000000000000028 .LVL24
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:395    .text._write:0000000000000060 .LVL28
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:400    .text._write:0000000000000066 .LVL29
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:422    .text._write:000000000000008e .LVL31
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:248    .text.configure_usb_serial:0000000000000002 .LCFI5
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:291    .text.configure_usb_serial:0000000000000050 .LCFI6
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:56     .text.read_usb_serial:0000000000000002 .LCFI2
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:158    .text.read_usb_serial:0000000000000086 .LCFI3
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:163    .text.read_usb_serial:0000000000000088 .LCFI4
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:50     .text.read_usb_serial:0000000000000000 .LVL1
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:101    .text.read_usb_serial:000000000000004a .LVL2
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:130    .text.read_usb_serial:000000000000006e .LVL5
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:161    .text.read_usb_serial:0000000000000088 .LVL6
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:173    .text.read_usb_serial:0000000000000092 .LVL7
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:176    .text.read_usb_serial:0000000000000094 .LVL8
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:195    .text.read_usb_serial:00000000000000ae .LVL10
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s 			page 31
 
 
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:118    .text.read_usb_serial:0000000000000060 .LVL3
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:125    .text.read_usb_serial:0000000000000066 .LVL4
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:218    .text.read_usb_serial:00000000000000da .LVL13
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:24     .text.usb_serial_connected:0000000000000002 .LCFI0
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:36     .text.usb_serial_connected:0000000000000014 .LCFI1
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:519    .text.set_usb_clock_96m_hxtal:0000000000000052 .LVL36
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:530    .text.set_usb_clock_96m_hxtal:0000000000000062 .LVL37
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:542    .text.set_usb_clock_96m_hxtal:000000000000006e .LVL39
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:545    .text.set_usb_clock_96m_hxtal:0000000000000070 .LVL40
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:537    .text.set_usb_clock_96m_hxtal:0000000000000064 .LVL38
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:553    .text.set_usb_clock_96m_hxtal:000000000000007a .LVL41
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:709    .debug_info:0000000000000000 .Ldebug_info0
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:98     .text.read_usb_serial:0000000000000046 .LBB2
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:103    .text.read_usb_serial:000000000000004a .LBE2
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:170    .text.read_usb_serial:000000000000008e .LBB5
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:191    .text.read_usb_serial:00000000000000ac .LBE5
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:116    .text.read_usb_serial:0000000000000060 .LBB3
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:119    .text.read_usb_serial:0000000000000060 .LBE3
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:122    .text.read_usb_serial:0000000000000064 .LBB4
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:132    .text.read_usb_serial:000000000000006e .LBE4
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:220    .text.read_usb_serial:00000000000000da .LBB6
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:233    .text.read_usb_serial:00000000000000ee .LBE6
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:393    .text._write:0000000000000060 .LBB7
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:404    .text._write:000000000000006a .LBE7
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:443    .text._write:000000000000009c .LBB8
-C:\Users\Jesper\AppData\Local\Temp\cc9vzMMz.s:456    .text._write:00000000000000b0 .LBE8
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:118    .text.read_usb_serial:0000000000000060 .LVL3
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:125    .text.read_usb_serial:0000000000000066 .LVL4
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:218    .text.read_usb_serial:00000000000000da .LVL13
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:24     .text.usb_serial_connected:0000000000000002 .LCFI0
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:36     .text.usb_serial_connected:0000000000000014 .LCFI1
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:519    .text.set_usb_clock_96m_hxtal:0000000000000052 .LVL36
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:530    .text.set_usb_clock_96m_hxtal:0000000000000062 .LVL37
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:542    .text.set_usb_clock_96m_hxtal:000000000000006e .LVL39
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:545    .text.set_usb_clock_96m_hxtal:0000000000000070 .LVL40
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:537    .text.set_usb_clock_96m_hxtal:0000000000000064 .LVL38
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:553    .text.set_usb_clock_96m_hxtal:000000000000007a .LVL41
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:709    .debug_info:0000000000000000 .Ldebug_info0
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:98     .text.read_usb_serial:0000000000000046 .LBB2
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:103    .text.read_usb_serial:000000000000004a .LBE2
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:170    .text.read_usb_serial:000000000000008e .LBB5
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:191    .text.read_usb_serial:00000000000000ac .LBE5
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:116    .text.read_usb_serial:0000000000000060 .LBB3
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:119    .text.read_usb_serial:0000000000000060 .LBE3
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:122    .text.read_usb_serial:0000000000000064 .LBB4
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:132    .text.read_usb_serial:000000000000006e .LBE4
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:220    .text.read_usb_serial:00000000000000da .LBB6
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:233    .text.read_usb_serial:00000000000000ee .LBE6
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:393    .text._write:0000000000000060 .LBB7
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:404    .text._write:000000000000006a .LBE7
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:443    .text._write:000000000000009c .LBB8
+C:\Users\Jesper\AppData\Local\Temp\ccLeqT7U.s:456    .text._write:00000000000000b0 .LBE8
 
 UNDEFINED SYMBOLS
 cdc_acm_get_line_state

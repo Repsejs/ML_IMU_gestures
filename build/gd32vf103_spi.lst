@@ -1,4 +1,4 @@
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 1
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 1
 
 
    1              		.file	"gd32vf103_spi.c"
@@ -58,7 +58,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 1
   41:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** 
   42:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** /* I2S clock source selection, multiplication and division mask */
   43:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** #define I2S1_CLOCK_SEL                  ((uint32_t)0x00020000U)  /* I2S1 clock source selection */
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 2
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 2
 
 
   44:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** #define I2S2_CLOCK_SEL                  ((uint32_t)0x00040000U)  /* I2S2 clock source selection */
@@ -118,7 +118,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 1
   70:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****         rcu_periph_reset_disable(RCU_SPI1RST);
   41              		.loc 1 70 9
   42 002c 1305E040 		li	a0,1038
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 3
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 3
 
 
   43 0030 09A8     		j	.L8
@@ -178,7 +178,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 1
   79              		.cfi_restore 1
   80 0062 4101     		addi	sp,sp,16
   81              	.LCFI3:
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 4
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 4
 
 
   82              		.cfi_def_cfa_offset 0
@@ -238,7 +238,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 1
  123              	spi_init:
  124              	.LFB4:
   98:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** 
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 5
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 5
 
 
   99:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** /*!
@@ -298,7 +298,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 1
  141              	.LVL13:
  123:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     /* select SPI transfer mode */
  142              		.loc 1 123 5 is_stmt 1
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 6
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 6
 
 
  125:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     /* select SPI frame size */
@@ -358,7 +358,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 1
  142:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** 
  143:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** /*!
  144:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     \brief      enable SPI
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 7
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 7
 
 
  145:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     \param[in]  spi_periph: SPIx(x=0,1,2)
@@ -418,7 +418,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 1
  165:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** /*!
  166:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     \brief      initialize I2S parameter 
  167:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     \param[in]  spi_periph: SPIx(x=1,2)
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 8
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 8
 
 
  168:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     \param[in]  mode: I2S operation mode
@@ -478,7 +478,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 1
  200:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     /* select I2S polarity */
  201:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     reg |= (uint32_t)ckpl;
  247              		.loc 1 201 5 is_stmt 1
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 9
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 9
 
 
  248              		.loc 1 201 9 is_stmt 0
@@ -538,7 +538,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 1
  270              	.LVL26:
  236:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     uint32_t i2sdiv = 2U, i2sof = 0U;
  271              		.loc 1 236 5
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 10
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 10
 
 
  237:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     uint32_t clks = 0U;
@@ -598,7 +598,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 1
  306              		.loc 1 252 15 is_stmt 0
  307 0024 37170240 		li	a4,1073876992
  308 0028 5C57     		lw	a5,44(a4)
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 11
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 11
 
 
  309              		.loc 1 252 24
@@ -658,7 +658,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 1
  343 004a 3D89     		andi	a0,a0,15
  267:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****         /* calculate I2S clock based on PLL2 and PREDV1 */
  344              		.loc 1 267 18
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 12
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 12
 
 
  345 004c 13071500 		addi	a4,a0,1
@@ -718,7 +718,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 1
  373              		.loc 1 287 5 is_stmt 1
  287:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     i2sof  = (clks & 0x00000001U);
  374              		.loc 1 287 10 is_stmt 0
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 13
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 13
 
 
  375 007a 2944     		li	s0,10
@@ -778,7 +778,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 1
  299:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** 
  300:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     /* clear SPI_I2SCTL_DTLEN and SPI_I2SCTL_CHLEN bits */
  301:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     SPI_I2SCTL(spi_periph) &= (uint32_t)(~(SPI_I2SCTL_DTLEN | SPI_I2SCTL_CHLEN));
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 14
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 14
 
 
  415              		.loc 1 301 5 is_stmt 1
@@ -838,7 +838,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 1
  272:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     }
  459              		.loc 1 272 9 is_stmt 1
  272:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     }
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 15
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 15
 
 
  460              		.loc 1 272 20 is_stmt 0
@@ -898,7 +898,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 1
  499 0002 93E70740 		ori	a5,a5,1024
  500 0006 5CCD     		sw	a5,28(a0)
  315:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** }
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 16
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 16
 
 
  501              		.loc 1 315 1
@@ -958,7 +958,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 1
  538 0006 5CC1     		sw	a5,4(a0)
  337:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** }
  539              		.loc 1 337 1
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 17
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 17
 
 
  540 0008 8280     		ret
@@ -1018,7 +1018,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 1
  359:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** }
  577              		.loc 1 359 1
  578 0008 8280     		ret
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 18
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 18
 
 
  579              		.cfi_endproc
@@ -1078,7 +1078,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 1
  611              		.loc 1 385 30 is_stmt 0
  612 0000 5C41     		lw	a5,4(a0)
  384:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     if(SPI_DMA_TRANSMIT == dma){
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 19
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 19
 
 
  613              		.loc 1 384 7
@@ -1138,7 +1138,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 1
  647 0004 F59B     		andi	a5,a5,-3
  648              	.L42:
  405:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     }else{
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 20
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 20
 
 
  406:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****         SPI_CTL1(spi_periph) &= (uint32_t)(~SPI_CTL1_DMAREN);
@@ -1198,7 +1198,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 1
  426:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** }
  683              		.loc 1 426 1
  684 0012 8280     		ret
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 21
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 21
 
 
  685              		.cfi_endproc
@@ -1258,7 +1258,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 1
  720 0004 4181     		srli	a0,a0,16
  721 0006 8280     		ret
  722              		.cfi_endproc
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 22
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 22
 
 
  723              	.LFE19:
@@ -1318,7 +1318,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 1
  756              	.LFE20:
  758              		.section	.text.spi_crc_polynomial_set,"ax",@progbits
  759              		.align	1
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 23
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 23
 
 
  760              		.globl	spi_crc_polynomial_set
@@ -1378,7 +1378,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 1
  791              		.loc 1 496 23 is_stmt 0
  792 0000 0849     		lw	a0,16(a0)
  793              	.LVL74:
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 24
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 24
 
 
  497:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** }
@@ -1438,7 +1438,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 1
  830              		.loc 1 518 5
  831              		.loc 1 518 26 is_stmt 0
  832 0000 1C41     		lw	a5,0(a0)
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 25
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 25
 
 
  833 0002 7977     		li	a4,-8192
@@ -1498,7 +1498,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 1
  542:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** uint16_t spi_crc_get(uint32_t spi_periph,uint8_t crc)
  543:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** {
  868              		.loc 1 543 1 is_stmt 1
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 26
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 26
 
 
  869              		.cfi_startproc
@@ -1558,7 +1558,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 1
  907 0006 5CC1     		sw	a5,4(a0)
  560:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** }
  908              		.loc 1 560 1
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 27
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 27
 
 
  909 0008 8280     		ret
@@ -1618,7 +1618,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 1
  582:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** }
  946              		.loc 1 582 1
  947 0008 8280     		ret
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 28
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 28
 
 
  948              		.cfi_endproc
@@ -1678,7 +1678,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 1
  610:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     switch(interrupt){
  979              		.loc 1 610 5
  980 0000 8547     		li	a5,1
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 29
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 29
 
 
  981 0002 638CF500 		beq	a1,a5,.L64
@@ -1738,7 +1738,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 1
  1017              	.LFB32:
  627:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** 
  628:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** /*!
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 30
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 30
 
 
  629:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     \brief      disable SPI and I2S interrupt 
@@ -1798,7 +1798,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 1
  649:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****         break;
  1041              		.loc 1 649 30 is_stmt 0
  1042 001a 5C41     		lw	a5,4(a0)
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 31
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 31
 
 
  1043 001c 93F7F7FB 		andi	a5,a5,-65
@@ -1858,7 +1858,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 1
  1075 000e 93860600 		addi	a3,a3,%lo(.L78)
  1076 0012 8A05     		slli	a1,a1,2
  1077              	.LVL91:
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 32
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 32
 
 
  1078 0014 B695     		add	a1,a1,a3
@@ -1918,7 +1918,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 1
  709:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****         reg2 = reg2 & SPI_CTL1_ERRIE;
  710:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****         break;
  711:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     /* SPI/I2S format error interrupt */
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 33
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 33
 
 
  712:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     case SPI_I2S_INT_FLAG_FERR:
@@ -1978,7 +1978,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 1
  714:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****         break;
  1135              		.loc 1 714 14 is_stmt 0
  1136 0036 13770702 		andi	a4,a4,32
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 34
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 34
 
 
  1137              	.LVL100:
@@ -2038,7 +2038,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 1
  731:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****                 one or more parameters can be selected which are shown as below:
  732:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****       \arg        SPI_FLAG_TBE: transmit buffer empty flag
  733:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****       \arg        SPI_FLAG_RBNE: receive buffer not empty flag
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 35
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 35
 
 
  734:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****       \arg        SPI_FLAG_TRANS: transmit on-going flag
@@ -2098,7 +2098,7 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 1
  766:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     SPI_STAT(spi_periph) &= (uint32_t)(~SPI_FLAG_CRCERR);
  1200              		.loc 1 766 5
  1201              		.loc 1 766 26 is_stmt 0
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 36
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 36
 
 
  1202 0000 1C45     		lw	a5,8(a0)
@@ -2117,879 +2117,879 @@ GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 1
  1215              		.file 5 "./../../firmware/GD32VF103_standard_peripheral/Include/gd32vf103_rcu.h"
  1216              		.file 6 "./../../firmware/GD32VF103_standard_peripheral/Include/gd32vf103_spi.h"
  1217              		.file 7 "./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.h"
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 37
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 37
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 gd32vf103_spi.c
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:13     .text.spi_i2s_deinit:0000000000000000 spi_i2s_deinit
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:17     .text.spi_i2s_deinit:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:19     .text.spi_i2s_deinit:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:20     .text.spi_i2s_deinit:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:21     .text.spi_i2s_deinit:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:23     .text.spi_i2s_deinit:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:25     .text.spi_i2s_deinit:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:27     .text.spi_i2s_deinit:0000000000000006 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:28     .text.spi_i2s_deinit:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:30     .text.spi_i2s_deinit:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:37     .text.spi_i2s_deinit:0000000000000020 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:42     .text.spi_i2s_deinit:000000000000002c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:47     .text.spi_i2s_deinit:0000000000000032 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:52     .text.spi_i2s_deinit:000000000000003e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:55     .text.spi_i2s_deinit:0000000000000042 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:56     .text.spi_i2s_deinit:0000000000000044 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:57     .text.spi_i2s_deinit:0000000000000044 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:60     .text.spi_i2s_deinit:0000000000000046 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:62     .text.spi_i2s_deinit:0000000000000046 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:66     .text.spi_i2s_deinit:000000000000004e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:68     .text.spi_i2s_deinit:000000000000004e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:73     .text.spi_i2s_deinit:000000000000005a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:78     .text.spi_i2s_deinit:0000000000000060 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:79     .text.spi_i2s_deinit:0000000000000062 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:82     .text.spi_i2s_deinit:0000000000000064 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:84     .text.spi_i2s_deinit:0000000000000066 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:91     .text.spi_struct_para_init:0000000000000000 spi_struct_para_init
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:94     .text.spi_struct_para_init:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:96     .text.spi_struct_para_init:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:97     .text.spi_struct_para_init:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:98     .text.spi_struct_para_init:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:100    .text.spi_struct_para_init:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:101    .text.spi_struct_para_init:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:103    .text.spi_struct_para_init:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:104    .text.spi_struct_para_init:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:106    .text.spi_struct_para_init:000000000000000c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:107    .text.spi_struct_para_init:000000000000000c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:109    .text.spi_struct_para_init:0000000000000010 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:110    .text.spi_struct_para_init:0000000000000010 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:112    .text.spi_struct_para_init:0000000000000014 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:113    .text.spi_struct_para_init:0000000000000014 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:115    .text.spi_struct_para_init:0000000000000018 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:116    .text.spi_struct_para_init:000000000000001a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:123    .text.spi_init:0000000000000000 spi_init
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:126    .text.spi_init:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:128    .text.spi_init:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:129    .text.spi_init:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:130    .text.spi_init:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:131    .text.spi_init:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:134    .text.spi_init:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:135    .text.spi_init:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:138    .text.spi_init:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:140    .text.spi_init:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:143    .text.spi_init:000000000000000c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:144    .text.spi_init:000000000000000c .L0 
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 38
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:13     .text.spi_i2s_deinit:0000000000000000 spi_i2s_deinit
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:17     .text.spi_i2s_deinit:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:19     .text.spi_i2s_deinit:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:20     .text.spi_i2s_deinit:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:21     .text.spi_i2s_deinit:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:23     .text.spi_i2s_deinit:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:25     .text.spi_i2s_deinit:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:27     .text.spi_i2s_deinit:0000000000000006 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:28     .text.spi_i2s_deinit:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:30     .text.spi_i2s_deinit:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:37     .text.spi_i2s_deinit:0000000000000020 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:42     .text.spi_i2s_deinit:000000000000002c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:47     .text.spi_i2s_deinit:0000000000000032 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:52     .text.spi_i2s_deinit:000000000000003e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:55     .text.spi_i2s_deinit:0000000000000042 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:56     .text.spi_i2s_deinit:0000000000000044 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:57     .text.spi_i2s_deinit:0000000000000044 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:60     .text.spi_i2s_deinit:0000000000000046 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:62     .text.spi_i2s_deinit:0000000000000046 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:66     .text.spi_i2s_deinit:000000000000004e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:68     .text.spi_i2s_deinit:000000000000004e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:73     .text.spi_i2s_deinit:000000000000005a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:78     .text.spi_i2s_deinit:0000000000000060 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:79     .text.spi_i2s_deinit:0000000000000062 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:82     .text.spi_i2s_deinit:0000000000000064 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:84     .text.spi_i2s_deinit:0000000000000066 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:91     .text.spi_struct_para_init:0000000000000000 spi_struct_para_init
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:94     .text.spi_struct_para_init:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:96     .text.spi_struct_para_init:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:97     .text.spi_struct_para_init:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:98     .text.spi_struct_para_init:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:100    .text.spi_struct_para_init:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:101    .text.spi_struct_para_init:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:103    .text.spi_struct_para_init:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:104    .text.spi_struct_para_init:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:106    .text.spi_struct_para_init:000000000000000c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:107    .text.spi_struct_para_init:000000000000000c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:109    .text.spi_struct_para_init:0000000000000010 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:110    .text.spi_struct_para_init:0000000000000010 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:112    .text.spi_struct_para_init:0000000000000014 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:113    .text.spi_struct_para_init:0000000000000014 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:115    .text.spi_struct_para_init:0000000000000018 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:116    .text.spi_struct_para_init:000000000000001a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:123    .text.spi_init:0000000000000000 spi_init
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:126    .text.spi_init:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:128    .text.spi_init:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:129    .text.spi_init:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:130    .text.spi_init:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:131    .text.spi_init:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:134    .text.spi_init:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:135    .text.spi_init:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:138    .text.spi_init:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:140    .text.spi_init:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:143    .text.spi_init:000000000000000c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:144    .text.spi_init:000000000000000c .L0 
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 38
 
 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:145    .text.spi_init:000000000000000c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:146    .text.spi_init:000000000000000c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:147    .text.spi_init:000000000000000c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:148    .text.spi_init:000000000000000c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:149    .text.spi_init:000000000000000c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:150    .text.spi_init:000000000000000c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:166    .text.spi_init:0000000000000026 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:167    .text.spi_init:0000000000000026 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:169    .text.spi_init:0000000000000028 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:170    .text.spi_init:0000000000000028 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:178    .text.spi_init:0000000000000034 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:179    .text.spi_init:0000000000000036 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:186    .text.spi_enable:0000000000000000 spi_enable
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:189    .text.spi_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:191    .text.spi_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:192    .text.spi_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:193    .text.spi_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:197    .text.spi_enable:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:198    .text.spi_enable:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:205    .text.spi_disable:0000000000000000 spi_disable
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:208    .text.spi_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:210    .text.spi_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:211    .text.spi_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:212    .text.spi_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:216    .text.spi_disable:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:217    .text.spi_disable:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:224    .text.i2s_init:0000000000000000 i2s_init
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:227    .text.i2s_init:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:229    .text.i2s_init:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:230    .text.i2s_init:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:231    .text.i2s_init:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:232    .text.i2s_init:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:235    .text.i2s_init:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:236    .text.i2s_init:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:237    .text.i2s_init:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:238    .text.i2s_init:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:239    .text.i2s_init:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:248    .text.i2s_init:0000000000000010 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:249    .text.i2s_init:0000000000000010 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:255    .text.i2s_init:0000000000000018 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:256    .text.i2s_init:0000000000000018 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:258    .text.i2s_init:000000000000001a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:259    .text.i2s_init:000000000000001c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:266    .text.i2s_psc_config:0000000000000000 i2s_psc_config
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:269    .text.i2s_psc_config:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:271    .text.i2s_psc_config:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:272    .text.i2s_psc_config:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:273    .text.i2s_psc_config:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:274    .text.i2s_psc_config:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:275    .text.i2s_psc_config:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:276    .text.i2s_psc_config:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:278    .text.i2s_psc_config:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:282    .text.i2s_psc_config:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:283    .text.i2s_psc_config:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:284    .text.i2s_psc_config:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:286    .text.i2s_psc_config:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:288    .text.i2s_psc_config:000000000000000a .L0 
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 39
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:145    .text.spi_init:000000000000000c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:146    .text.spi_init:000000000000000c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:147    .text.spi_init:000000000000000c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:148    .text.spi_init:000000000000000c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:149    .text.spi_init:000000000000000c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:150    .text.spi_init:000000000000000c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:166    .text.spi_init:0000000000000026 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:167    .text.spi_init:0000000000000026 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:169    .text.spi_init:0000000000000028 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:170    .text.spi_init:0000000000000028 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:178    .text.spi_init:0000000000000034 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:179    .text.spi_init:0000000000000036 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:186    .text.spi_enable:0000000000000000 spi_enable
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:189    .text.spi_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:191    .text.spi_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:192    .text.spi_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:193    .text.spi_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:197    .text.spi_enable:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:198    .text.spi_enable:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:205    .text.spi_disable:0000000000000000 spi_disable
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:208    .text.spi_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:210    .text.spi_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:211    .text.spi_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:212    .text.spi_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:216    .text.spi_disable:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:217    .text.spi_disable:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:224    .text.i2s_init:0000000000000000 i2s_init
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:227    .text.i2s_init:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:229    .text.i2s_init:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:230    .text.i2s_init:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:231    .text.i2s_init:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:232    .text.i2s_init:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:235    .text.i2s_init:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:236    .text.i2s_init:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:237    .text.i2s_init:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:238    .text.i2s_init:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:239    .text.i2s_init:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:248    .text.i2s_init:0000000000000010 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:249    .text.i2s_init:0000000000000010 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:255    .text.i2s_init:0000000000000018 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:256    .text.i2s_init:0000000000000018 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:258    .text.i2s_init:000000000000001a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:259    .text.i2s_init:000000000000001c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:266    .text.i2s_psc_config:0000000000000000 i2s_psc_config
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:269    .text.i2s_psc_config:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:271    .text.i2s_psc_config:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:272    .text.i2s_psc_config:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:273    .text.i2s_psc_config:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:274    .text.i2s_psc_config:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:275    .text.i2s_psc_config:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:276    .text.i2s_psc_config:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:278    .text.i2s_psc_config:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:282    .text.i2s_psc_config:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:283    .text.i2s_psc_config:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:284    .text.i2s_psc_config:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:286    .text.i2s_psc_config:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:288    .text.i2s_psc_config:000000000000000a .L0 
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 39
 
 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:290    .text.i2s_psc_config:000000000000000e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:292    .text.i2s_psc_config:0000000000000010 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:293    .text.i2s_psc_config:0000000000000010 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:295    .text.i2s_psc_config:0000000000000014 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:298    .text.i2s_psc_config:0000000000000018 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:301    .text.i2s_psc_config:000000000000001c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:306    .text.i2s_psc_config:0000000000000024 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:307    .text.i2s_psc_config:0000000000000024 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:310    .text.i2s_psc_config:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:312    .text.i2s_psc_config:000000000000002c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:314    .text.i2s_psc_config:000000000000002e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:315    .text.i2s_psc_config:000000000000002e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:318    .text.i2s_psc_config:0000000000000030 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:320    .text.i2s_psc_config:0000000000000032 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:322    .text.i2s_psc_config:0000000000000034 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:325    .text.i2s_psc_config:0000000000000038 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:326    .text.i2s_psc_config:0000000000000038 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:328    .text.i2s_psc_config:000000000000003c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:330    .text.i2s_psc_config:0000000000000040 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:331    .text.i2s_psc_config:0000000000000040 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:335    .text.i2s_psc_config:0000000000000042 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:336    .text.i2s_psc_config:0000000000000042 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:340    .text.i2s_psc_config:0000000000000048 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:341    .text.i2s_psc_config:0000000000000048 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:345    .text.i2s_psc_config:000000000000004c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:348    .text.i2s_psc_config:0000000000000050 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:353    .text.i2s_psc_config:0000000000000060 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:357    .text.i2s_psc_config:0000000000000062 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:358    .text.i2s_psc_config:0000000000000062 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:361    .text.i2s_psc_config:000000000000006a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:362    .text.i2s_psc_config:000000000000006a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:366    .text.i2s_psc_config:000000000000006c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:369    .text.i2s_psc_config:0000000000000072 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:371    .text.i2s_psc_config:0000000000000076 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:374    .text.i2s_psc_config:000000000000007a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:375    .text.i2s_psc_config:000000000000007a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:378    .text.i2s_psc_config:000000000000007c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:381    .text.i2s_psc_config:000000000000007e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:384    .text.i2s_psc_config:0000000000000082 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:385    .text.i2s_psc_config:0000000000000082 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:386    .text.i2s_psc_config:0000000000000082 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:389    .text.i2s_psc_config:0000000000000086 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:392    .text.i2s_psc_config:0000000000000088 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:393    .text.i2s_psc_config:0000000000000088 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:394    .text.i2s_psc_config:0000000000000088 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:396    .text.i2s_psc_config:000000000000008c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:399    .text.i2s_psc_config:000000000000008e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:401    .text.i2s_psc_config:0000000000000092 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:404    .text.i2s_psc_config:0000000000000094 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:408    .text.i2s_psc_config:0000000000000096 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:409    .text.i2s_psc_config:0000000000000096 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:412    .text.i2s_psc_config:0000000000000098 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:414    .text.i2s_psc_config:000000000000009a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:416    .text.i2s_psc_config:000000000000009c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:417    .text.i2s_psc_config:000000000000009c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:420    .text.i2s_psc_config:000000000000009e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:421    .text.i2s_psc_config:00000000000000a0 .L0 
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 40
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:290    .text.i2s_psc_config:000000000000000e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:292    .text.i2s_psc_config:0000000000000010 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:293    .text.i2s_psc_config:0000000000000010 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:295    .text.i2s_psc_config:0000000000000014 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:298    .text.i2s_psc_config:0000000000000018 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:301    .text.i2s_psc_config:000000000000001c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:306    .text.i2s_psc_config:0000000000000024 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:307    .text.i2s_psc_config:0000000000000024 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:310    .text.i2s_psc_config:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:312    .text.i2s_psc_config:000000000000002c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:314    .text.i2s_psc_config:000000000000002e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:315    .text.i2s_psc_config:000000000000002e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:318    .text.i2s_psc_config:0000000000000030 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:320    .text.i2s_psc_config:0000000000000032 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:322    .text.i2s_psc_config:0000000000000034 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:325    .text.i2s_psc_config:0000000000000038 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:326    .text.i2s_psc_config:0000000000000038 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:328    .text.i2s_psc_config:000000000000003c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:330    .text.i2s_psc_config:0000000000000040 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:331    .text.i2s_psc_config:0000000000000040 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:335    .text.i2s_psc_config:0000000000000042 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:336    .text.i2s_psc_config:0000000000000042 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:340    .text.i2s_psc_config:0000000000000048 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:341    .text.i2s_psc_config:0000000000000048 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:345    .text.i2s_psc_config:000000000000004c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:348    .text.i2s_psc_config:0000000000000050 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:353    .text.i2s_psc_config:0000000000000060 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:357    .text.i2s_psc_config:0000000000000062 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:358    .text.i2s_psc_config:0000000000000062 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:361    .text.i2s_psc_config:000000000000006a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:362    .text.i2s_psc_config:000000000000006a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:366    .text.i2s_psc_config:000000000000006c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:369    .text.i2s_psc_config:0000000000000072 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:371    .text.i2s_psc_config:0000000000000076 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:374    .text.i2s_psc_config:000000000000007a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:375    .text.i2s_psc_config:000000000000007a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:378    .text.i2s_psc_config:000000000000007c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:381    .text.i2s_psc_config:000000000000007e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:384    .text.i2s_psc_config:0000000000000082 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:385    .text.i2s_psc_config:0000000000000082 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:386    .text.i2s_psc_config:0000000000000082 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:389    .text.i2s_psc_config:0000000000000086 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:392    .text.i2s_psc_config:0000000000000088 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:393    .text.i2s_psc_config:0000000000000088 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:394    .text.i2s_psc_config:0000000000000088 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:396    .text.i2s_psc_config:000000000000008c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:399    .text.i2s_psc_config:000000000000008e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:401    .text.i2s_psc_config:0000000000000092 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:404    .text.i2s_psc_config:0000000000000094 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:408    .text.i2s_psc_config:0000000000000096 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:409    .text.i2s_psc_config:0000000000000096 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:412    .text.i2s_psc_config:0000000000000098 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:414    .text.i2s_psc_config:000000000000009a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:416    .text.i2s_psc_config:000000000000009c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:417    .text.i2s_psc_config:000000000000009c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:420    .text.i2s_psc_config:000000000000009e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:421    .text.i2s_psc_config:00000000000000a0 .L0 
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 40
 
 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:422    .text.i2s_psc_config:00000000000000a0 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:424    .text.i2s_psc_config:00000000000000a2 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:426    .text.i2s_psc_config:00000000000000a2 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:429    .text.i2s_psc_config:00000000000000a6 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:430    .text.i2s_psc_config:00000000000000a6 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:434    .text.i2s_psc_config:00000000000000ac .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:435    .text.i2s_psc_config:00000000000000ae .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:439    .text.i2s_psc_config:00000000000000b0 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:444    .text.i2s_psc_config:00000000000000b2 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:446    .text.i2s_psc_config:00000000000000b2 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:447    .text.i2s_psc_config:00000000000000b2 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:450    .text.i2s_psc_config:00000000000000b8 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:456    .text.i2s_psc_config:00000000000000bc .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:460    .text.i2s_psc_config:00000000000000c2 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:461    .text.i2s_psc_config:00000000000000c2 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:470    .text.i2s_psc_config:00000000000000d0 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:471    .text.i2s_psc_config:00000000000000d0 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:473    .text.i2s_psc_config:00000000000000d2 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:474    .text.i2s_psc_config:00000000000000d2 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:480    .text.i2s_psc_config:00000000000000d6 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:481    .text.i2s_psc_config:00000000000000d6 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:484    .text.i2s_psc_config:00000000000000da .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:491    .text.i2s_enable:0000000000000000 i2s_enable
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:494    .text.i2s_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:496    .text.i2s_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:497    .text.i2s_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:498    .text.i2s_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:502    .text.i2s_enable:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:503    .text.i2s_enable:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:510    .text.i2s_disable:0000000000000000 i2s_disable
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:513    .text.i2s_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:515    .text.i2s_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:516    .text.i2s_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:517    .text.i2s_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:521    .text.i2s_disable:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:522    .text.i2s_disable:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:529    .text.spi_nss_output_enable:0000000000000000 spi_nss_output_enable
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:532    .text.spi_nss_output_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:534    .text.spi_nss_output_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:535    .text.spi_nss_output_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:536    .text.spi_nss_output_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:540    .text.spi_nss_output_enable:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:541    .text.spi_nss_output_enable:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:548    .text.spi_nss_output_disable:0000000000000000 spi_nss_output_disable
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:551    .text.spi_nss_output_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:553    .text.spi_nss_output_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:554    .text.spi_nss_output_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:555    .text.spi_nss_output_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:559    .text.spi_nss_output_disable:0000000000000006 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:560    .text.spi_nss_output_disable:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:567    .text.spi_nss_internal_high:0000000000000000 spi_nss_internal_high
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:570    .text.spi_nss_internal_high:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:572    .text.spi_nss_internal_high:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:573    .text.spi_nss_internal_high:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:574    .text.spi_nss_internal_high:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:578    .text.spi_nss_internal_high:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:579    .text.spi_nss_internal_high:000000000000000a .L0 
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 41
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:422    .text.i2s_psc_config:00000000000000a0 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:424    .text.i2s_psc_config:00000000000000a2 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:426    .text.i2s_psc_config:00000000000000a2 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:429    .text.i2s_psc_config:00000000000000a6 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:430    .text.i2s_psc_config:00000000000000a6 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:434    .text.i2s_psc_config:00000000000000ac .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:435    .text.i2s_psc_config:00000000000000ae .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:439    .text.i2s_psc_config:00000000000000b0 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:444    .text.i2s_psc_config:00000000000000b2 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:446    .text.i2s_psc_config:00000000000000b2 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:447    .text.i2s_psc_config:00000000000000b2 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:450    .text.i2s_psc_config:00000000000000b8 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:456    .text.i2s_psc_config:00000000000000bc .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:460    .text.i2s_psc_config:00000000000000c2 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:461    .text.i2s_psc_config:00000000000000c2 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:470    .text.i2s_psc_config:00000000000000d0 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:471    .text.i2s_psc_config:00000000000000d0 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:473    .text.i2s_psc_config:00000000000000d2 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:474    .text.i2s_psc_config:00000000000000d2 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:480    .text.i2s_psc_config:00000000000000d6 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:481    .text.i2s_psc_config:00000000000000d6 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:484    .text.i2s_psc_config:00000000000000da .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:491    .text.i2s_enable:0000000000000000 i2s_enable
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:494    .text.i2s_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:496    .text.i2s_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:497    .text.i2s_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:498    .text.i2s_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:502    .text.i2s_enable:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:503    .text.i2s_enable:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:510    .text.i2s_disable:0000000000000000 i2s_disable
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:513    .text.i2s_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:515    .text.i2s_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:516    .text.i2s_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:517    .text.i2s_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:521    .text.i2s_disable:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:522    .text.i2s_disable:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:529    .text.spi_nss_output_enable:0000000000000000 spi_nss_output_enable
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:532    .text.spi_nss_output_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:534    .text.spi_nss_output_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:535    .text.spi_nss_output_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:536    .text.spi_nss_output_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:540    .text.spi_nss_output_enable:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:541    .text.spi_nss_output_enable:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:548    .text.spi_nss_output_disable:0000000000000000 spi_nss_output_disable
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:551    .text.spi_nss_output_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:553    .text.spi_nss_output_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:554    .text.spi_nss_output_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:555    .text.spi_nss_output_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:559    .text.spi_nss_output_disable:0000000000000006 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:560    .text.spi_nss_output_disable:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:567    .text.spi_nss_internal_high:0000000000000000 spi_nss_internal_high
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:570    .text.spi_nss_internal_high:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:572    .text.spi_nss_internal_high:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:573    .text.spi_nss_internal_high:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:574    .text.spi_nss_internal_high:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:578    .text.spi_nss_internal_high:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:579    .text.spi_nss_internal_high:000000000000000a .L0 
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 41
 
 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:586    .text.spi_nss_internal_low:0000000000000000 spi_nss_internal_low
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:589    .text.spi_nss_internal_low:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:591    .text.spi_nss_internal_low:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:592    .text.spi_nss_internal_low:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:593    .text.spi_nss_internal_low:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:597    .text.spi_nss_internal_low:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:598    .text.spi_nss_internal_low:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:605    .text.spi_dma_enable:0000000000000000 spi_dma_enable
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:608    .text.spi_dma_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:610    .text.spi_dma_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:611    .text.spi_dma_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:612    .text.spi_dma_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:614    .text.spi_dma_enable:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:616    .text.spi_dma_enable:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:617    .text.spi_dma_enable:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:620    .text.spi_dma_enable:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:622    .text.spi_dma_enable:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:625    .text.spi_dma_enable:000000000000000c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:626    .text.spi_dma_enable:000000000000000c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:628    .text.spi_dma_enable:0000000000000012 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:635    .text.spi_dma_disable:0000000000000000 spi_dma_disable
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:638    .text.spi_dma_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:640    .text.spi_dma_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:641    .text.spi_dma_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:642    .text.spi_dma_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:644    .text.spi_dma_disable:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:646    .text.spi_dma_disable:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:647    .text.spi_dma_disable:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:650    .text.spi_dma_disable:0000000000000006 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:652    .text.spi_dma_disable:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:655    .text.spi_dma_disable:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:656    .text.spi_dma_disable:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:658    .text.spi_dma_disable:000000000000000e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:665    .text.spi_i2s_data_frame_format_config:0000000000000000 spi_i2s_data_frame_format_config
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:668    .text.spi_i2s_data_frame_format_config:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:670    .text.spi_i2s_data_frame_format_config:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:671    .text.spi_i2s_data_frame_format_config:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:672    .text.spi_i2s_data_frame_format_config:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:678    .text.spi_i2s_data_frame_format_config:000000000000000c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:679    .text.spi_i2s_data_frame_format_config:000000000000000c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:684    .text.spi_i2s_data_frame_format_config:0000000000000012 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:685    .text.spi_i2s_data_frame_format_config:0000000000000014 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:692    .text.spi_i2s_data_transmit:0000000000000000 spi_i2s_data_transmit
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:695    .text.spi_i2s_data_transmit:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:697    .text.spi_i2s_data_transmit:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:698    .text.spi_i2s_data_transmit:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:699    .text.spi_i2s_data_transmit:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:701    .text.spi_i2s_data_transmit:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:702    .text.spi_i2s_data_transmit:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:709    .text.spi_i2s_data_receive:0000000000000000 spi_i2s_data_receive
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:712    .text.spi_i2s_data_receive:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:714    .text.spi_i2s_data_receive:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:715    .text.spi_i2s_data_receive:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:716    .text.spi_i2s_data_receive:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:719    .text.spi_i2s_data_receive:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:722    .text.spi_i2s_data_receive:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:729    .text.spi_bidirectional_transfer_config:0000000000000000 spi_bidirectional_transfer_config
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 42
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:586    .text.spi_nss_internal_low:0000000000000000 spi_nss_internal_low
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:589    .text.spi_nss_internal_low:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:591    .text.spi_nss_internal_low:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:592    .text.spi_nss_internal_low:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:593    .text.spi_nss_internal_low:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:597    .text.spi_nss_internal_low:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:598    .text.spi_nss_internal_low:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:605    .text.spi_dma_enable:0000000000000000 spi_dma_enable
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:608    .text.spi_dma_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:610    .text.spi_dma_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:611    .text.spi_dma_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:612    .text.spi_dma_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:614    .text.spi_dma_enable:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:616    .text.spi_dma_enable:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:617    .text.spi_dma_enable:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:620    .text.spi_dma_enable:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:622    .text.spi_dma_enable:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:625    .text.spi_dma_enable:000000000000000c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:626    .text.spi_dma_enable:000000000000000c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:628    .text.spi_dma_enable:0000000000000012 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:635    .text.spi_dma_disable:0000000000000000 spi_dma_disable
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:638    .text.spi_dma_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:640    .text.spi_dma_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:641    .text.spi_dma_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:642    .text.spi_dma_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:644    .text.spi_dma_disable:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:646    .text.spi_dma_disable:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:647    .text.spi_dma_disable:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:650    .text.spi_dma_disable:0000000000000006 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:652    .text.spi_dma_disable:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:655    .text.spi_dma_disable:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:656    .text.spi_dma_disable:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:658    .text.spi_dma_disable:000000000000000e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:665    .text.spi_i2s_data_frame_format_config:0000000000000000 spi_i2s_data_frame_format_config
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:668    .text.spi_i2s_data_frame_format_config:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:670    .text.spi_i2s_data_frame_format_config:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:671    .text.spi_i2s_data_frame_format_config:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:672    .text.spi_i2s_data_frame_format_config:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:678    .text.spi_i2s_data_frame_format_config:000000000000000c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:679    .text.spi_i2s_data_frame_format_config:000000000000000c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:684    .text.spi_i2s_data_frame_format_config:0000000000000012 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:685    .text.spi_i2s_data_frame_format_config:0000000000000014 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:692    .text.spi_i2s_data_transmit:0000000000000000 spi_i2s_data_transmit
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:695    .text.spi_i2s_data_transmit:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:697    .text.spi_i2s_data_transmit:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:698    .text.spi_i2s_data_transmit:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:699    .text.spi_i2s_data_transmit:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:701    .text.spi_i2s_data_transmit:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:702    .text.spi_i2s_data_transmit:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:709    .text.spi_i2s_data_receive:0000000000000000 spi_i2s_data_receive
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:712    .text.spi_i2s_data_receive:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:714    .text.spi_i2s_data_receive:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:715    .text.spi_i2s_data_receive:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:716    .text.spi_i2s_data_receive:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:719    .text.spi_i2s_data_receive:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:722    .text.spi_i2s_data_receive:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:729    .text.spi_bidirectional_transfer_config:0000000000000000 spi_bidirectional_transfer_config
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 42
 
 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:732    .text.spi_bidirectional_transfer_config:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:734    .text.spi_bidirectional_transfer_config:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:735    .text.spi_bidirectional_transfer_config:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:736    .text.spi_bidirectional_transfer_config:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:739    .text.spi_bidirectional_transfer_config:0000000000000006 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:740    .text.spi_bidirectional_transfer_config:0000000000000006 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:744    .text.spi_bidirectional_transfer_config:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:746    .text.spi_bidirectional_transfer_config:000000000000000c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:749    .text.spi_bidirectional_transfer_config:000000000000000e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:750    .text.spi_bidirectional_transfer_config:000000000000000e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:755    .text.spi_bidirectional_transfer_config:0000000000000018 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:762    .text.spi_crc_polynomial_set:0000000000000000 spi_crc_polynomial_set
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:765    .text.spi_crc_polynomial_set:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:767    .text.spi_crc_polynomial_set:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:768    .text.spi_crc_polynomial_set:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:769    .text.spi_crc_polynomial_set:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:774    .text.spi_crc_polynomial_set:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:775    .text.spi_crc_polynomial_set:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:777    .text.spi_crc_polynomial_set:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:778    .text.spi_crc_polynomial_set:000000000000000c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:785    .text.spi_crc_polynomial_get:0000000000000000 spi_crc_polynomial_get
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:788    .text.spi_crc_polynomial_get:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:790    .text.spi_crc_polynomial_get:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:791    .text.spi_crc_polynomial_get:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:792    .text.spi_crc_polynomial_get:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:795    .text.spi_crc_polynomial_get:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:798    .text.spi_crc_polynomial_get:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:805    .text.spi_crc_on:0000000000000000 spi_crc_on
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:808    .text.spi_crc_on:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:810    .text.spi_crc_on:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:811    .text.spi_crc_on:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:812    .text.spi_crc_on:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:817    .text.spi_crc_on:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:818    .text.spi_crc_on:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:825    .text.spi_crc_off:0000000000000000 spi_crc_off
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:828    .text.spi_crc_off:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:830    .text.spi_crc_off:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:831    .text.spi_crc_off:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:832    .text.spi_crc_off:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:838    .text.spi_crc_off:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:839    .text.spi_crc_off:000000000000000c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:846    .text.spi_crc_next:0000000000000000 spi_crc_next
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:849    .text.spi_crc_next:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:851    .text.spi_crc_next:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:852    .text.spi_crc_next:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:853    .text.spi_crc_next:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:858    .text.spi_crc_next:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:859    .text.spi_crc_next:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:866    .text.spi_crc_get:0000000000000000 spi_crc_get
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:869    .text.spi_crc_get:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:871    .text.spi_crc_get:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:872    .text.spi_crc_get:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:873    .text.spi_crc_get:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:875    .text.spi_crc_get:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:876    .text.spi_crc_get:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:880    .text.spi_crc_get:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:883    .text.spi_crc_get:0000000000000008 .L0 
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 43
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:732    .text.spi_bidirectional_transfer_config:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:734    .text.spi_bidirectional_transfer_config:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:735    .text.spi_bidirectional_transfer_config:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:736    .text.spi_bidirectional_transfer_config:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:739    .text.spi_bidirectional_transfer_config:0000000000000006 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:740    .text.spi_bidirectional_transfer_config:0000000000000006 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:744    .text.spi_bidirectional_transfer_config:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:746    .text.spi_bidirectional_transfer_config:000000000000000c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:749    .text.spi_bidirectional_transfer_config:000000000000000e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:750    .text.spi_bidirectional_transfer_config:000000000000000e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:755    .text.spi_bidirectional_transfer_config:0000000000000018 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:762    .text.spi_crc_polynomial_set:0000000000000000 spi_crc_polynomial_set
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:765    .text.spi_crc_polynomial_set:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:767    .text.spi_crc_polynomial_set:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:768    .text.spi_crc_polynomial_set:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:769    .text.spi_crc_polynomial_set:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:774    .text.spi_crc_polynomial_set:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:775    .text.spi_crc_polynomial_set:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:777    .text.spi_crc_polynomial_set:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:778    .text.spi_crc_polynomial_set:000000000000000c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:785    .text.spi_crc_polynomial_get:0000000000000000 spi_crc_polynomial_get
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:788    .text.spi_crc_polynomial_get:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:790    .text.spi_crc_polynomial_get:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:791    .text.spi_crc_polynomial_get:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:792    .text.spi_crc_polynomial_get:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:795    .text.spi_crc_polynomial_get:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:798    .text.spi_crc_polynomial_get:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:805    .text.spi_crc_on:0000000000000000 spi_crc_on
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:808    .text.spi_crc_on:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:810    .text.spi_crc_on:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:811    .text.spi_crc_on:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:812    .text.spi_crc_on:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:817    .text.spi_crc_on:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:818    .text.spi_crc_on:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:825    .text.spi_crc_off:0000000000000000 spi_crc_off
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:828    .text.spi_crc_off:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:830    .text.spi_crc_off:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:831    .text.spi_crc_off:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:832    .text.spi_crc_off:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:838    .text.spi_crc_off:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:839    .text.spi_crc_off:000000000000000c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:846    .text.spi_crc_next:0000000000000000 spi_crc_next
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:849    .text.spi_crc_next:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:851    .text.spi_crc_next:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:852    .text.spi_crc_next:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:853    .text.spi_crc_next:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:858    .text.spi_crc_next:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:859    .text.spi_crc_next:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:866    .text.spi_crc_get:0000000000000000 spi_crc_get
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:869    .text.spi_crc_get:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:871    .text.spi_crc_get:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:872    .text.spi_crc_get:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:873    .text.spi_crc_get:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:875    .text.spi_crc_get:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:876    .text.spi_crc_get:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:880    .text.spi_crc_get:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:883    .text.spi_crc_get:0000000000000008 .L0 
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 43
 
 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:887    .text.spi_crc_get:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:888    .text.spi_crc_get:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:891    .text.spi_crc_get:000000000000000e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:898    .text.spi_ti_mode_enable:0000000000000000 spi_ti_mode_enable
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:901    .text.spi_ti_mode_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:903    .text.spi_ti_mode_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:904    .text.spi_ti_mode_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:905    .text.spi_ti_mode_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:909    .text.spi_ti_mode_enable:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:910    .text.spi_ti_mode_enable:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:917    .text.spi_ti_mode_disable:0000000000000000 spi_ti_mode_disable
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:920    .text.spi_ti_mode_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:922    .text.spi_ti_mode_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:923    .text.spi_ti_mode_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:924    .text.spi_ti_mode_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:928    .text.spi_ti_mode_disable:0000000000000006 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:929    .text.spi_ti_mode_disable:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:936    .text.spi_nssp_mode_enable:0000000000000000 spi_nssp_mode_enable
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:939    .text.spi_nssp_mode_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:941    .text.spi_nssp_mode_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:942    .text.spi_nssp_mode_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:943    .text.spi_nssp_mode_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:947    .text.spi_nssp_mode_enable:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:948    .text.spi_nssp_mode_enable:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:955    .text.spi_nssp_mode_disable:0000000000000000 spi_nssp_mode_disable
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:958    .text.spi_nssp_mode_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:960    .text.spi_nssp_mode_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:961    .text.spi_nssp_mode_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:962    .text.spi_nssp_mode_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:966    .text.spi_nssp_mode_disable:0000000000000006 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:967    .text.spi_nssp_mode_disable:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:974    .text.spi_i2s_interrupt_enable:0000000000000000 spi_i2s_interrupt_enable
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:977    .text.spi_i2s_interrupt_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:979    .text.spi_i2s_interrupt_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:980    .text.spi_i2s_interrupt_enable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:988    .text.spi_i2s_interrupt_enable:0000000000000010 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:989    .text.spi_i2s_interrupt_enable:0000000000000010 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:993    .text.spi_i2s_interrupt_enable:0000000000000016 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:995    .text.spi_i2s_interrupt_enable:0000000000000018 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:996    .text.spi_i2s_interrupt_enable:0000000000000018 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:999    .text.spi_i2s_interrupt_enable:000000000000001a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1000   .text.spi_i2s_interrupt_enable:000000000000001a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1005   .text.spi_i2s_interrupt_enable:0000000000000022 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1006   .text.spi_i2s_interrupt_enable:0000000000000022 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1009   .text.spi_i2s_interrupt_enable:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1016   .text.spi_i2s_interrupt_disable:0000000000000000 spi_i2s_interrupt_disable
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1019   .text.spi_i2s_interrupt_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1021   .text.spi_i2s_interrupt_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1022   .text.spi_i2s_interrupt_disable:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1030   .text.spi_i2s_interrupt_disable:0000000000000010 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1031   .text.spi_i2s_interrupt_disable:0000000000000010 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1035   .text.spi_i2s_interrupt_disable:0000000000000016 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1037   .text.spi_i2s_interrupt_disable:0000000000000018 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1038   .text.spi_i2s_interrupt_disable:0000000000000018 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1041   .text.spi_i2s_interrupt_disable:000000000000001a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1042   .text.spi_i2s_interrupt_disable:000000000000001a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1047   .text.spi_i2s_interrupt_disable:0000000000000022 .L0 
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 44
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:887    .text.spi_crc_get:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:888    .text.spi_crc_get:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:891    .text.spi_crc_get:000000000000000e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:898    .text.spi_ti_mode_enable:0000000000000000 spi_ti_mode_enable
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:901    .text.spi_ti_mode_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:903    .text.spi_ti_mode_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:904    .text.spi_ti_mode_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:905    .text.spi_ti_mode_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:909    .text.spi_ti_mode_enable:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:910    .text.spi_ti_mode_enable:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:917    .text.spi_ti_mode_disable:0000000000000000 spi_ti_mode_disable
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:920    .text.spi_ti_mode_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:922    .text.spi_ti_mode_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:923    .text.spi_ti_mode_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:924    .text.spi_ti_mode_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:928    .text.spi_ti_mode_disable:0000000000000006 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:929    .text.spi_ti_mode_disable:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:936    .text.spi_nssp_mode_enable:0000000000000000 spi_nssp_mode_enable
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:939    .text.spi_nssp_mode_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:941    .text.spi_nssp_mode_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:942    .text.spi_nssp_mode_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:943    .text.spi_nssp_mode_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:947    .text.spi_nssp_mode_enable:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:948    .text.spi_nssp_mode_enable:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:955    .text.spi_nssp_mode_disable:0000000000000000 spi_nssp_mode_disable
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:958    .text.spi_nssp_mode_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:960    .text.spi_nssp_mode_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:961    .text.spi_nssp_mode_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:962    .text.spi_nssp_mode_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:966    .text.spi_nssp_mode_disable:0000000000000006 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:967    .text.spi_nssp_mode_disable:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:974    .text.spi_i2s_interrupt_enable:0000000000000000 spi_i2s_interrupt_enable
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:977    .text.spi_i2s_interrupt_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:979    .text.spi_i2s_interrupt_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:980    .text.spi_i2s_interrupt_enable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:988    .text.spi_i2s_interrupt_enable:0000000000000010 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:989    .text.spi_i2s_interrupt_enable:0000000000000010 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:993    .text.spi_i2s_interrupt_enable:0000000000000016 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:995    .text.spi_i2s_interrupt_enable:0000000000000018 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:996    .text.spi_i2s_interrupt_enable:0000000000000018 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:999    .text.spi_i2s_interrupt_enable:000000000000001a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1000   .text.spi_i2s_interrupt_enable:000000000000001a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1005   .text.spi_i2s_interrupt_enable:0000000000000022 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1006   .text.spi_i2s_interrupt_enable:0000000000000022 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1009   .text.spi_i2s_interrupt_enable:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1016   .text.spi_i2s_interrupt_disable:0000000000000000 spi_i2s_interrupt_disable
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1019   .text.spi_i2s_interrupt_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1021   .text.spi_i2s_interrupt_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1022   .text.spi_i2s_interrupt_disable:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1030   .text.spi_i2s_interrupt_disable:0000000000000010 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1031   .text.spi_i2s_interrupt_disable:0000000000000010 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1035   .text.spi_i2s_interrupt_disable:0000000000000016 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1037   .text.spi_i2s_interrupt_disable:0000000000000018 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1038   .text.spi_i2s_interrupt_disable:0000000000000018 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1041   .text.spi_i2s_interrupt_disable:000000000000001a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1042   .text.spi_i2s_interrupt_disable:000000000000001a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1047   .text.spi_i2s_interrupt_disable:0000000000000022 .L0 
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 44
 
 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1048   .text.spi_i2s_interrupt_disable:0000000000000022 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1051   .text.spi_i2s_interrupt_disable:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1058   .text.spi_i2s_interrupt_flag_get:0000000000000000 spi_i2s_interrupt_flag_get
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1061   .text.spi_i2s_interrupt_flag_get:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1063   .text.spi_i2s_interrupt_flag_get:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1064   .text.spi_i2s_interrupt_flag_get:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1065   .text.spi_i2s_interrupt_flag_get:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1068   .text.spi_i2s_interrupt_flag_get:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1069   .text.spi_i2s_interrupt_flag_get:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1072   .text.spi_i2s_interrupt_flag_get:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1095   .text.spi_i2s_interrupt_flag_get:000000000000001a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1096   .text.spi_i2s_interrupt_flag_get:000000000000001a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1099   .text.spi_i2s_interrupt_flag_get:000000000000001c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1100   .text.spi_i2s_interrupt_flag_get:000000000000001c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1104   .text.spi_i2s_interrupt_flag_get:0000000000000020 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1105   .text.spi_i2s_interrupt_flag_get:0000000000000020 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1106   .text.spi_i2s_interrupt_flag_get:0000000000000020 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1108   .text.spi_i2s_interrupt_flag_get:0000000000000022 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1112   .text.spi_i2s_interrupt_flag_get:0000000000000026 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1118   .text.spi_i2s_interrupt_flag_get:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1119   .text.spi_i2s_interrupt_flag_get:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1122   .text.spi_i2s_interrupt_flag_get:000000000000002c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1123   .text.spi_i2s_interrupt_flag_get:000000000000002c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1126   .text.spi_i2s_interrupt_flag_get:0000000000000030 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1129   .text.spi_i2s_interrupt_flag_get:0000000000000032 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1130   .text.spi_i2s_interrupt_flag_get:0000000000000032 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1134   .text.spi_i2s_interrupt_flag_get:0000000000000036 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1135   .text.spi_i2s_interrupt_flag_get:0000000000000036 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1136   .text.spi_i2s_interrupt_flag_get:0000000000000036 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1139   .text.spi_i2s_interrupt_flag_get:000000000000003a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1142   .text.spi_i2s_interrupt_flag_get:000000000000003c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1143   .text.spi_i2s_interrupt_flag_get:000000000000003c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1146   .text.spi_i2s_interrupt_flag_get:0000000000000040 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1149   .text.spi_i2s_interrupt_flag_get:0000000000000042 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1150   .text.spi_i2s_interrupt_flag_get:0000000000000042 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1153   .text.spi_i2s_interrupt_flag_get:0000000000000044 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1156   .text.spi_i2s_interrupt_flag_get:0000000000000046 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1157   .text.spi_i2s_interrupt_flag_get:0000000000000046 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1160   .text.spi_i2s_interrupt_flag_get:0000000000000048 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1163   .text.spi_i2s_interrupt_flag_get:000000000000004a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1164   .text.spi_i2s_interrupt_flag_get:000000000000004a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1167   .text.spi_i2s_interrupt_flag_get:0000000000000050 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1174   .text.spi_i2s_flag_get:0000000000000000 spi_i2s_flag_get
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1177   .text.spi_i2s_flag_get:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1179   .text.spi_i2s_flag_get:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1180   .text.spi_i2s_flag_get:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1181   .text.spi_i2s_flag_get:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1184   .text.spi_i2s_flag_get:0000000000000002 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1186   .text.spi_i2s_flag_get:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1188   .text.spi_i2s_flag_get:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1195   .text.spi_crc_error_clear:0000000000000000 spi_crc_error_clear
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1198   .text.spi_crc_error_clear:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1200   .text.spi_crc_error_clear:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1201   .text.spi_crc_error_clear:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1202   .text.spi_crc_error_clear:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1206   .text.spi_crc_error_clear:0000000000000006 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1207   .text.spi_crc_error_clear:0000000000000008 .L0 
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 45
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1048   .text.spi_i2s_interrupt_disable:0000000000000022 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1051   .text.spi_i2s_interrupt_disable:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1058   .text.spi_i2s_interrupt_flag_get:0000000000000000 spi_i2s_interrupt_flag_get
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1061   .text.spi_i2s_interrupt_flag_get:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1063   .text.spi_i2s_interrupt_flag_get:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1064   .text.spi_i2s_interrupt_flag_get:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1065   .text.spi_i2s_interrupt_flag_get:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1068   .text.spi_i2s_interrupt_flag_get:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1069   .text.spi_i2s_interrupt_flag_get:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1072   .text.spi_i2s_interrupt_flag_get:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1095   .text.spi_i2s_interrupt_flag_get:000000000000001a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1096   .text.spi_i2s_interrupt_flag_get:000000000000001a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1099   .text.spi_i2s_interrupt_flag_get:000000000000001c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1100   .text.spi_i2s_interrupt_flag_get:000000000000001c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1104   .text.spi_i2s_interrupt_flag_get:0000000000000020 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1105   .text.spi_i2s_interrupt_flag_get:0000000000000020 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1106   .text.spi_i2s_interrupt_flag_get:0000000000000020 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1108   .text.spi_i2s_interrupt_flag_get:0000000000000022 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1112   .text.spi_i2s_interrupt_flag_get:0000000000000026 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1118   .text.spi_i2s_interrupt_flag_get:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1119   .text.spi_i2s_interrupt_flag_get:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1122   .text.spi_i2s_interrupt_flag_get:000000000000002c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1123   .text.spi_i2s_interrupt_flag_get:000000000000002c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1126   .text.spi_i2s_interrupt_flag_get:0000000000000030 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1129   .text.spi_i2s_interrupt_flag_get:0000000000000032 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1130   .text.spi_i2s_interrupt_flag_get:0000000000000032 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1134   .text.spi_i2s_interrupt_flag_get:0000000000000036 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1135   .text.spi_i2s_interrupt_flag_get:0000000000000036 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1136   .text.spi_i2s_interrupt_flag_get:0000000000000036 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1139   .text.spi_i2s_interrupt_flag_get:000000000000003a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1142   .text.spi_i2s_interrupt_flag_get:000000000000003c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1143   .text.spi_i2s_interrupt_flag_get:000000000000003c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1146   .text.spi_i2s_interrupt_flag_get:0000000000000040 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1149   .text.spi_i2s_interrupt_flag_get:0000000000000042 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1150   .text.spi_i2s_interrupt_flag_get:0000000000000042 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1153   .text.spi_i2s_interrupt_flag_get:0000000000000044 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1156   .text.spi_i2s_interrupt_flag_get:0000000000000046 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1157   .text.spi_i2s_interrupt_flag_get:0000000000000046 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1160   .text.spi_i2s_interrupt_flag_get:0000000000000048 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1163   .text.spi_i2s_interrupt_flag_get:000000000000004a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1164   .text.spi_i2s_interrupt_flag_get:000000000000004a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1167   .text.spi_i2s_interrupt_flag_get:0000000000000050 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1174   .text.spi_i2s_flag_get:0000000000000000 spi_i2s_flag_get
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1177   .text.spi_i2s_flag_get:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1179   .text.spi_i2s_flag_get:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1180   .text.spi_i2s_flag_get:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1181   .text.spi_i2s_flag_get:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1184   .text.spi_i2s_flag_get:0000000000000002 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1186   .text.spi_i2s_flag_get:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1188   .text.spi_i2s_flag_get:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1195   .text.spi_crc_error_clear:0000000000000000 spi_crc_error_clear
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1198   .text.spi_crc_error_clear:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1200   .text.spi_crc_error_clear:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1201   .text.spi_crc_error_clear:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1202   .text.spi_crc_error_clear:0000000000000000 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1206   .text.spi_crc_error_clear:0000000000000006 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1207   .text.spi_crc_error_clear:0000000000000008 .L0 
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 45
 
 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:87     .text.spi_i2s_deinit:0000000000000066 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:119    .text.spi_struct_para_init:000000000000001a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:182    .text.spi_init:0000000000000036 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:201    .text.spi_enable:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:220    .text.spi_disable:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:262    .text.i2s_init:000000000000001c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:487    .text.i2s_psc_config:00000000000000da .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:506    .text.i2s_enable:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:525    .text.i2s_disable:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:544    .text.spi_nss_output_enable:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:563    .text.spi_nss_output_disable:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:582    .text.spi_nss_internal_high:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:601    .text.spi_nss_internal_low:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:631    .text.spi_dma_enable:0000000000000012 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:661    .text.spi_dma_disable:000000000000000e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:688    .text.spi_i2s_data_frame_format_config:0000000000000014 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:705    .text.spi_i2s_data_transmit:0000000000000004 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:725    .text.spi_i2s_data_receive:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:758    .text.spi_bidirectional_transfer_config:0000000000000018 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:781    .text.spi_crc_polynomial_set:000000000000000c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:801    .text.spi_crc_polynomial_get:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:821    .text.spi_crc_on:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:842    .text.spi_crc_off:000000000000000c .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:862    .text.spi_crc_next:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:894    .text.spi_crc_get:000000000000000e .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:913    .text.spi_ti_mode_enable:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:932    .text.spi_ti_mode_disable:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:951    .text.spi_nssp_mode_enable:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:970    .text.spi_nssp_mode_disable:0000000000000008 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1012   .text.spi_i2s_interrupt_enable:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1054   .text.spi_i2s_interrupt_disable:000000000000002a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1170   .text.spi_i2s_interrupt_flag_get:0000000000000050 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1191   .text.spi_i2s_flag_get:000000000000000a .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1210   .text.spi_crc_error_clear:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:87     .text.spi_i2s_deinit:0000000000000066 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:119    .text.spi_struct_para_init:000000000000001a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:182    .text.spi_init:0000000000000036 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:201    .text.spi_enable:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:220    .text.spi_disable:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:262    .text.i2s_init:000000000000001c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:487    .text.i2s_psc_config:00000000000000da .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:506    .text.i2s_enable:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:525    .text.i2s_disable:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:544    .text.spi_nss_output_enable:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:563    .text.spi_nss_output_disable:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:582    .text.spi_nss_internal_high:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:601    .text.spi_nss_internal_low:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:631    .text.spi_dma_enable:0000000000000012 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:661    .text.spi_dma_disable:000000000000000e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:688    .text.spi_i2s_data_frame_format_config:0000000000000014 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:705    .text.spi_i2s_data_transmit:0000000000000004 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:725    .text.spi_i2s_data_receive:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:758    .text.spi_bidirectional_transfer_config:0000000000000018 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:781    .text.spi_crc_polynomial_set:000000000000000c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:801    .text.spi_crc_polynomial_get:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:821    .text.spi_crc_on:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:842    .text.spi_crc_off:000000000000000c .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:862    .text.spi_crc_next:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:894    .text.spi_crc_get:000000000000000e .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:913    .text.spi_ti_mode_enable:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:932    .text.spi_ti_mode_disable:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:951    .text.spi_nssp_mode_enable:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:970    .text.spi_nssp_mode_disable:0000000000000008 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1012   .text.spi_i2s_interrupt_enable:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1054   .text.spi_i2s_interrupt_disable:000000000000002a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1170   .text.spi_i2s_interrupt_flag_get:0000000000000050 .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1191   .text.spi_i2s_flag_get:000000000000000a .L0 
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1210   .text.spi_crc_error_clear:0000000000000008 .L0 
                      .debug_frame:0000000000000000 .L0 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:64     .text.spi_i2s_deinit:000000000000004e .L2
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:45     .text.spi_i2s_deinit:0000000000000032 .L3
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:76     .text.spi_i2s_deinit:0000000000000060 .L6
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:53     .text.spi_i2s_deinit:0000000000000042 .L8
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:303    .text.i2s_psc_config:0000000000000024 .L15
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:454    .text.i2s_psc_config:00000000000000bc .L16
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:442    .text.i2s_psc_config:00000000000000b2 .L17
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:468    .text.i2s_psc_config:00000000000000d0 .L20
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:406    .text.i2s_psc_config:0000000000000096 .L23
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:333    .text.i2s_psc_config:0000000000000042 .L18
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:355    .text.i2s_psc_config:0000000000000062 .L19
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:478    .text.i2s_psc_config:00000000000000d6 .L22
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:364    .text.i2s_psc_config:000000000000006c .L28
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:623    .text.spi_dma_enable:000000000000000c .L36
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:618    .text.spi_dma_enable:0000000000000008 .L38
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:653    .text.spi_dma_disable:000000000000000a .L40
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:648    .text.spi_dma_disable:0000000000000006 .L42
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:747    .text.spi_bidirectional_transfer_config:000000000000000e .L47
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:742    .text.spi_bidirectional_transfer_config:000000000000000a .L49
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:885    .text.spi_crc_get:000000000000000a .L56
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:878    .text.spi_crc_get:0000000000000004 .L58
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:997    .text.spi_i2s_interrupt_enable:000000000000001a .L64
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 46
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:64     .text.spi_i2s_deinit:000000000000004e .L2
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:45     .text.spi_i2s_deinit:0000000000000032 .L3
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:76     .text.spi_i2s_deinit:0000000000000060 .L6
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:53     .text.spi_i2s_deinit:0000000000000042 .L8
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:303    .text.i2s_psc_config:0000000000000024 .L15
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:454    .text.i2s_psc_config:00000000000000bc .L16
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:442    .text.i2s_psc_config:00000000000000b2 .L17
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:468    .text.i2s_psc_config:00000000000000d0 .L20
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:406    .text.i2s_psc_config:0000000000000096 .L23
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:333    .text.i2s_psc_config:0000000000000042 .L18
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:355    .text.i2s_psc_config:0000000000000062 .L19
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:478    .text.i2s_psc_config:00000000000000d6 .L22
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:364    .text.i2s_psc_config:000000000000006c .L28
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:623    .text.spi_dma_enable:000000000000000c .L36
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:618    .text.spi_dma_enable:0000000000000008 .L38
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:653    .text.spi_dma_disable:000000000000000a .L40
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:648    .text.spi_dma_disable:0000000000000006 .L42
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:747    .text.spi_bidirectional_transfer_config:000000000000000e .L47
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:742    .text.spi_bidirectional_transfer_config:000000000000000a .L49
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:885    .text.spi_crc_get:000000000000000a .L56
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:878    .text.spi_crc_get:0000000000000004 .L58
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:997    .text.spi_i2s_interrupt_enable:000000000000001a .L64
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 46
 
 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:986    .text.spi_i2s_interrupt_enable:0000000000000010 .L65
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1003   .text.spi_i2s_interrupt_enable:0000000000000022 .L66
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:991    .text.spi_i2s_interrupt_enable:0000000000000016 .L68
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1039   .text.spi_i2s_interrupt_disable:000000000000001a .L70
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1028   .text.spi_i2s_interrupt_disable:0000000000000010 .L71
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1045   .text.spi_i2s_interrupt_disable:0000000000000022 .L72
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1033   .text.spi_i2s_interrupt_disable:0000000000000016 .L74
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1084   .rodata.spi_i2s_interrupt_flag_get:0000000000000000 .L78
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1103   .text.spi_i2s_interrupt_flag_get:0000000000000020 .L76
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1110   .text.spi_i2s_interrupt_flag_get:0000000000000026 .L75
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1133   .text.spi_i2s_interrupt_flag_get:0000000000000036 .L89
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1093   .text.spi_i2s_interrupt_flag_get:000000000000001a .L84
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1116   .text.spi_i2s_interrupt_flag_get:000000000000002a .L83
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1127   .text.spi_i2s_interrupt_flag_get:0000000000000032 .L82
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1140   .text.spi_i2s_interrupt_flag_get:000000000000003c .L81
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1147   .text.spi_i2s_interrupt_flag_get:0000000000000042 .L80
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1154   .text.spi_i2s_interrupt_flag_get:0000000000000046 .L79
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1161   .text.spi_i2s_interrupt_flag_get:000000000000004a .L77
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:2588   .debug_abbrev:0000000000000000 .Ldebug_abbrev0
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4024   .debug_str:00000000000004f1 .LASF118
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4010   .debug_str:0000000000000460 .LASF119
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3940   .debug_str:000000000000021e .LASF120
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3790   .debug_ranges:0000000000000000 .Ldebug_ranges0
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3862   .debug_line:0000000000000000 .Ldebug_line0
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3880   .debug_str:000000000000006f .LASF0
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4098   .debug_str:0000000000000759 .LASF1
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4062   .debug_str:0000000000000650 .LASF4
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4080   .debug_str:00000000000006cd .LASF2
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4032   .debug_str:0000000000000591 .LASF3
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3930   .debug_str:00000000000001cf .LASF5
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4100   .debug_str:0000000000000765 .LASF6
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4038   .debug_str:00000000000005ba .LASF7
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4082   .debug_str:00000000000006db .LASF8
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4076   .debug_str:00000000000006a6 .LASF9
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3988   .debug_str:00000000000003c6 .LASF10
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3924   .debug_str:000000000000019b .LASF11
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3974   .debug_str:0000000000000375 .LASF12
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4020   .debug_str:00000000000004da .LASF13
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3908   .debug_str:000000000000011f .LASF14
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3866   .debug_str:0000000000000009 .LASF121
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4050   .debug_str:000000000000060f .LASF15
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3896   .debug_str:00000000000000c8 .LASF16
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3976   .debug_str:000000000000037d .LASF17
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3950   .debug_str:00000000000002bf .LASF18
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4096   .debug_str:000000000000074b .LASF19
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3982   .debug_str:00000000000003a3 .LASF20
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3872   .debug_str:000000000000003c .LASF21
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4022   .debug_str:00000000000004e3 .LASF22
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3918   .debug_str:0000000000000168 .LASF23
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4090   .debug_str:000000000000071b .LASF24
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3886   .debug_str:000000000000008c .LASF25
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4030   .debug_str:0000000000000585 .LASF26
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4072   .debug_str:000000000000068e .LASF27
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3958   .debug_str:00000000000002ee .LASF28
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4068   .debug_str:0000000000000674 .LASF29
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3952   .debug_str:00000000000002cd .LASF30
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4086   .debug_str:00000000000006fb .LASF31
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 47
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:986    .text.spi_i2s_interrupt_enable:0000000000000010 .L65
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1003   .text.spi_i2s_interrupt_enable:0000000000000022 .L66
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:991    .text.spi_i2s_interrupt_enable:0000000000000016 .L68
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1039   .text.spi_i2s_interrupt_disable:000000000000001a .L70
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1028   .text.spi_i2s_interrupt_disable:0000000000000010 .L71
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1045   .text.spi_i2s_interrupt_disable:0000000000000022 .L72
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1033   .text.spi_i2s_interrupt_disable:0000000000000016 .L74
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1084   .rodata.spi_i2s_interrupt_flag_get:0000000000000000 .L78
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1103   .text.spi_i2s_interrupt_flag_get:0000000000000020 .L76
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1110   .text.spi_i2s_interrupt_flag_get:0000000000000026 .L75
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1133   .text.spi_i2s_interrupt_flag_get:0000000000000036 .L89
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1093   .text.spi_i2s_interrupt_flag_get:000000000000001a .L84
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1116   .text.spi_i2s_interrupt_flag_get:000000000000002a .L83
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1127   .text.spi_i2s_interrupt_flag_get:0000000000000032 .L82
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1140   .text.spi_i2s_interrupt_flag_get:000000000000003c .L81
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1147   .text.spi_i2s_interrupt_flag_get:0000000000000042 .L80
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1154   .text.spi_i2s_interrupt_flag_get:0000000000000046 .L79
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1161   .text.spi_i2s_interrupt_flag_get:000000000000004a .L77
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:2588   .debug_abbrev:0000000000000000 .Ldebug_abbrev0
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4022   .debug_str:0000000000000484 .LASF118
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4008   .debug_str:00000000000003f3 .LASF119
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4090   .debug_str:00000000000006bb .LASF120
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3790   .debug_ranges:0000000000000000 .Ldebug_ranges0
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3862   .debug_line:0000000000000000 .Ldebug_line0
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3880   .debug_str:000000000000006f .LASF0
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4098   .debug_str:000000000000075f .LASF1
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4060   .debug_str:00000000000005e3 .LASF4
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4078   .debug_str:0000000000000660 .LASF2
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4030   .debug_str:0000000000000524 .LASF3
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3930   .debug_str:00000000000001cf .LASF5
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4100   .debug_str:000000000000076b .LASF6
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4036   .debug_str:000000000000054d .LASF7
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4080   .debug_str:000000000000066e .LASF8
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4074   .debug_str:0000000000000639 .LASF9
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3986   .debug_str:0000000000000359 .LASF10
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3924   .debug_str:000000000000019b .LASF11
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3972   .debug_str:0000000000000308 .LASF12
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4018   .debug_str:000000000000046d .LASF13
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3908   .debug_str:000000000000011f .LASF14
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3866   .debug_str:0000000000000009 .LASF121
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4048   .debug_str:00000000000005a2 .LASF15
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3896   .debug_str:00000000000000c8 .LASF16
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3974   .debug_str:0000000000000310 .LASF17
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3948   .debug_str:0000000000000252 .LASF18
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4096   .debug_str:0000000000000751 .LASF19
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3980   .debug_str:0000000000000336 .LASF20
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3872   .debug_str:000000000000003c .LASF21
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4020   .debug_str:0000000000000476 .LASF22
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3918   .debug_str:0000000000000168 .LASF23
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4088   .debug_str:00000000000006ae .LASF24
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3886   .debug_str:000000000000008c .LASF25
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4028   .debug_str:0000000000000518 .LASF26
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4070   .debug_str:0000000000000621 .LASF27
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3956   .debug_str:0000000000000281 .LASF28
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4066   .debug_str:0000000000000607 .LASF29
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3950   .debug_str:0000000000000260 .LASF30
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4084   .debug_str:000000000000068e .LASF31
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 47
 
 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3968   .debug_str:0000000000000351 .LASF32
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4040   .debug_str:00000000000005c3 .LASF33
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3932   .debug_str:00000000000001da .LASF34
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4102   .debug_str:0000000000000778 .LASF35
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3992   .debug_str:00000000000003e9 .LASF36
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3874   .debug_str:000000000000004a .LASF37
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4034   .debug_str:000000000000059b .LASF38
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3978   .debug_str:000000000000038a .LASF39
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3868   .debug_str:0000000000000019 .LASF40
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4016   .debug_str:00000000000004c1 .LASF41
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3906   .debug_str:0000000000000112 .LASF42
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4070   .debug_str:0000000000000681 .LASF43
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3948   .debug_str:00000000000002b3 .LASF44
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4092   .debug_str:0000000000000728 .LASF45
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4064   .debug_str:000000000000065a .LASF46
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3996   .debug_str:0000000000000403 .LASF47
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3910   .debug_str:0000000000000128 .LASF48
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4006   .debug_str:0000000000000454 .LASF49
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3944   .debug_str:00000000000002a0 .LASF50
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4054   .debug_str:000000000000061a .LASF51
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4056   .debug_str:0000000000000622 .LASF52
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4018   .debug_str:00000000000004ce .LASF53
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3922   .debug_str:000000000000018f .LASF54
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3878   .debug_str:0000000000000064 .LASF55
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3954   .debug_str:00000000000002da .LASF56
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3884   .debug_str:0000000000000085 .LASF57
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4084   .debug_str:00000000000006e6 .LASF58
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3986   .debug_str:00000000000003bd .LASF59
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3966   .debug_str:000000000000033c .LASF60
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4088   .debug_str:0000000000000707 .LASF68
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1196   .text.spi_crc_error_clear:0000000000000000 .LFB35
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1208   .text.spi_crc_error_clear:0000000000000008 .LFE35
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3914   .debug_str:000000000000013c .LASF61
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3928   .debug_str:00000000000001be .LASF63
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1175   .text.spi_i2s_flag_get:0000000000000000 .LFB34
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1189   .text.spi_i2s_flag_get:000000000000000a .LFE34
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3114   .debug_loc:0000000000000000 .LLST22
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4052   .debug_str:0000000000000615 .LASF62
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3888   .debug_str:0000000000000098 .LASF64
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1059   .text.spi_i2s_interrupt_flag_get:0000000000000000 .LFB33
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1168   .text.spi_i2s_interrupt_flag_get:0000000000000050 .LFE33
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3128   .debug_loc:0000000000000021 .LLST19
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4074   .debug_str:000000000000069c .LASF65
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3146   .debug_loc:000000000000004d .LLST20
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3890   .debug_str:00000000000000b3 .LASF66
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3160   .debug_loc:000000000000006e .LLST21
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3892   .debug_str:00000000000000b8 .LASF67
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3960   .debug_str:00000000000002fc .LASF69
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1017   .text.spi_i2s_interrupt_disable:0000000000000000 .LFB32
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1052   .text.spi_i2s_interrupt_disable:000000000000002a .LFE32
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3920   .debug_str:0000000000000176 .LASF70
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:975    .text.spi_i2s_interrupt_enable:0000000000000000 .LFB31
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1010   .text.spi_i2s_interrupt_enable:000000000000002a .LFE31
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3870   .debug_str:0000000000000026 .LASF71
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:956    .text.spi_nssp_mode_disable:0000000000000000 .LFB30
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:968    .text.spi_nssp_mode_disable:0000000000000008 .LFE30
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4036   .debug_str:00000000000005a5 .LASF72
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 48
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3966   .debug_str:00000000000002e4 .LASF32
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4038   .debug_str:0000000000000556 .LASF33
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3932   .debug_str:00000000000001da .LASF34
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4102   .debug_str:000000000000077e .LASF35
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3990   .debug_str:000000000000037c .LASF36
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3874   .debug_str:000000000000004a .LASF37
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4032   .debug_str:000000000000052e .LASF38
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3976   .debug_str:000000000000031d .LASF39
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3868   .debug_str:0000000000000019 .LASF40
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4014   .debug_str:0000000000000454 .LASF41
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3906   .debug_str:0000000000000112 .LASF42
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4068   .debug_str:0000000000000614 .LASF43
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3946   .debug_str:0000000000000246 .LASF44
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4092   .debug_str:000000000000072e .LASF45
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4062   .debug_str:00000000000005ed .LASF46
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3994   .debug_str:0000000000000396 .LASF47
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3910   .debug_str:0000000000000128 .LASF48
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4004   .debug_str:00000000000003e7 .LASF49
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3942   .debug_str:0000000000000233 .LASF50
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4052   .debug_str:00000000000005ad .LASF51
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4054   .debug_str:00000000000005b5 .LASF52
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4016   .debug_str:0000000000000461 .LASF53
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3922   .debug_str:000000000000018f .LASF54
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3878   .debug_str:0000000000000064 .LASF55
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3952   .debug_str:000000000000026d .LASF56
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3884   .debug_str:0000000000000085 .LASF57
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4082   .debug_str:0000000000000679 .LASF58
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3984   .debug_str:0000000000000350 .LASF59
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3964   .debug_str:00000000000002cf .LASF60
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4086   .debug_str:000000000000069a .LASF68
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1196   .text.spi_crc_error_clear:0000000000000000 .LFB35
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1208   .text.spi_crc_error_clear:0000000000000008 .LFE35
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3914   .debug_str:000000000000013c .LASF61
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3928   .debug_str:00000000000001be .LASF63
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1175   .text.spi_i2s_flag_get:0000000000000000 .LFB34
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1189   .text.spi_i2s_flag_get:000000000000000a .LFE34
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3114   .debug_loc:0000000000000000 .LLST22
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4050   .debug_str:00000000000005a8 .LASF62
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3888   .debug_str:0000000000000098 .LASF64
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1059   .text.spi_i2s_interrupt_flag_get:0000000000000000 .LFB33
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1168   .text.spi_i2s_interrupt_flag_get:0000000000000050 .LFE33
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3128   .debug_loc:0000000000000021 .LLST19
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4072   .debug_str:000000000000062f .LASF65
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3146   .debug_loc:000000000000004d .LLST20
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3890   .debug_str:00000000000000b3 .LASF66
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3160   .debug_loc:000000000000006e .LLST21
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3892   .debug_str:00000000000000b8 .LASF67
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3958   .debug_str:000000000000028f .LASF69
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1017   .text.spi_i2s_interrupt_disable:0000000000000000 .LFB32
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1052   .text.spi_i2s_interrupt_disable:000000000000002a .LFE32
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3920   .debug_str:0000000000000176 .LASF70
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:975    .text.spi_i2s_interrupt_enable:0000000000000000 .LFB31
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1010   .text.spi_i2s_interrupt_enable:000000000000002a .LFE31
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3870   .debug_str:0000000000000026 .LASF71
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:956    .text.spi_nssp_mode_disable:0000000000000000 .LFB30
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:968    .text.spi_nssp_mode_disable:0000000000000008 .LFE30
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4034   .debug_str:0000000000000538 .LASF72
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 48
 
 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:937    .text.spi_nssp_mode_enable:0000000000000000 .LFB29
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:949    .text.spi_nssp_mode_enable:000000000000000a .LFE29
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3934   .debug_str:00000000000001e6 .LASF73
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:918    .text.spi_ti_mode_disable:0000000000000000 .LFB28
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:930    .text.spi_ti_mode_disable:0000000000000008 .LFE28
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3998   .debug_str:000000000000040f .LASF74
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:899    .text.spi_ti_mode_enable:0000000000000000 .LFB27
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:911    .text.spi_ti_mode_enable:000000000000000a .LFE27
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3926   .debug_str:00000000000001b2 .LASF75
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:867    .text.spi_crc_get:0000000000000000 .LFB26
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:892    .text.spi_crc_get:000000000000000e .LFE26
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3171   .debug_loc:000000000000008c .LLST18
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3902   .debug_str:00000000000000ef .LASF76
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:847    .text.spi_crc_next:0000000000000000 .LFB25
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:860    .text.spi_crc_next:000000000000000a .LFE25
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3980   .debug_str:0000000000000397 .LASF77
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:826    .text.spi_crc_off:0000000000000000 .LFB24
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:840    .text.spi_crc_off:000000000000000c .LFE24
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3894   .debug_str:00000000000000bd .LASF78
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:806    .text.spi_crc_on:0000000000000000 .LFB23
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:819    .text.spi_crc_on:000000000000000a .LFE23
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3964   .debug_str:0000000000000325 .LASF79
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:786    .text.spi_crc_polynomial_get:0000000000000000 .LFB22
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:799    .text.spi_crc_polynomial_get:0000000000000008 .LFE22
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3196   .debug_loc:00000000000000c6 .LLST17
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3900   .debug_str:00000000000000d8 .LASF80
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:763    .text.spi_crc_polynomial_set:0000000000000000 .LFB21
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:779    .text.spi_crc_polynomial_set:000000000000000c .LFE21
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4044   .debug_str:00000000000005e5 .LASF81
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4004   .debug_str:0000000000000432 .LASF82
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:730    .text.spi_bidirectional_transfer_config:0000000000000000 .LFB20
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:756    .text.spi_bidirectional_transfer_config:0000000000000018 .LFE20
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4104   .debug_str:0000000000000784 .LASF83
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4078   .debug_str:00000000000006b8 .LASF84
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:710    .text.spi_i2s_data_receive:0000000000000000 .LFB19
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:723    .text.spi_i2s_data_receive:0000000000000008 .LFE19
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3210   .debug_loc:00000000000000e7 .LLST16
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3904   .debug_str:00000000000000fc .LASF85
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:693    .text.spi_i2s_data_transmit:0000000000000000 .LFB18
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:703    .text.spi_i2s_data_transmit:0000000000000004 .LFE18
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3970   .debug_str:000000000000035d .LASF86
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3916   .debug_str:0000000000000147 .LASF87
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:666    .text.spi_i2s_data_frame_format_config:0000000000000000 .LFB17
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:686    .text.spi_i2s_data_frame_format_config:0000000000000014 .LFE17
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4058   .debug_str:000000000000062a .LASF88
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3224   .debug_loc:0000000000000108 .LLST15
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4014   .debug_str:00000000000004b1 .LASF89
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:636    .text.spi_dma_disable:0000000000000000 .LFB16
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:659    .text.spi_dma_disable:000000000000000e .LFE16
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3876   .debug_str:0000000000000055 .LASF90
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:606    .text.spi_dma_enable:0000000000000000 .LFB15
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:629    .text.spi_dma_enable:0000000000000012 .LFE15
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3990   .debug_str:00000000000003d4 .LASF91
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:587    .text.spi_nss_internal_low:0000000000000000 .LFB14
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:599    .text.spi_nss_internal_low:000000000000000a .LFE14
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4048   .debug_str:00000000000005f9 .LASF92
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:568    .text.spi_nss_internal_high:0000000000000000 .LFB13
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 49
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:937    .text.spi_nssp_mode_enable:0000000000000000 .LFB29
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:949    .text.spi_nssp_mode_enable:000000000000000a .LFE29
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3934   .debug_str:00000000000001e6 .LASF73
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:918    .text.spi_ti_mode_disable:0000000000000000 .LFB28
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:930    .text.spi_ti_mode_disable:0000000000000008 .LFE28
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3996   .debug_str:00000000000003a2 .LASF74
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:899    .text.spi_ti_mode_enable:0000000000000000 .LFB27
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:911    .text.spi_ti_mode_enable:000000000000000a .LFE27
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3926   .debug_str:00000000000001b2 .LASF75
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:867    .text.spi_crc_get:0000000000000000 .LFB26
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:892    .text.spi_crc_get:000000000000000e .LFE26
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3171   .debug_loc:000000000000008c .LLST18
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3902   .debug_str:00000000000000ef .LASF76
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:847    .text.spi_crc_next:0000000000000000 .LFB25
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:860    .text.spi_crc_next:000000000000000a .LFE25
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3978   .debug_str:000000000000032a .LASF77
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:826    .text.spi_crc_off:0000000000000000 .LFB24
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:840    .text.spi_crc_off:000000000000000c .LFE24
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3894   .debug_str:00000000000000bd .LASF78
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:806    .text.spi_crc_on:0000000000000000 .LFB23
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:819    .text.spi_crc_on:000000000000000a .LFE23
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3962   .debug_str:00000000000002b8 .LASF79
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:786    .text.spi_crc_polynomial_get:0000000000000000 .LFB22
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:799    .text.spi_crc_polynomial_get:0000000000000008 .LFE22
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3196   .debug_loc:00000000000000c6 .LLST17
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3900   .debug_str:00000000000000d8 .LASF80
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:763    .text.spi_crc_polynomial_set:0000000000000000 .LFB21
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:779    .text.spi_crc_polynomial_set:000000000000000c .LFE21
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4042   .debug_str:0000000000000578 .LASF81
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4002   .debug_str:00000000000003c5 .LASF82
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:730    .text.spi_bidirectional_transfer_config:0000000000000000 .LFB20
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:756    .text.spi_bidirectional_transfer_config:0000000000000018 .LFE20
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4104   .debug_str:000000000000078a .LASF83
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4076   .debug_str:000000000000064b .LASF84
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:710    .text.spi_i2s_data_receive:0000000000000000 .LFB19
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:723    .text.spi_i2s_data_receive:0000000000000008 .LFE19
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3210   .debug_loc:00000000000000e7 .LLST16
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3904   .debug_str:00000000000000fc .LASF85
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:693    .text.spi_i2s_data_transmit:0000000000000000 .LFB18
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:703    .text.spi_i2s_data_transmit:0000000000000004 .LFE18
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3968   .debug_str:00000000000002f0 .LASF86
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3916   .debug_str:0000000000000147 .LASF87
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:666    .text.spi_i2s_data_frame_format_config:0000000000000000 .LFB17
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:686    .text.spi_i2s_data_frame_format_config:0000000000000014 .LFE17
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4056   .debug_str:00000000000005bd .LASF88
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3224   .debug_loc:0000000000000108 .LLST15
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4012   .debug_str:0000000000000444 .LASF89
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:636    .text.spi_dma_disable:0000000000000000 .LFB16
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:659    .text.spi_dma_disable:000000000000000e .LFE16
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3876   .debug_str:0000000000000055 .LASF90
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:606    .text.spi_dma_enable:0000000000000000 .LFB15
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:629    .text.spi_dma_enable:0000000000000012 .LFE15
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3988   .debug_str:0000000000000367 .LASF91
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:587    .text.spi_nss_internal_low:0000000000000000 .LFB14
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:599    .text.spi_nss_internal_low:000000000000000a .LFE14
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4046   .debug_str:000000000000058c .LASF92
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:568    .text.spi_nss_internal_high:0000000000000000 .LFB13
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 49
 
 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:580    .text.spi_nss_internal_high:000000000000000a .LFE13
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4094   .debug_str:0000000000000734 .LASF93
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:549    .text.spi_nss_output_disable:0000000000000000 .LFB12
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:561    .text.spi_nss_output_disable:0000000000000008 .LFE12
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4042   .debug_str:00000000000005cf .LASF94
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:530    .text.spi_nss_output_enable:0000000000000000 .LFB11
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:542    .text.spi_nss_output_enable:000000000000000a .LFE11
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3938   .debug_str:0000000000000212 .LASF95
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:511    .text.i2s_disable:0000000000000000 .LFB10
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:523    .text.i2s_disable:000000000000000a .LFE10
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4106   .debug_str:0000000000000797 .LASF96
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:492    .text.i2s_enable:0000000000000000 .LFB9
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:504    .text.i2s_enable:000000000000000a .LFE9
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3962   .debug_str:0000000000000316 .LASF97
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:267    .text.i2s_psc_config:0000000000000000 .LFB8
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:485    .text.i2s_psc_config:00000000000000da .LFE8
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3238   .debug_loc:0000000000000129 .LLST6
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3261   .debug_loc:0000000000000161 .LLST7
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4066   .debug_str:0000000000000668 .LASF98
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3283   .debug_loc:0000000000000198 .LLST8
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3984   .debug_str:00000000000003b1 .LASF99
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3305   .debug_loc:00000000000001cf .LLST9
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4002   .debug_str:000000000000042b .LASF100
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3335   .debug_loc:0000000000000215 .LLST10
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4026   .debug_str:0000000000000579 .LASF101
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3365   .debug_loc:000000000000025b .LLST11
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3912   .debug_str:0000000000000136 .LASF102
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3382   .debug_loc:0000000000000286 .LLST12
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4028   .debug_str:0000000000000580 .LASF103
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3423   .debug_loc:00000000000002e5 .LLST13
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4000   .debug_str:0000000000000422 .LASF104
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3467   .debug_loc:0000000000000355 .LLST14
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:462    .text.i2s_psc_config:00000000000000ca .LVL52
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3882   .debug_str:000000000000007c .LASF105
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:225    .text.i2s_init:0000000000000000 .LFB7
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:260    .text.i2s_init:000000000000001c .LFE7
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3898   .debug_str:00000000000000d3 .LASF106
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3508   .debug_loc:00000000000003b4 .LLST3
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3864   .debug_str:0000000000000000 .LASF107
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4008   .debug_str:000000000000045b .LASF108
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3522   .debug_loc:00000000000003d5 .LLST4
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3536   .debug_loc:00000000000003f6 .LLST5
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3946   .debug_str:00000000000002a7 .LASF109
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:206    .text.spi_disable:0000000000000000 .LFB6
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:218    .text.spi_disable:000000000000000a .LFE6
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4012   .debug_str:00000000000004a6 .LASF110
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:187    .text.spi_enable:0000000000000000 .LFB5
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:199    .text.spi_enable:000000000000000a .LFE5
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3956   .debug_str:00000000000002e5 .LASF111
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:124    .text.spi_init:0000000000000000 .LFB4
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:180    .text.spi_init:0000000000000036 .LFE4
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4046   .debug_str:00000000000005ee .LASF112
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3563   .debug_loc:000000000000042d .LLST2
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3942   .debug_str:000000000000028b .LASF113
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:92     .text.spi_struct_para_init:0000000000000000 .LFB3
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:117    .text.spi_struct_para_init:000000000000001a .LFE3
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3994   .debug_str:00000000000003f4 .LASF114
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 50
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:580    .text.spi_nss_internal_high:000000000000000a .LFE13
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4094   .debug_str:000000000000073a .LASF93
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:549    .text.spi_nss_output_disable:0000000000000000 .LFB12
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:561    .text.spi_nss_output_disable:0000000000000008 .LFE12
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4040   .debug_str:0000000000000562 .LASF94
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:530    .text.spi_nss_output_enable:0000000000000000 .LFB11
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:542    .text.spi_nss_output_enable:000000000000000a .LFE11
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3938   .debug_str:0000000000000212 .LASF95
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:511    .text.i2s_disable:0000000000000000 .LFB10
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:523    .text.i2s_disable:000000000000000a .LFE10
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4106   .debug_str:000000000000079d .LASF96
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:492    .text.i2s_enable:0000000000000000 .LFB9
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:504    .text.i2s_enable:000000000000000a .LFE9
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3960   .debug_str:00000000000002a9 .LASF97
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:267    .text.i2s_psc_config:0000000000000000 .LFB8
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:485    .text.i2s_psc_config:00000000000000da .LFE8
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3238   .debug_loc:0000000000000129 .LLST6
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3261   .debug_loc:0000000000000161 .LLST7
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4064   .debug_str:00000000000005fb .LASF98
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3283   .debug_loc:0000000000000198 .LLST8
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3982   .debug_str:0000000000000344 .LASF99
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3305   .debug_loc:00000000000001cf .LLST9
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4000   .debug_str:00000000000003be .LASF100
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3335   .debug_loc:0000000000000215 .LLST10
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4024   .debug_str:000000000000050c .LASF101
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3365   .debug_loc:000000000000025b .LLST11
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3912   .debug_str:0000000000000136 .LASF102
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3382   .debug_loc:0000000000000286 .LLST12
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4026   .debug_str:0000000000000513 .LASF103
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3423   .debug_loc:00000000000002e5 .LLST13
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3998   .debug_str:00000000000003b5 .LASF104
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3467   .debug_loc:0000000000000355 .LLST14
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:462    .text.i2s_psc_config:00000000000000ca .LVL52
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3882   .debug_str:000000000000007c .LASF105
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:225    .text.i2s_init:0000000000000000 .LFB7
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:260    .text.i2s_init:000000000000001c .LFE7
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3898   .debug_str:00000000000000d3 .LASF106
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3508   .debug_loc:00000000000003b4 .LLST3
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3864   .debug_str:0000000000000000 .LASF107
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4006   .debug_str:00000000000003ee .LASF108
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3522   .debug_loc:00000000000003d5 .LLST4
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3536   .debug_loc:00000000000003f6 .LLST5
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3944   .debug_str:000000000000023a .LASF109
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:206    .text.spi_disable:0000000000000000 .LFB6
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:218    .text.spi_disable:000000000000000a .LFE6
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4010   .debug_str:0000000000000439 .LASF110
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:187    .text.spi_enable:0000000000000000 .LFB5
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:199    .text.spi_enable:000000000000000a .LFE5
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3954   .debug_str:0000000000000278 .LASF111
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:124    .text.spi_init:0000000000000000 .LFB4
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:180    .text.spi_init:0000000000000036 .LFE4
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4044   .debug_str:0000000000000581 .LASF112
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3563   .debug_loc:000000000000042d .LLST2
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3940   .debug_str:000000000000021e .LASF113
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:92     .text.spi_struct_para_init:0000000000000000 .LFB3
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:117    .text.spi_struct_para_init:000000000000001a .LFE3
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3992   .debug_str:0000000000000387 .LASF114
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 50
 
 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:14     .text.spi_i2s_deinit:0000000000000000 .LFB2
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:85     .text.spi_i2s_deinit:0000000000000066 .LFE2
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3643   .debug_loc:00000000000004ac .LLST0
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3671   .debug_loc:00000000000004f0 .LLST1
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:40     .text.spi_i2s_deinit:000000000000002c .LVL2
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:50     .text.spi_i2s_deinit:000000000000003e .LVL5
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:63     .text.spi_i2s_deinit:000000000000004e .LVL6
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:71     .text.spi_i2s_deinit:000000000000005a .LVL8
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3972   .debug_str:0000000000000362 .LASF115
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:3936   .debug_str:00000000000001fa .LASF116
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:4060   .debug_str:0000000000000637 .LASF117
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1178   .text.spi_i2s_flag_get:0000000000000000 .LVL105
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1182   .text.spi_i2s_flag_get:0000000000000002 .LVL106
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1062   .text.spi_i2s_interrupt_flag_get:0000000000000000 .LVL88
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1113   .text.spi_i2s_interrupt_flag_get:0000000000000028 .LVL95
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1115   .text.spi_i2s_interrupt_flag_get:000000000000002a .LVL96
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1077   .text.spi_i2s_interrupt_flag_get:0000000000000014 .LVL91
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1066   .text.spi_i2s_interrupt_flag_get:0000000000000002 .LVL89
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1109   .text.spi_i2s_interrupt_flag_get:0000000000000026 .LVL94
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1165   .text.spi_i2s_interrupt_flag_get:000000000000004e .LVL104
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:870    .text.spi_crc_get:0000000000000000 .LVL78
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:877    .text.spi_crc_get:0000000000000004 .LVL79
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:884    .text.spi_crc_get:000000000000000a .LVL80
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:889    .text.spi_crc_get:000000000000000c .LVL81
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:789    .text.spi_crc_polynomial_get:0000000000000000 .LVL73
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:793    .text.spi_crc_polynomial_get:0000000000000002 .LVL74
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:713    .text.spi_i2s_data_receive:0000000000000000 .LVL69
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:717    .text.spi_i2s_data_receive:0000000000000002 .LVL70
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:669    .text.spi_i2s_data_frame_format_config:0000000000000000 .LVL66
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:681    .text.spi_i2s_data_frame_format_config:0000000000000010 .LVL67
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:277    .text.i2s_psc_config:0000000000000002 .LCFI4
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:438    .text.i2s_psc_config:00000000000000b0 .LCFI5
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:443    .text.i2s_psc_config:00000000000000b2 .LCFI6
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:270    .text.i2s_psc_config:0000000000000000 .LVL26
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:316    .text.i2s_psc_config:0000000000000030 .LVL29
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:436    .text.i2s_psc_config:00000000000000ae .LVL48
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:441    .text.i2s_psc_config:00000000000000b2 .LVL49
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:299    .text.i2s_psc_config:000000000000001c .LVL27
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:376    .text.i2s_psc_config:000000000000007c .LVL38
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:354    .text.i2s_psc_config:0000000000000062 .LVL35
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:467    .text.i2s_psc_config:00000000000000d0 .LVL54
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:390    .text.i2s_psc_config:0000000000000088 .LVL42
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:410    .text.i2s_psc_config:0000000000000098 .LVL46
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:382    .text.i2s_psc_config:0000000000000082 .LVL40
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:387    .text.i2s_psc_config:0000000000000086 .LVL41
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:397    .text.i2s_psc_config:000000000000008e .LVL43
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:402    .text.i2s_psc_config:0000000000000094 .LVL44
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:405    .text.i2s_psc_config:0000000000000096 .LVL45
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:418    .text.i2s_psc_config:000000000000009e .LVL47
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:304    .text.i2s_psc_config:0000000000000024 .LVL28
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:323    .text.i2s_psc_config:0000000000000038 .LVL30
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:372    .text.i2s_psc_config:000000000000007a .LVL37
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:379    .text.i2s_psc_config:000000000000007e .LVL39
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:451    .text.i2s_psc_config:00000000000000ba .LVL50
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:453    .text.i2s_psc_config:00000000000000bc .LVL51
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:338    .text.i2s_psc_config:0000000000000048 .LVL32
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:342    .text.i2s_psc_config:000000000000004a .LVL33
-GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s 			page 51
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:14     .text.spi_i2s_deinit:0000000000000000 .LFB2
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:85     .text.spi_i2s_deinit:0000000000000066 .LFE2
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3643   .debug_loc:00000000000004ac .LLST0
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3671   .debug_loc:00000000000004f0 .LLST1
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:40     .text.spi_i2s_deinit:000000000000002c .LVL2
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:50     .text.spi_i2s_deinit:000000000000003e .LVL5
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:63     .text.spi_i2s_deinit:000000000000004e .LVL6
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:71     .text.spi_i2s_deinit:000000000000005a .LVL8
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3970   .debug_str:00000000000002f5 .LASF115
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:3936   .debug_str:00000000000001fa .LASF116
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:4058   .debug_str:00000000000005ca .LASF117
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1178   .text.spi_i2s_flag_get:0000000000000000 .LVL105
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1182   .text.spi_i2s_flag_get:0000000000000002 .LVL106
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1062   .text.spi_i2s_interrupt_flag_get:0000000000000000 .LVL88
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1113   .text.spi_i2s_interrupt_flag_get:0000000000000028 .LVL95
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1115   .text.spi_i2s_interrupt_flag_get:000000000000002a .LVL96
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1077   .text.spi_i2s_interrupt_flag_get:0000000000000014 .LVL91
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1066   .text.spi_i2s_interrupt_flag_get:0000000000000002 .LVL89
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1109   .text.spi_i2s_interrupt_flag_get:0000000000000026 .LVL94
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1165   .text.spi_i2s_interrupt_flag_get:000000000000004e .LVL104
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:870    .text.spi_crc_get:0000000000000000 .LVL78
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:877    .text.spi_crc_get:0000000000000004 .LVL79
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:884    .text.spi_crc_get:000000000000000a .LVL80
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:889    .text.spi_crc_get:000000000000000c .LVL81
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:789    .text.spi_crc_polynomial_get:0000000000000000 .LVL73
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:793    .text.spi_crc_polynomial_get:0000000000000002 .LVL74
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:713    .text.spi_i2s_data_receive:0000000000000000 .LVL69
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:717    .text.spi_i2s_data_receive:0000000000000002 .LVL70
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:669    .text.spi_i2s_data_frame_format_config:0000000000000000 .LVL66
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:681    .text.spi_i2s_data_frame_format_config:0000000000000010 .LVL67
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:277    .text.i2s_psc_config:0000000000000002 .LCFI4
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:438    .text.i2s_psc_config:00000000000000b0 .LCFI5
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:443    .text.i2s_psc_config:00000000000000b2 .LCFI6
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:270    .text.i2s_psc_config:0000000000000000 .LVL26
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:316    .text.i2s_psc_config:0000000000000030 .LVL29
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:436    .text.i2s_psc_config:00000000000000ae .LVL48
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:441    .text.i2s_psc_config:00000000000000b2 .LVL49
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:299    .text.i2s_psc_config:000000000000001c .LVL27
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:376    .text.i2s_psc_config:000000000000007c .LVL38
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:354    .text.i2s_psc_config:0000000000000062 .LVL35
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:467    .text.i2s_psc_config:00000000000000d0 .LVL54
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:390    .text.i2s_psc_config:0000000000000088 .LVL42
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:410    .text.i2s_psc_config:0000000000000098 .LVL46
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:382    .text.i2s_psc_config:0000000000000082 .LVL40
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:387    .text.i2s_psc_config:0000000000000086 .LVL41
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:397    .text.i2s_psc_config:000000000000008e .LVL43
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:402    .text.i2s_psc_config:0000000000000094 .LVL44
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:405    .text.i2s_psc_config:0000000000000096 .LVL45
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:418    .text.i2s_psc_config:000000000000009e .LVL47
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:304    .text.i2s_psc_config:0000000000000024 .LVL28
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:323    .text.i2s_psc_config:0000000000000038 .LVL30
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:372    .text.i2s_psc_config:000000000000007a .LVL37
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:379    .text.i2s_psc_config:000000000000007e .LVL39
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:451    .text.i2s_psc_config:00000000000000ba .LVL50
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:453    .text.i2s_psc_config:00000000000000bc .LVL51
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:338    .text.i2s_psc_config:0000000000000048 .LVL32
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:342    .text.i2s_psc_config:000000000000004a .LVL33
+GAS LISTING C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s 			page 51
 
 
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:346    .text.i2s_psc_config:0000000000000050 .LVL34
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:363    .text.i2s_psc_config:000000000000006c .LVL36
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:465    .text.i2s_psc_config:00000000000000ce .LVL53
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:475    .text.i2s_psc_config:00000000000000d4 .LVL55
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:477    .text.i2s_psc_config:00000000000000d6 .LVL56
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:482    .text.i2s_psc_config:00000000000000d8 .LVL57
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:228    .text.i2s_init:0000000000000000 .LVL20
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:250    .text.i2s_init:0000000000000012 .LVL24
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:244    .text.i2s_init:000000000000000c .LVL23
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:233    .text.i2s_init:0000000000000002 .LVL21
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:242    .text.i2s_init:000000000000000a .LVL22
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:253    .text.i2s_init:0000000000000018 .LVL25
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:127    .text.spi_init:0000000000000000 .LVL11
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:132    .text.spi_init:0000000000000002 .LVL12
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:141    .text.spi_init:000000000000000c .LVL13
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:153    .text.spi_init:0000000000000012 .LVL14
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:164    .text.spi_init:0000000000000026 .LVL15
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:171    .text.spi_init:000000000000002a .LVL16
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:176    .text.spi_init:0000000000000034 .LVL17
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:22     .text.spi_i2s_deinit:0000000000000002 .LCFI0
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:59     .text.spi_i2s_deinit:0000000000000046 .LCFI1
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:65     .text.spi_i2s_deinit:000000000000004e .LCFI2
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:81     .text.spi_i2s_deinit:0000000000000064 .LCFI3
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:18     .text.spi_i2s_deinit:0000000000000000 .LVL0
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:38     .text.spi_i2s_deinit:0000000000000024 .LVL1
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:44     .text.spi_i2s_deinit:0000000000000032 .LVL3
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:48     .text.spi_i2s_deinit:0000000000000036 .LVL4
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:69     .text.spi_i2s_deinit:0000000000000052 .LVL7
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:75     .text.spi_i2s_deinit:0000000000000060 .LVL9
-C:\Users\Jesper\AppData\Local\Temp\ccW4W5fr.s:1219   .debug_info:0000000000000000 .Ldebug_info0
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:346    .text.i2s_psc_config:0000000000000050 .LVL34
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:363    .text.i2s_psc_config:000000000000006c .LVL36
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:465    .text.i2s_psc_config:00000000000000ce .LVL53
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:475    .text.i2s_psc_config:00000000000000d4 .LVL55
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:477    .text.i2s_psc_config:00000000000000d6 .LVL56
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:482    .text.i2s_psc_config:00000000000000d8 .LVL57
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:228    .text.i2s_init:0000000000000000 .LVL20
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:250    .text.i2s_init:0000000000000012 .LVL24
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:244    .text.i2s_init:000000000000000c .LVL23
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:233    .text.i2s_init:0000000000000002 .LVL21
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:242    .text.i2s_init:000000000000000a .LVL22
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:253    .text.i2s_init:0000000000000018 .LVL25
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:127    .text.spi_init:0000000000000000 .LVL11
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:132    .text.spi_init:0000000000000002 .LVL12
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:141    .text.spi_init:000000000000000c .LVL13
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:153    .text.spi_init:0000000000000012 .LVL14
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:164    .text.spi_init:0000000000000026 .LVL15
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:171    .text.spi_init:000000000000002a .LVL16
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:176    .text.spi_init:0000000000000034 .LVL17
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:22     .text.spi_i2s_deinit:0000000000000002 .LCFI0
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:59     .text.spi_i2s_deinit:0000000000000046 .LCFI1
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:65     .text.spi_i2s_deinit:000000000000004e .LCFI2
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:81     .text.spi_i2s_deinit:0000000000000064 .LCFI3
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:18     .text.spi_i2s_deinit:0000000000000000 .LVL0
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:38     .text.spi_i2s_deinit:0000000000000024 .LVL1
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:44     .text.spi_i2s_deinit:0000000000000032 .LVL3
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:48     .text.spi_i2s_deinit:0000000000000036 .LVL4
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:69     .text.spi_i2s_deinit:0000000000000052 .LVL7
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:75     .text.spi_i2s_deinit:0000000000000060 .LVL9
+C:\Users\Jesper\AppData\Local\Temp\ccd3CwOh.s:1219   .debug_info:0000000000000000 .Ldebug_info0
 
 UNDEFINED SYMBOLS
 rcu_periph_reset_enable
