@@ -588,7 +588,7 @@ def print_usage():
     print("       currently only support single input/output convert")
     print("       is_be: is big endian, default 0")
 
-
+#c:/Users/Jesper/Documents/ML_sommarjobb/toolchain-gd32v-v201-win/toolchain-gd32v-v201-win/projects/ML_IMU_gestures/.venv/Scripts/python.exe c:/Users/Jesper/Documents/ML_sommarjobb/toolchain-gd32v-v201-win/toolchain-gd32v-v201-win/projects/ML_IMU_gestures/tools/tflite2tmdl.py tflite/gesture_recogntion_model_simple.tflite tmdl/grms.tmdl int8 1 100,3,1 3
 # python3 tflite2tmdl.py tflite/mnist_dw_f.tflite tmdl/mnist_dw_fp16.tmdl fp16 1 28,28,1 10
 # python3 tflite2tmdl.py tflite/mnist_dw_q.tflite tmdl/mnist_dw_q.tmdl int8 1 28,28,1 10
 # python3 tflite2tmdl.py tflite/mbnet_f.tflite tmdl/mbnet_f.tmdl fp32 1 128,128,3 1000
